@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-11 | [f27b4762](https://github.com/NVIDIA/Model-Optimizer/commit/f27b47626d0d5886244d0fe1075e52d7d564ddc9) | [#2587](https://github.com/NVIDIA/Model-Optimizer/pull/2587) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | examples/megatron_bridge: distill on chat data straight from HuggingFace/JSONL |
+| 2026-10-10 | [54d44161](https://github.com/NVIDIA/Model-Optimizer/commit/54d44161e50e2253b241f2130ba856a3bac881c4) | [#2656](https://github.com/NVIDIA/Model-Optimizer/pull/2656) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `infra` `quantization` `tests` `torch` | Add mergeable LoRA QAD for Megatron Bridge |
 | 2026-10-09 | [4c1f8138](https://github.com/NVIDIA/Model-Optimizer/commit/4c1f813828cb9dd07b0d842d60ba35e3946237dc) | [#2727](https://github.com/NVIDIA/Model-Optimizer/pull/2727) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `quantization` `tests` `torch` | Speed up the hf_ptq example tests |
 | 2026-10-07 | [245d0963](https://github.com/NVIDIA/Model-Optimizer/commit/245d0963725eb1414e534ab1e18c7e75c05daa52) | [#2607](https://github.com/NVIDIA/Model-Optimizer/pull/2607) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `tests` `torch` | \[1/5\] Add ensure_local_checkpoint to load models from local disk, and copy_non_model_files |
 | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
@@ -187,4 +189,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 181 PRs**
+**Total: 183 PRs**

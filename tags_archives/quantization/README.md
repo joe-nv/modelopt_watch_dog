@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-10 | [54d44161](https://github.com/NVIDIA/Model-Optimizer/commit/54d44161e50e2253b241f2130ba856a3bac881c4) | [#2656](https://github.com/NVIDIA/Model-Optimizer/pull/2656) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `infra` `quantization` `tests` `torch` | Add mergeable LoRA QAD for Megatron Bridge |
 | 2026-10-09 | [f299f62d](https://github.com/NVIDIA/Model-Optimizer/commit/f299f62d20df3e69703be31d9afcb570145e8813) | [#2554](https://github.com/NVIDIA/Model-Optimizer/pull/2554) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): trace Transpose between DequantizeLinear and its consumer in qdq_to_dq |
 | 2026-10-09 | [5a7bb676](https://github.com/NVIDIA/Model-Optimizer/commit/5a7bb6764e746dc4b69dd3ead9a63be7eb3e4fdc) | [#2578](https://github.com/NVIDIA/Model-Optimizer/pull/2578) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-3817\] Move model-specific PTQ modeling into modelopt/torch/models \[3/4\] |
 | 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
@@ -349,4 +350,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 343 PRs**
+**Total: 344 PRs**

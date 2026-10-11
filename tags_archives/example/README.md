@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-11 | [f27b4762](https://github.com/NVIDIA/Model-Optimizer/commit/f27b47626d0d5886244d0fe1075e52d7d564ddc9) | [#2587](https://github.com/NVIDIA/Model-Optimizer/pull/2587) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | examples/megatron_bridge: distill on chat data straight from HuggingFace/JSONL |
+| 2026-10-10 | [54d44161](https://github.com/NVIDIA/Model-Optimizer/commit/54d44161e50e2253b241f2130ba856a3bac881c4) | [#2656](https://github.com/NVIDIA/Model-Optimizer/pull/2656) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `infra` `quantization` `tests` `torch` | Add mergeable LoRA QAD for Megatron Bridge |
 | 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
 | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-06 | [e387d924](https://github.com/NVIDIA/Model-Optimizer/commit/e387d924f0a20fb83a8b03d31aef9a782d02beed) | [#2626](https://github.com/NVIDIA/Model-Optimizer/pull/2626) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/6\] Add vLLM fakequant CLI wrapper and app entry point |
@@ -335,4 +337,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 329 PRs**
+**Total: 331 PRs**
