@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-12 | [89632acd](https://github.com/NVIDIA/Model-Optimizer/commit/89632acdc283936cc5a5447a7c89ebaec35e01bf) | [#2710](https://github.com/NVIDIA/Model-Optimizer/pull/2710) | [@cjluo-nv](https://github.com/cjluo-nv) | `docs` `export` `infra` `quantization` `tests` `torch` | Make folding exact for GPTQ'd GGML weights, so the vLLM fake-quant export evaluates them |
+| 2026-10-12 | [79cf9c9e](https://github.com/NVIDIA/Model-Optimizer/commit/79cf9c9ed3ce56435063908ceb276aa43b4b758e) | [#2731](https://github.com/NVIDIA/Model-Optimizer/pull/2731) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `tests` `torch` | Fix the FSDP2 export deadlock at world \> 1 |
 | 2026-10-09 | [530d6a09](https://github.com/NVIDIA/Model-Optimizer/commit/530d6a094587a749affa3d9e60def88ffe7bf837) | [#2580](https://github.com/NVIDIA/Model-Optimizer/pull/2580) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3817\] Move model-specific PTQ modeling into modelopt/torch/models \[4/4\] |
 | 2026-10-07 | [245d0963](https://github.com/NVIDIA/Model-Optimizer/commit/245d0963725eb1414e534ab1e18c7e75c05daa52) | [#2607](https://github.com/NVIDIA/Model-Optimizer/pull/2607) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `tests` `torch` | \[1/5\] Add ensure_local_checkpoint to load models from local disk, and copy_non_model_files |
 | 2026-10-07 | [5b06081c](https://github.com/NVIDIA/Model-Optimizer/commit/5b06081cb18436c74c1bd12f244e54c7b0e27c36) | [#2608](https://github.com/NVIDIA/Model-Optimizer/pull/2608) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `tests` `torch` | \[2/5\] HF exporters write off-index safetensors and non-model files |
@@ -195,4 +197,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 189 PRs**
+**Total: 191 PRs**

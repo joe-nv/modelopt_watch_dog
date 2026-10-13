@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-13 | [b48400a0](https://github.com/NVIDIA/Model-Optimizer/commit/b48400a0a5b54b849e8b44397c59ccfdca4e96ed) | [#2697](https://github.com/NVIDIA/Model-Optimizer/pull/2697) | [@yingguo-trt](https://github.com/yingguo-trt) | `sparsity` `tests` `torch` | \[https://nvbugspro.nvidia.com/bug/6886263\] Fix FlashInfer sparse attention packed KV cache support |
 | 2026-10-06 | [e387d924](https://github.com/NVIDIA/Model-Optimizer/commit/e387d924f0a20fb83a8b03d31aef9a782d02beed) | [#2626](https://github.com/NVIDIA/Model-Optimizer/pull/2626) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/6\] Add vLLM fakequant CLI wrapper and app entry point |
 | 2026-09-18 | [d23030f9](https://github.com/NVIDIA/Model-Optimizer/commit/d23030f91dc52aec18b93df657dd588ad50d49de) | [#1992](https://github.com/NVIDIA/Model-Optimizer/pull/1992) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/n\] Adds skip-softmax calibration through the vLLM serving path |
 | 2026-09-11 | [1b2d4941](https://github.com/NVIDIA/Model-Optimizer/commit/1b2d49415bcdde3622b8ace1cf15ee7c830d586c) | [#2386](https://github.com/NVIDIA/Model-Optimizer/pull/2386) | [@kaix-nv](https://github.com/kaix-nv) | `sparsity` `torch` | Sort DASC modules by explicit name |
@@ -55,4 +56,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 49 PRs**
+**Total: 50 PRs**

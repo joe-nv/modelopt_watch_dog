@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-13 | [8101d128](https://github.com/NVIDIA/Model-Optimizer/commit/8101d128dfeed63be9c1267c482df6e86c15162d) | [#2767](https://github.com/NVIDIA/Model-Optimizer/pull/2767) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add MoE dispatch/combine fake quantization for vLLM's DeepGEMM Mega-MoE |
 | 2026-10-06 | [e387d924](https://github.com/NVIDIA/Model-Optimizer/commit/e387d924f0a20fb83a8b03d31aef9a782d02beed) | [#2626](https://github.com/NVIDIA/Model-Optimizer/pull/2626) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/6\] Add vLLM fakequant CLI wrapper and app entry point |
 | 2026-10-03 | [6a106874](https://github.com/NVIDIA/Model-Optimizer/commit/6a1068746dd0e746fe4bcb79152b86bdcf58cb41) | [#2620](https://github.com/NVIDIA/Model-Optimizer/pull/2620) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `tests` `vllm` | Add vLLM NVFP4 MLA KV-cache fake quant |
 | 2026-10-02 | [f094f890](https://github.com/NVIDIA/Model-Optimizer/commit/f094f89069e5344cecdb7b55fb070d1610ea7270) | [#2552](https://github.com/NVIDIA/Model-Optimizer/pull/2552) | [@sychen52](https://github.com/sychen52) | `core` `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add sparse-attention indexer Q and K-cache fake quantization |
@@ -56,4 +57,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 50 PRs**
+**Total: 51 PRs**

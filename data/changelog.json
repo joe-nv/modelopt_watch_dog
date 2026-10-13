@@ -1,5 +1,146 @@
 [
   {
+    "date": "2026-10-13",
+    "commit": "8101d128dfeed63be9c1267c482df6e86c15162d",
+    "pr_number": 2767,
+    "author": "sychen52",
+    "title": "Add MoE dispatch/combine fake quantization for vLLM's DeepGEMM Mega-MoE",
+    "tags": [
+      "deploy",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "commit": "b48400a0a5b54b849e8b44397c59ccfdca4e96ed",
+    "pr_number": 2697,
+    "author": "yingguo-trt",
+    "title": "[https://nvbugspro.nvidia.com/bug/6886263] Fix FlashInfer sparse attention packed KV cache support",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "commit": "2c4aed21918d2ac683c1edbfee1ab7a960eeadd2",
+    "pr_number": 2769,
+    "author": "meenchen",
+    "title": "[NVBugs 6914520, 6914493] Right-pad labeled calibration for finite attention gradients",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "commit": "25419535028d08daf40f6425b12ea49bcc04215e",
+    "pr_number": 2770,
+    "author": "yueshen2016",
+    "title": "Add freeze_mtp to Megatron distillation to keep the MTP head fixed",
+    "tags": [
+      "core",
+      "distillation",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "commit": "af6964c41a9e0dddbb73bdddd3eb3f64e7c51af5",
+    "pr_number": 2726,
+    "author": "shengliangxu",
+    "title": "Fix megatron_preprocess_data multi-worker segfault: use forkserver instead of fork",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "commit": "5b01d53a2b007813594c36480a7520484eb482ae",
+    "pr_number": 2703,
+    "author": "juhi10071998",
+    "title": "Add a NemotronH aggressive-mse NVFP4 PTQ recipe",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "commit": "ff4584903f191897e00980a08b36296a83719a47",
+    "pr_number": 2712,
+    "author": "meenchen",
+    "title": "docs: add AutoQuant KV mixed-precision quantization blog",
+    "tags": [
+      "docs",
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "commit": "89632acdc283936cc5a5447a7c89ebaec35e01bf",
+    "pr_number": 2710,
+    "author": "cjluo-nv",
+    "title": "Make folding exact for GPTQ'd GGML weights, so the vLLM fake-quant export evaluates them",
+    "tags": [
+      "docs",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "commit": "4cffe7f18ffedcbcaf6687eea970ff8497ce5b52",
+    "pr_number": 2764,
+    "author": "cjluo-nv",
+    "title": "Add a pre-push review pass to the agent instructions",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "commit": "591a5d551f3bdcd6f9e855eb5d05557a50d00736",
+    "pr_number": 2768,
+    "author": "meenchen",
+    "title": "[NVBugs 6914310, 6914355] Fix registered Qwen VLM source-weight accounting",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "commit": "79cf9c9ed3ce56435063908ceb276aa43b4b758e",
+    "pr_number": 2731,
+    "author": "cjluo-nv",
+    "title": "Fix the FSDP2 export deadlock at world > 1",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-11",
     "commit": "f27b47626d0d5886244d0fe1075e52d7d564ddc9",
     "pr_number": 2587,

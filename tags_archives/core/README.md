@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-13 | [2c4aed21](https://github.com/NVIDIA/Model-Optimizer/commit/2c4aed21918d2ac683c1edbfee1ab7a960eeadd2) | [#2769](https://github.com/NVIDIA/Model-Optimizer/pull/2769) | [@meenchen](https://github.com/meenchen) | `core` `infra` `tests` `torch` | \[NVBugs 6914520, 6914493\] Right-pad labeled calibration for finite attention gradients |
+| 2026-10-13 | [25419535](https://github.com/NVIDIA/Model-Optimizer/commit/25419535028d08daf40f6425b12ea49bcc04215e) | [#2770](https://github.com/NVIDIA/Model-Optimizer/pull/2770) | [@yueshen2016](https://github.com/yueshen2016) | `core` `distillation` `example` `infra` `tests` `torch` | Add freeze_mtp to Megatron distillation to keep the MTP head fixed |
+| 2026-10-13 | [af6964c4](https://github.com/NVIDIA/Model-Optimizer/commit/af6964c41a9e0dddbb73bdddd3eb3f64e7c51af5) | [#2726](https://github.com/NVIDIA/Model-Optimizer/pull/2726) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | Fix megatron_preprocess_data multi-worker segfault: use forkserver instead of fork |
+| 2026-10-12 | [591a5d55](https://github.com/NVIDIA/Model-Optimizer/commit/591a5d551f3bdcd6f9e855eb5d05557a50d00736) | [#2768](https://github.com/NVIDIA/Model-Optimizer/pull/2768) | [@meenchen](https://github.com/meenchen) | `core` `infra` `tests` `torch` | \[NVBugs 6914310, 6914355\] Fix registered Qwen VLM source-weight accounting |
 | 2026-10-11 | [f27b4762](https://github.com/NVIDIA/Model-Optimizer/commit/f27b47626d0d5886244d0fe1075e52d7d564ddc9) | [#2587](https://github.com/NVIDIA/Model-Optimizer/pull/2587) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | examples/megatron_bridge: distill on chat data straight from HuggingFace/JSONL |
 | 2026-10-10 | [54d44161](https://github.com/NVIDIA/Model-Optimizer/commit/54d44161e50e2253b241f2130ba856a3bac881c4) | [#2656](https://github.com/NVIDIA/Model-Optimizer/pull/2656) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `infra` `quantization` `tests` `torch` | Add mergeable LoRA QAD for Megatron Bridge |
 | 2026-10-09 | [4c1f8138](https://github.com/NVIDIA/Model-Optimizer/commit/4c1f813828cb9dd07b0d842d60ba35e3946237dc) | [#2727](https://github.com/NVIDIA/Model-Optimizer/pull/2727) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `quantization` `tests` `torch` | Speed up the hf_ptq example tests |
@@ -189,4 +193,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 183 PRs**
+**Total: 187 PRs**

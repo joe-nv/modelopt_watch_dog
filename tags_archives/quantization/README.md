@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-13 | [8101d128](https://github.com/NVIDIA/Model-Optimizer/commit/8101d128dfeed63be9c1267c482df6e86c15162d) | [#2767](https://github.com/NVIDIA/Model-Optimizer/pull/2767) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add MoE dispatch/combine fake quantization for vLLM's DeepGEMM Mega-MoE |
+| 2026-10-12 | [89632acd](https://github.com/NVIDIA/Model-Optimizer/commit/89632acdc283936cc5a5447a7c89ebaec35e01bf) | [#2710](https://github.com/NVIDIA/Model-Optimizer/pull/2710) | [@cjluo-nv](https://github.com/cjluo-nv) | `docs` `export` `infra` `quantization` `tests` `torch` | Make folding exact for GPTQ'd GGML weights, so the vLLM fake-quant export evaluates them |
 | 2026-10-10 | [54d44161](https://github.com/NVIDIA/Model-Optimizer/commit/54d44161e50e2253b241f2130ba856a3bac881c4) | [#2656](https://github.com/NVIDIA/Model-Optimizer/pull/2656) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `infra` `quantization` `tests` `torch` | Add mergeable LoRA QAD for Megatron Bridge |
 | 2026-10-09 | [f299f62d](https://github.com/NVIDIA/Model-Optimizer/commit/f299f62d20df3e69703be31d9afcb570145e8813) | [#2554](https://github.com/NVIDIA/Model-Optimizer/pull/2554) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): trace Transpose between DequantizeLinear and its consumer in qdq_to_dq |
 | 2026-10-09 | [5a7bb676](https://github.com/NVIDIA/Model-Optimizer/commit/5a7bb6764e746dc4b69dd3ead9a63be7eb3e4fdc) | [#2578](https://github.com/NVIDIA/Model-Optimizer/pull/2578) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-3817\] Move model-specific PTQ modeling into modelopt/torch/models \[3/4\] |
@@ -350,4 +352,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 344 PRs**
+**Total: 346 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-13 | [25419535](https://github.com/NVIDIA/Model-Optimizer/commit/25419535028d08daf40f6425b12ea49bcc04215e) | [#2770](https://github.com/NVIDIA/Model-Optimizer/pull/2770) | [@yueshen2016](https://github.com/yueshen2016) | `core` `distillation` `example` `infra` `tests` `torch` | Add freeze_mtp to Megatron distillation to keep the MTP head fixed |
 | 2026-10-09 | [6e6cadcb](https://github.com/NVIDIA/Model-Optimizer/commit/6e6cadcbaf1343e074f00024628fb7fa50fa64cc) | [#2645](https://github.com/NVIDIA/Model-Optimizer/pull/2645) | [@SID-6921](https://github.com/SID-6921) | `distillation` `tests` `torch` | fix(distill): flatten MFTLoss labels along with the logits |
 | 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
 | 2026-10-09 | [91bbe8f6](https://github.com/NVIDIA/Model-Optimizer/commit/91bbe8f657a9ad4bd8691131c5e18bcd9cd6283d) | [#2668](https://github.com/NVIDIA/Model-Optimizer/pull/2668) | [@LinCanNerd](https://github.com/LinCanNerd) | `distillation` `tests` `torch` | Fix MGDLoss teacher gradient leak and enforce abstract loss balancer |
@@ -34,4 +35,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 28 PRs**
+**Total: 29 PRs**
