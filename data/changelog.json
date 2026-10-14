@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-14",
+    "commit": "d016be28b164540d373be75cd8b5df5390e52a95",
+    "pr_number": 2636,
+    "author": "phicksy",
+    "title": "[2/8] Add the external draft speculative-decoding mode",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-13",
     "commit": "8101d128dfeed63be9c1267c482df6e86c15162d",
     "pr_number": 2767,

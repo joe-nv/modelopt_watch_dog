@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-14 | [d016be28](https://github.com/NVIDIA/Model-Optimizer/commit/d016be28b164540d373be75cd8b5df5390e52a95) | [#2636](https://github.com/NVIDIA/Model-Optimizer/pull/2636) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
 | 2026-10-13 | [8101d128](https://github.com/NVIDIA/Model-Optimizer/commit/8101d128dfeed63be9c1267c482df6e86c15162d) | [#2767](https://github.com/NVIDIA/Model-Optimizer/pull/2767) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add MoE dispatch/combine fake quantization for vLLM's DeepGEMM Mega-MoE |
 | 2026-10-13 | [b48400a0](https://github.com/NVIDIA/Model-Optimizer/commit/b48400a0a5b54b849e8b44397c59ccfdca4e96ed) | [#2697](https://github.com/NVIDIA/Model-Optimizer/pull/2697) | [@yingguo-trt](https://github.com/yingguo-trt) | `sparsity` `tests` `torch` | \[https://nvbugspro.nvidia.com/bug/6886263\] Fix FlashInfer sparse attention packed KV cache support |
 | 2026-10-13 | [2c4aed21](https://github.com/NVIDIA/Model-Optimizer/commit/2c4aed21918d2ac683c1edbfee1ab7a960eeadd2) | [#2769](https://github.com/NVIDIA/Model-Optimizer/pull/2769) | [@meenchen](https://github.com/meenchen) | `core` `infra` `tests` `torch` | \[NVBugs 6914520, 6914493\] Right-pad labeled calibration for finite attention gradients |
@@ -541,4 +542,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 535 PRs**
+**Total: 536 PRs**
