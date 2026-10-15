@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-15 | [e66318d0](https://github.com/NVIDIA/Model-Optimizer/commit/e66318d0913381993c1249f10685dad4b338705e) | [#2790](https://github.com/NVIDIA/Model-Optimizer/pull/2790) | [@phicksy](https://github.com/phicksy) | `core` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
 | 2026-10-14 | [d016be28](https://github.com/NVIDIA/Model-Optimizer/commit/d016be28b164540d373be75cd8b5df5390e52a95) | [#2636](https://github.com/NVIDIA/Model-Optimizer/pull/2636) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
 | 2026-10-06 | [b93a32e7](https://github.com/NVIDIA/Model-Optimizer/commit/b93a32e732d49f6b09b001208ea20d0054e6659e) | [#2589](https://github.com/NVIDIA/Model-Optimizer/pull/2589) | [@mrusanovsky](https://github.com/mrusanovsky) | `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] LiLiCorr: offline/streaming training and an optional calibration loss |
 | 2026-10-01 | [333ace1b](https://github.com/NVIDIA/Model-Optimizer/commit/333ace1bc9f7a138fdd19430ecb85cbedfc369a7) | [#2571](https://github.com/NVIDIA/Model-Optimizer/pull/2571) | [@sychen52](https://github.com/sychen52) | `example` `speculative_decoding` `tests` `torch` | Fix multi-turn synthetic generation and mark incomplete outputs |
@@ -100,4 +101,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 94 PRs**
+**Total: 95 PRs**

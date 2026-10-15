@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-15 | [0e13cc72](https://github.com/NVIDIA/Model-Optimizer/commit/0e13cc72f7e19b7bb69f1fe38864be892b8e9e99) | [#2793](https://github.com/NVIDIA/Model-Optimizer/pull/2793) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[NVBugs 6918319\] Keep INT8 real-quant scales in FP32 so small FP16 channels survive compress |
+| 2026-10-15 | [f425b6a9](https://github.com/NVIDIA/Model-Optimizer/commit/f425b6a9c8141b3d655646a7d6873356d22b8ec1) | [#2799](https://github.com/NVIDIA/Model-Optimizer/pull/2799) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `example` `quantization` `torch` | docs: clarify HF QAD evaluation README structure |
+| 2026-10-15 | [7dde5aed](https://github.com/NVIDIA/Model-Optimizer/commit/7dde5aedd4ab66d08d1fdc7e22a9b1aefcd30f71) | [#2814](https://github.com/NVIDIA/Model-Optimizer/pull/2814) | [@gkswns0531](https://github.com/gkswns0531) | `infra` `quantization` `tests` `torch` | Keep nn.LayerNorm inputs unquantized in the default PTQ presets |
+| 2026-10-14 | [624c87c9](https://github.com/NVIDIA/Model-Optimizer/commit/624c87c95a4cb418cb6a5864ac7c6f022a517736) | [#2787](https://github.com/NVIDIA/Model-Optimizer/pull/2787) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[NVBugs 6918092\] Fix FP8 fake quant zeroing a small nonzero amax (static NVFP4 blocks) |
+| 2026-10-14 | [e191eac8](https://github.com/NVIDIA/Model-Optimizer/commit/e191eac82b27c7ee1ad9936462169ea0a70219aa) | [#2682](https://github.com/NVIDIA/Model-Optimizer/pull/2682) | [@ajrasane](https://github.com/ajrasane) | `core` `example` `quantization` `tests` `torch` | \[1/4\] \[6466805\] Make quantization carriers safe for CPU export capture |
 | 2026-10-13 | [8101d128](https://github.com/NVIDIA/Model-Optimizer/commit/8101d128dfeed63be9c1267c482df6e86c15162d) | [#2767](https://github.com/NVIDIA/Model-Optimizer/pull/2767) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add MoE dispatch/combine fake quantization for vLLM's DeepGEMM Mega-MoE |
 | 2026-10-12 | [89632acd](https://github.com/NVIDIA/Model-Optimizer/commit/89632acdc283936cc5a5447a7c89ebaec35e01bf) | [#2710](https://github.com/NVIDIA/Model-Optimizer/pull/2710) | [@cjluo-nv](https://github.com/cjluo-nv) | `docs` `export` `infra` `quantization` `tests` `torch` | Make folding exact for GPTQ'd GGML weights, so the vLLM fake-quant export evaluates them |
 | 2026-10-10 | [54d44161](https://github.com/NVIDIA/Model-Optimizer/commit/54d44161e50e2253b241f2130ba856a3bac881c4) | [#2656](https://github.com/NVIDIA/Model-Optimizer/pull/2656) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `infra` `quantization` `tests` `torch` | Add mergeable LoRA QAD for Megatron Bridge |
@@ -352,4 +357,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 346 PRs**
+**Total: 351 PRs**

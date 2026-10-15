@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-10-15",
+    "commit": "0e13cc72f7e19b7bb69f1fe38864be892b8e9e99",
+    "pr_number": 2793,
+    "author": "cjluo-nv",
+    "title": "[NVBugs 6918319] Keep INT8 real-quant scales in FP32 so small FP16 channels survive compress",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "3ee8d05ac0aea62d48c8eabbf6c87b3642ef3631",
+    "pr_number": 2791,
+    "author": "yueshen2016",
+    "title": "[1/2] Add a chat JSONL output mode to prepare_megatron_data_blend",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "f425b6a9c8141b3d655646a7d6873356d22b8ec1",
+    "pr_number": 2799,
+    "author": "danielkorzekwa",
+    "title": "docs: clarify HF QAD evaluation README structure",
+    "tags": [
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "a8e3ec929818372c4c0bf8eac2b76104f555edd5",
+    "pr_number": 2804,
+    "author": "ajrasane",
+    "title": "[6914271] Backport Qwen VLM export weight-accounting fix to 0.48.0",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "e66318d0913381993c1249f10685dad4b338705e",
+    "pr_number": 2790,
+    "author": "phicksy",
+    "title": "[2/8] Add the external draft speculative-decoding mode",
+    "tags": [
+      "core",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "82f0c5728f1b705ea09f4da38c99400bbf121d16",
+    "pr_number": 2792,
+    "author": "ColinM-sys",
+    "title": "docs(dms): fix broken link to the small-budget training script",
+    "tags": [
+      "experimental"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "7dde5aedd4ab66d08d1fdc7e22a9b1aefcd30f71",
+    "pr_number": 2814,
+    "author": "gkswns0531",
+    "title": "Keep nn.LayerNorm inputs unquantized in the default PTQ presets",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "d2adf1bf55b5e5b470aaf969cb4966bee4bb2b68",
+    "pr_number": 2815,
+    "author": "kevalmorabia97",
+    "title": "Document weekly uv.lock bump and auto-merge its PRs",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-10-14",
     "commit": "d016be28b164540d373be75cd8b5df5390e52a95",
     "pr_number": 2636,
@@ -8,6 +106,105 @@
     "tags": [
       "example",
       "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commit": "7abb00b074306496ad91ce773151637f271cb90b",
+    "pr_number": 2627,
+    "author": "kinjalpatel27",
+    "title": "[2/5] Export Megatron fakequant quantizer state and YAML",
+    "tags": [
+      "core",
+      "deploy",
+      "example",
+      "export",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commit": "92f512eb8263643621c67b33eed17fe75f4448a4",
+    "pr_number": 2794,
+    "author": "meenchen",
+    "title": "[NVBug 6914119] Fix native NemotronH export config mappings",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commit": "d9b8772ee03f768961949d9d1b4cce11be57fcb5",
+    "pr_number": 2628,
+    "author": "kinjalpatel27",
+    "title": "[3/5] Fold grouped expert weights during fakequant export",
+    "tags": [
+      "core",
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commit": "624c87c95a4cb418cb6a5864ac7c6f022a517736",
+    "pr_number": 2787,
+    "author": "cjluo-nv",
+    "title": "[NVBugs 6918092] Fix FP8 fake quant zeroing a small nonzero amax (static NVFP4 blocks)",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commit": "de3d2bd5d498cb32ebf0cb27f06ffae4c5d012b8",
+    "pr_number": 2629,
+    "author": "kinjalpatel27",
+    "title": "[4/5] Reload vLLM fakequant checkpoints automatically",
+    "tags": [
+      "deploy",
+      "example",
+      "export",
+      "infra",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commit": "e191eac82b27c7ee1ad9936462169ea0a70219aa",
+    "pr_number": 2682,
+    "author": "ajrasane",
+    "title": "[1/4] [6466805] Make quantization carriers safe for CPU export capture",
+    "tags": [
+      "core",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commit": "c5b80a246e9243fdec7a0a453ceba6cc4c872ff4",
+    "pr_number": 2720,
+    "author": "yueshen2016",
+    "title": "[2/2] Add a NemotronH omni VL W4A4 PTQ + QAD tutorial for Megatron-Bridge",
+    "tags": [
+      "core",
+      "example",
+      "infra",
       "tests",
       "torch"
     ]

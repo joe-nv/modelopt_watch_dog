@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-14 | [7abb00b0](https://github.com/NVIDIA/Model-Optimizer/commit/7abb00b074306496ad91ce773151637f271cb90b) | [#2627](https://github.com/NVIDIA/Model-Optimizer/pull/2627) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `example` `export` `tests` `torch` `vllm` | \[2/5\] Export Megatron fakequant quantizer state and YAML |
+| 2026-10-14 | [d9b8772e](https://github.com/NVIDIA/Model-Optimizer/commit/d9b8772ee03f768961949d9d1b4cce11be57fcb5) | [#2628](https://github.com/NVIDIA/Model-Optimizer/pull/2628) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `export` `tests` `torch` | \[3/5\] Fold grouped expert weights during fakequant export |
+| 2026-10-14 | [de3d2bd5](https://github.com/NVIDIA/Model-Optimizer/commit/de3d2bd5d498cb32ebf0cb27f06ffae4c5d012b8) | [#2629](https://github.com/NVIDIA/Model-Optimizer/pull/2629) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `infra` `tests` `torch` `vllm` | \[4/5\] Reload vLLM fakequant checkpoints automatically |
 | 2026-10-12 | [89632acd](https://github.com/NVIDIA/Model-Optimizer/commit/89632acdc283936cc5a5447a7c89ebaec35e01bf) | [#2710](https://github.com/NVIDIA/Model-Optimizer/pull/2710) | [@cjluo-nv](https://github.com/cjluo-nv) | `docs` `export` `infra` `quantization` `tests` `torch` | Make folding exact for GPTQ'd GGML weights, so the vLLM fake-quant export evaluates them |
 | 2026-10-12 | [79cf9c9e](https://github.com/NVIDIA/Model-Optimizer/commit/79cf9c9ed3ce56435063908ceb276aa43b4b758e) | [#2731](https://github.com/NVIDIA/Model-Optimizer/pull/2731) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `tests` `torch` | Fix the FSDP2 export deadlock at world \> 1 |
 | 2026-10-09 | [530d6a09](https://github.com/NVIDIA/Model-Optimizer/commit/530d6a094587a749affa3d9e60def88ffe7bf837) | [#2580](https://github.com/NVIDIA/Model-Optimizer/pull/2580) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3817\] Move model-specific PTQ modeling into modelopt/torch/models \[4/4\] |
@@ -197,4 +200,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 191 PRs**
+**Total: 194 PRs**

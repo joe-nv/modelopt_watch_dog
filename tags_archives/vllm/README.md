@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-14 | [7abb00b0](https://github.com/NVIDIA/Model-Optimizer/commit/7abb00b074306496ad91ce773151637f271cb90b) | [#2627](https://github.com/NVIDIA/Model-Optimizer/pull/2627) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `example` `export` `tests` `torch` `vllm` | \[2/5\] Export Megatron fakequant quantizer state and YAML |
+| 2026-10-14 | [de3d2bd5](https://github.com/NVIDIA/Model-Optimizer/commit/de3d2bd5d498cb32ebf0cb27f06ffae4c5d012b8) | [#2629](https://github.com/NVIDIA/Model-Optimizer/pull/2629) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `infra` `tests` `torch` `vllm` | \[4/5\] Reload vLLM fakequant checkpoints automatically |
 | 2026-10-13 | [8101d128](https://github.com/NVIDIA/Model-Optimizer/commit/8101d128dfeed63be9c1267c482df6e86c15162d) | [#2767](https://github.com/NVIDIA/Model-Optimizer/pull/2767) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add MoE dispatch/combine fake quantization for vLLM's DeepGEMM Mega-MoE |
 | 2026-10-06 | [e387d924](https://github.com/NVIDIA/Model-Optimizer/commit/e387d924f0a20fb83a8b03d31aef9a782d02beed) | [#2626](https://github.com/NVIDIA/Model-Optimizer/pull/2626) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/6\] Add vLLM fakequant CLI wrapper and app entry point |
 | 2026-10-03 | [6a106874](https://github.com/NVIDIA/Model-Optimizer/commit/6a1068746dd0e746fe4bcb79152b86bdcf58cb41) | [#2620](https://github.com/NVIDIA/Model-Optimizer/pull/2620) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `tests` `vllm` | Add vLLM NVFP4 MLA KV-cache fake quant |
@@ -36,4 +38,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 30 PRs**
+**Total: 32 PRs**
