@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-10-16",
+    "commit": "725a66fe94eadf4571882ebe1e31b21ea612db57",
+    "pr_number": 2777,
+    "author": "mxinO",
+    "title": "[1/2] Unified export: quantized-weight state capture",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "commit": "79bb4c72e63efb7a60ca6f351810264dee9d65f1",
+    "pr_number": 1920,
+    "author": "arham766",
+    "title": "fix: flatten_tree fails loudly on flattened-key collisions instead of corrupting silently",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "commit": "1a3d51950a12d788a8ba29aa37d5e6f771e9e2fe",
+    "pr_number": 2773,
+    "author": "kevalmorabia97",
+    "title": "Sync GPTQ Hessians across data-parallel ranks",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "commit": "2257eb5aa31269f80acddb2f44ce5b2eae37cf55",
+    "pr_number": 2813,
+    "author": "yingguo-trt",
+    "title": "[6933164] fix: preserve Diffusers pipeline settings in component exports",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "commit": "54b684b6cdd2973d782aca50b6d12ef1a22c722d",
+    "pr_number": 2832,
+    "author": "kevalmorabia97",
+    "title": "Fix post-merge unit CI and the gpu_megatron nightly timeout",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "commit": "98c10fc9d9f36763975bc4f68acc91d4776b4186",
+    "pr_number": 2637,
+    "author": "phicksy",
+    "title": "[3/8] Add the external-draft recipe and training entrypoint",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-15",
     "commit": "0e13cc72f7e19b7bb69f1fe38864be892b8e9e99",
     "pr_number": 2793,
@@ -95,6 +176,61 @@
     "title": "Document weekly uv.lock bump and auto-merge its PRs",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "aa4b0d96ed0bf5b82ea1b347e80f3294ea209f09",
+    "pr_number": 2735,
+    "author": "cjluo-nv",
+    "title": "Add imatrix calibration for the GGML formats and use it for fused MoE experts",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "f0daaa241ac6644e9bedd19a1af40c4a2aa8ca04",
+    "pr_number": 2819,
+    "author": "juhi10071998",
+    "title": "[Nemotron 3.5 Super VL] Update the NemotronH NVFP4 PTQ recipe to the Nemotron 3.5 Super VL checkpoint",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "77bd3dc57d172dc762e85a8c017f7c98e0b14b5d",
+    "pr_number": 2823,
+    "author": "kevalmorabia97",
+    "title": "Speed up CPU unit tests to stay under the 20 min CI limit",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "nas",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "commit": "6bf36980e1d73a46750c947b7ff4c3cc3fa9c34d",
+    "pr_number": 2582,
+    "author": "meenchen",
+    "title": "[OMNIML-5858] Add a Nemotron 3.5 Super VL AutoQuant recipe",
+    "tags": [
+      "infra",
+      "tests"
     ]
   },
   {

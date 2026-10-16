@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-16 | [725a66fe](https://github.com/NVIDIA/Model-Optimizer/commit/725a66fe94eadf4571882ebe1e31b21ea612db57) | [#2777](https://github.com/NVIDIA/Model-Optimizer/pull/2777) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `quantization` `tests` `torch` | \[1/2\] Unified export: quantized-weight state capture |
+| 2026-10-16 | [2257eb5a](https://github.com/NVIDIA/Model-Optimizer/commit/2257eb5aa31269f80acddb2f44ce5b2eae37cf55) | [#2813](https://github.com/NVIDIA/Model-Optimizer/pull/2813) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `infra` `tests` `torch` | \[6933164\] fix: preserve Diffusers pipeline settings in component exports |
+| 2026-10-15 | [77bd3dc5](https://github.com/NVIDIA/Model-Optimizer/commit/77bd3dc57d172dc762e85a8c017f7c98e0b14b5d) | [#2823](https://github.com/NVIDIA/Model-Optimizer/pull/2823) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `onnx` `quantization` `tests` `torch` | Speed up CPU unit tests to stay under the 20 min CI limit |
 | 2026-10-14 | [7abb00b0](https://github.com/NVIDIA/Model-Optimizer/commit/7abb00b074306496ad91ce773151637f271cb90b) | [#2627](https://github.com/NVIDIA/Model-Optimizer/pull/2627) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `example` `export` `tests` `torch` `vllm` | \[2/5\] Export Megatron fakequant quantizer state and YAML |
 | 2026-10-14 | [d9b8772e](https://github.com/NVIDIA/Model-Optimizer/commit/d9b8772ee03f768961949d9d1b4cce11be57fcb5) | [#2628](https://github.com/NVIDIA/Model-Optimizer/pull/2628) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `export` `tests` `torch` | \[3/5\] Fold grouped expert weights during fakequant export |
 | 2026-10-14 | [de3d2bd5](https://github.com/NVIDIA/Model-Optimizer/commit/de3d2bd5d498cb32ebf0cb27f06ffae4c5d012b8) | [#2629](https://github.com/NVIDIA/Model-Optimizer/pull/2629) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `infra` `tests` `torch` `vllm` | \[4/5\] Reload vLLM fakequant checkpoints automatically |
@@ -200,4 +203,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 194 PRs**
+**Total: 197 PRs**

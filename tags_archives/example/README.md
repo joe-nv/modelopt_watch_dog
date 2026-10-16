@@ -4,8 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-16 | [98c10fc9](https://github.com/NVIDIA/Model-Optimizer/commit/98c10fc9d9f36763975bc4f68acc91d4776b4186) | [#2637](https://github.com/NVIDIA/Model-Optimizer/pull/2637) | [@phicksy](https://github.com/phicksy) | `example` `infra` `speculative_decoding` `tests` `torch` | \[3/8\] Add the external-draft recipe and training entrypoint |
 | 2026-10-15 | [f425b6a9](https://github.com/NVIDIA/Model-Optimizer/commit/f425b6a9c8141b3d655646a7d6873356d22b8ec1) | [#2799](https://github.com/NVIDIA/Model-Optimizer/pull/2799) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `example` `quantization` `torch` | docs: clarify HF QAD evaluation README structure |
 | 2026-10-15 | [a8e3ec92](https://github.com/NVIDIA/Model-Optimizer/commit/a8e3ec929818372c4c0bf8eac2b76104f555edd5) | [#2804](https://github.com/NVIDIA/Model-Optimizer/pull/2804) | [@ajrasane](https://github.com/ajrasane) | `core` `example` `infra` `tests` `torch` | \[6914271\] Backport Qwen VLM export weight-accounting fix to 0.48.0 |
+| 2026-10-15 | [f0daaa24](https://github.com/NVIDIA/Model-Optimizer/commit/f0daaa241ac6644e9bedd19a1af40c4a2aa8ca04) | [#2819](https://github.com/NVIDIA/Model-Optimizer/pull/2819) | [@juhi10071998](https://github.com/juhi10071998) | `core` `example` `infra` `tests` `torch` | \[Nemotron 3.5 Super VL\] Update the NemotronH NVFP4 PTQ recipe to the Nemotron 3.5 Super VL checkpoint |
 | 2026-10-14 | [d016be28](https://github.com/NVIDIA/Model-Optimizer/commit/d016be28b164540d373be75cd8b5df5390e52a95) | [#2636](https://github.com/NVIDIA/Model-Optimizer/pull/2636) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
 | 2026-10-14 | [7abb00b0](https://github.com/NVIDIA/Model-Optimizer/commit/7abb00b074306496ad91ce773151637f271cb90b) | [#2627](https://github.com/NVIDIA/Model-Optimizer/pull/2627) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `example` `export` `tests` `torch` `vllm` | \[2/5\] Export Megatron fakequant quantizer state and YAML |
 | 2026-10-14 | [de3d2bd5](https://github.com/NVIDIA/Model-Optimizer/commit/de3d2bd5d498cb32ebf0cb27f06ffae4c5d012b8) | [#2629](https://github.com/NVIDIA/Model-Optimizer/pull/2629) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `infra` `tests` `torch` `vllm` | \[4/5\] Reload vLLM fakequant checkpoints automatically |
@@ -346,4 +348,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 340 PRs**
+**Total: 342 PRs**

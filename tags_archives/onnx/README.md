@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-15 | [77bd3dc5](https://github.com/NVIDIA/Model-Optimizer/commit/77bd3dc57d172dc762e85a8c017f7c98e0b14b5d) | [#2823](https://github.com/NVIDIA/Model-Optimizer/pull/2823) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `onnx` `quantization` `tests` `torch` | Speed up CPU unit tests to stay under the 20 min CI limit |
 | 2026-10-09 | [f299f62d](https://github.com/NVIDIA/Model-Optimizer/commit/f299f62d20df3e69703be31d9afcb570145e8813) | [#2554](https://github.com/NVIDIA/Model-Optimizer/pull/2554) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): trace Transpose between DequantizeLinear and its consumer in qdq_to_dq |
 | 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
 | 2026-10-01 | [4f62d418](https://github.com/NVIDIA/Model-Optimizer/commit/4f62d418f402deb34e9d91663909d95668061ec3) | [#2619](https://github.com/NVIDIA/Model-Optimizer/pull/2619) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Use TensorRT optimization level 0 in Torch ONNX example tests |
@@ -123,4 +124,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 117 PRs**
+**Total: 118 PRs**

@@ -4,9 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-16 | [725a66fe](https://github.com/NVIDIA/Model-Optimizer/commit/725a66fe94eadf4571882ebe1e31b21ea612db57) | [#2777](https://github.com/NVIDIA/Model-Optimizer/pull/2777) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `quantization` `tests` `torch` | \[1/2\] Unified export: quantized-weight state capture |
+| 2026-10-16 | [1a3d5195](https://github.com/NVIDIA/Model-Optimizer/commit/1a3d51950a12d788a8ba29aa37d5e6f771e9e2fe) | [#2773](https://github.com/NVIDIA/Model-Optimizer/pull/2773) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | Sync GPTQ Hessians across data-parallel ranks |
 | 2026-10-15 | [0e13cc72](https://github.com/NVIDIA/Model-Optimizer/commit/0e13cc72f7e19b7bb69f1fe38864be892b8e9e99) | [#2793](https://github.com/NVIDIA/Model-Optimizer/pull/2793) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[NVBugs 6918319\] Keep INT8 real-quant scales in FP32 so small FP16 channels survive compress |
 | 2026-10-15 | [f425b6a9](https://github.com/NVIDIA/Model-Optimizer/commit/f425b6a9c8141b3d655646a7d6873356d22b8ec1) | [#2799](https://github.com/NVIDIA/Model-Optimizer/pull/2799) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `example` `quantization` `torch` | docs: clarify HF QAD evaluation README structure |
 | 2026-10-15 | [7dde5aed](https://github.com/NVIDIA/Model-Optimizer/commit/7dde5aedd4ab66d08d1fdc7e22a9b1aefcd30f71) | [#2814](https://github.com/NVIDIA/Model-Optimizer/pull/2814) | [@gkswns0531](https://github.com/gkswns0531) | `infra` `quantization` `tests` `torch` | Keep nn.LayerNorm inputs unquantized in the default PTQ presets |
+| 2026-10-15 | [aa4b0d96](https://github.com/NVIDIA/Model-Optimizer/commit/aa4b0d96ed0bf5b82ea1b347e80f3294ea209f09) | [#2735](https://github.com/NVIDIA/Model-Optimizer/pull/2735) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Add imatrix calibration for the GGML formats and use it for fused MoE experts |
+| 2026-10-15 | [77bd3dc5](https://github.com/NVIDIA/Model-Optimizer/commit/77bd3dc57d172dc762e85a8c017f7c98e0b14b5d) | [#2823](https://github.com/NVIDIA/Model-Optimizer/pull/2823) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `onnx` `quantization` `tests` `torch` | Speed up CPU unit tests to stay under the 20 min CI limit |
 | 2026-10-14 | [624c87c9](https://github.com/NVIDIA/Model-Optimizer/commit/624c87c95a4cb418cb6a5864ac7c6f022a517736) | [#2787](https://github.com/NVIDIA/Model-Optimizer/pull/2787) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[NVBugs 6918092\] Fix FP8 fake quant zeroing a small nonzero amax (static NVFP4 blocks) |
 | 2026-10-14 | [e191eac8](https://github.com/NVIDIA/Model-Optimizer/commit/e191eac82b27c7ee1ad9936462169ea0a70219aa) | [#2682](https://github.com/NVIDIA/Model-Optimizer/pull/2682) | [@ajrasane](https://github.com/ajrasane) | `core` `example` `quantization` `tests` `torch` | \[1/4\] \[6466805\] Make quantization carriers safe for CPU export capture |
 | 2026-10-13 | [8101d128](https://github.com/NVIDIA/Model-Optimizer/commit/8101d128dfeed63be9c1267c482df6e86c15162d) | [#2767](https://github.com/NVIDIA/Model-Optimizer/pull/2767) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add MoE dispatch/combine fake quantization for vLLM's DeepGEMM Mega-MoE |
@@ -357,4 +361,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 351 PRs**
+**Total: 355 PRs**
