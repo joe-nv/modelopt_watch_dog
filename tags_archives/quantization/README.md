@@ -4,8 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-16 | [725a66fe](https://github.com/NVIDIA/Model-Optimizer/commit/725a66fe94eadf4571882ebe1e31b21ea612db57) | [#2777](https://github.com/NVIDIA/Model-Optimizer/pull/2777) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `quantization` `tests` `torch` | \[1/2\] Unified export: quantized-weight state capture |
 | 2026-10-16 | [1a3d5195](https://github.com/NVIDIA/Model-Optimizer/commit/1a3d51950a12d788a8ba29aa37d5e6f771e9e2fe) | [#2773](https://github.com/NVIDIA/Model-Optimizer/pull/2773) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | Sync GPTQ Hessians across data-parallel ranks |
+| 2026-10-16 | [786b84e4](https://github.com/NVIDIA/Model-Optimizer/commit/786b84e4a5ecd26575f688595616653d9e4cf50c) | [#2809](https://github.com/NVIDIA/Model-Optimizer/pull/2809) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | Upgrade ONNX Runtime 1.30 and CUDA 13 for Linux x86-64 |
 | 2026-10-15 | [0e13cc72](https://github.com/NVIDIA/Model-Optimizer/commit/0e13cc72f7e19b7bb69f1fe38864be892b8e9e99) | [#2793](https://github.com/NVIDIA/Model-Optimizer/pull/2793) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[NVBugs 6918319\] Keep INT8 real-quant scales in FP32 so small FP16 channels survive compress |
 | 2026-10-15 | [f425b6a9](https://github.com/NVIDIA/Model-Optimizer/commit/f425b6a9c8141b3d655646a7d6873356d22b8ec1) | [#2799](https://github.com/NVIDIA/Model-Optimizer/pull/2799) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `example` `quantization` `torch` | docs: clarify HF QAD evaluation README structure |
 | 2026-10-15 | [7dde5aed](https://github.com/NVIDIA/Model-Optimizer/commit/7dde5aedd4ab66d08d1fdc7e22a9b1aefcd30f71) | [#2814](https://github.com/NVIDIA/Model-Optimizer/pull/2814) | [@gkswns0531](https://github.com/gkswns0531) | `infra` `quantization` `tests` `torch` | Keep nn.LayerNorm inputs unquantized in the default PTQ presets |
@@ -361,4 +363,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 355 PRs**
+**Total: 357 PRs**

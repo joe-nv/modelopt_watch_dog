@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
+| 2026-10-17 | [f47cf6ba](https://github.com/NVIDIA/Model-Optimizer/commit/f47cf6ba104c29edf3ad288e367bf8c778fb39f6) | [#2729](https://github.com/NVIDIA/Model-Optimizer/pull/2729) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | Validate vLLM skip-softmax calibration with serving-path refinement |
 | 2026-10-16 | [98c10fc9](https://github.com/NVIDIA/Model-Optimizer/commit/98c10fc9d9f36763975bc4f68acc91d4776b4186) | [#2637](https://github.com/NVIDIA/Model-Optimizer/pull/2637) | [@phicksy](https://github.com/phicksy) | `example` `infra` `speculative_decoding` `tests` `torch` | \[3/8\] Add the external-draft recipe and training entrypoint |
+| 2026-10-16 | [786b84e4](https://github.com/NVIDIA/Model-Optimizer/commit/786b84e4a5ecd26575f688595616653d9e4cf50c) | [#2809](https://github.com/NVIDIA/Model-Optimizer/pull/2809) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | Upgrade ONNX Runtime 1.30 and CUDA 13 for Linux x86-64 |
 | 2026-10-15 | [f425b6a9](https://github.com/NVIDIA/Model-Optimizer/commit/f425b6a9c8141b3d655646a7d6873356d22b8ec1) | [#2799](https://github.com/NVIDIA/Model-Optimizer/pull/2799) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `example` `quantization` `torch` | docs: clarify HF QAD evaluation README structure |
 | 2026-10-15 | [a8e3ec92](https://github.com/NVIDIA/Model-Optimizer/commit/a8e3ec929818372c4c0bf8eac2b76104f555edd5) | [#2804](https://github.com/NVIDIA/Model-Optimizer/pull/2804) | [@ajrasane](https://github.com/ajrasane) | `core` `example` `infra` `tests` `torch` | \[6914271\] Backport Qwen VLM export weight-accounting fix to 0.48.0 |
 | 2026-10-15 | [f0daaa24](https://github.com/NVIDIA/Model-Optimizer/commit/f0daaa241ac6644e9bedd19a1af40c4a2aa8ca04) | [#2819](https://github.com/NVIDIA/Model-Optimizer/pull/2819) | [@juhi10071998](https://github.com/juhi10071998) | `core` `example` `infra` `tests` `torch` | \[Nemotron 3.5 Super VL\] Update the NemotronH NVFP4 PTQ recipe to the Nemotron 3.5 Super VL checkpoint |
@@ -348,4 +351,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 342 PRs**
+**Total: 345 PRs**

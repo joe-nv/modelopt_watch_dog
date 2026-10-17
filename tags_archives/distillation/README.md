@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-13 | [25419535](https://github.com/NVIDIA/Model-Optimizer/commit/25419535028d08daf40f6425b12ea49bcc04215e) | [#2770](https://github.com/NVIDIA/Model-Optimizer/pull/2770) | [@yueshen2016](https://github.com/yueshen2016) | `core` `distillation` `example` `infra` `tests` `torch` | Add freeze_mtp to Megatron distillation to keep the MTP head fixed |
 | 2026-10-09 | [6e6cadcb](https://github.com/NVIDIA/Model-Optimizer/commit/6e6cadcbaf1343e074f00024628fb7fa50fa64cc) | [#2645](https://github.com/NVIDIA/Model-Optimizer/pull/2645) | [@SID-6921](https://github.com/SID-6921) | `distillation` `tests` `torch` | fix(distill): flatten MFTLoss labels along with the logits |
 | 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
@@ -35,4 +36,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 29 PRs**
+**Total: 30 PRs**

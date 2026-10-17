@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
+| 2026-10-17 | [83b1e696](https://github.com/NVIDIA/Model-Optimizer/commit/83b1e69609e2bfcf4d7b1f3975e1112826e65bbf) | [#2778](https://github.com/NVIDIA/Model-Optimizer/pull/2778) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `tests` `torch` | \[2/2\] Unified export: quantized-weight packing and state transforms |
+| 2026-10-17 | [d7cbff34](https://github.com/NVIDIA/Model-Optimizer/commit/d7cbff3486a3ffb1a357e32d9810da0bfc649709) | [#2671](https://github.com/NVIDIA/Model-Optimizer/pull/2671) | [@LinCanNerd](https://github.com/LinCanNerd) | `core` `infra` `tests` `torch` | Fix import modelopt.torch without the \[hf\] extra |
 | 2026-10-16 | [725a66fe](https://github.com/NVIDIA/Model-Optimizer/commit/725a66fe94eadf4571882ebe1e31b21ea612db57) | [#2777](https://github.com/NVIDIA/Model-Optimizer/pull/2777) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `quantization` `tests` `torch` | \[1/2\] Unified export: quantized-weight state capture |
 | 2026-10-16 | [79bb4c72](https://github.com/NVIDIA/Model-Optimizer/commit/79bb4c72e63efb7a60ca6f351810264dee9d65f1) | [#1920](https://github.com/NVIDIA/Model-Optimizer/pull/1920) | [@arham766](https://github.com/arham766) | `core` `tests` `torch` | fix: flatten_tree fails loudly on flattened-key collisions instead of corrupting silently |
 | 2026-10-16 | [1a3d5195](https://github.com/NVIDIA/Model-Optimizer/commit/1a3d51950a12d788a8ba29aa37d5e6f771e9e2fe) | [#2773](https://github.com/NVIDIA/Model-Optimizer/pull/2773) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | Sync GPTQ Hessians across data-parallel ranks |
@@ -207,4 +210,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 201 PRs**
+**Total: 204 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-15 | [77bd3dc5](https://github.com/NVIDIA/Model-Optimizer/commit/77bd3dc57d172dc762e85a8c017f7c98e0b14b5d) | [#2823](https://github.com/NVIDIA/Model-Optimizer/pull/2823) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `onnx` `quantization` `tests` `torch` | Speed up CPU unit tests to stay under the 20 min CI limit |
 | 2026-09-19 | [b311c054](https://github.com/NVIDIA/Model-Optimizer/commit/b311c054de4052df9c7f3de9409b7598f44a0dba) | [#2452](https://github.com/NVIDIA/Model-Optimizer/pull/2452) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `nas` `tests` `torch` | Fix hybrid stack spec serialization in Megatron-Bridge checkpoints |
 | 2026-08-27 | [d7327880](https://github.com/NVIDIA/Model-Optimizer/commit/d73278808be3f3231df559c53328436a91270969) | [#2257](https://github.com/NVIDIA/Model-Optimizer/pull/2257) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `nas` `pruning` `quantization` `tests` `torch` | Bump nemo container requirement to 26.08 for MBridge examples |
@@ -27,4 +28,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 21 PRs**
+**Total: 22 PRs**
