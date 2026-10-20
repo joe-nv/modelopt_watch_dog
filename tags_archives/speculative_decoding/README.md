@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-20 | [d8abfb44](https://github.com/NVIDIA/Model-Optimizer/commit/d8abfb447dd110be5a9489a9eff3cee0cf1faa64) | [#2640](https://github.com/NVIDIA/Model-Optimizer/pull/2640) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[6/8\] Add a sparse teacher-policy dumper |
 | 2026-10-16 | [98c10fc9](https://github.com/NVIDIA/Model-Optimizer/commit/98c10fc9d9f36763975bc4f68acc91d4776b4186) | [#2637](https://github.com/NVIDIA/Model-Optimizer/pull/2637) | [@phicksy](https://github.com/phicksy) | `example` `infra` `speculative_decoding` `tests` `torch` | \[3/8\] Add the external-draft recipe and training entrypoint |
 | 2026-10-15 | [e66318d0](https://github.com/NVIDIA/Model-Optimizer/commit/e66318d0913381993c1249f10685dad4b338705e) | [#2790](https://github.com/NVIDIA/Model-Optimizer/pull/2790) | [@phicksy](https://github.com/phicksy) | `core` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
 | 2026-10-14 | [d016be28](https://github.com/NVIDIA/Model-Optimizer/commit/d016be28b164540d373be75cd8b5df5390e52a95) | [#2636](https://github.com/NVIDIA/Model-Optimizer/pull/2636) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
@@ -102,4 +103,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 96 PRs**
+**Total: 97 PRs**

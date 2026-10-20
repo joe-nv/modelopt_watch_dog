@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-10-19 | [8a8dceb6](https://github.com/NVIDIA/Model-Optimizer/commit/8a8dceb6097c5d162d3f074d0fd7c05c2fa4bb59) | [#2871](https://github.com/NVIDIA/Model-Optimizer/pull/2871) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-10-19) |
+| 2026-10-19 | [df0f7f7f](https://github.com/NVIDIA/Model-Optimizer/commit/df0f7f7f0f5b478efd4602a62aee13446a22fdf3) | [#2870](https://github.com/NVIDIA/Model-Optimizer/pull/2870) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Run GPU CI only for PRs targeting main |
 | 2026-10-17 | [0df6ab3a](https://github.com/NVIDIA/Model-Optimizer/commit/0df6ab3a2db823dfd9668605f33b38ccc2f3dd05) | [#2817](https://github.com/NVIDIA/Model-Optimizer/pull/2817) | [@chadvoegele](https://github.com/chadvoegele) | `infra` `tests` | Fix MiniMax M2.7 expert selectors and source dtype documentation |
 | 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-17 | [83b1e696](https://github.com/NVIDIA/Model-Optimizer/commit/83b1e69609e2bfcf4d7b1f3975e1112826e65bbf) | [#2778](https://github.com/NVIDIA/Model-Optimizer/pull/2778) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `tests` `torch` | \[2/2\] Unified export: quantized-weight packing and state transforms |
@@ -713,4 +714,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 707 PRs**
+**Total: 708 PRs**

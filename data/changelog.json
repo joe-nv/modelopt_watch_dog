@@ -1,10 +1,33 @@
 [
   {
+    "date": "2026-10-20",
+    "commit": "d8abfb447dd110be5a9489a9eff3cee0cf1faa64",
+    "pr_number": 2640,
+    "author": "phicksy",
+    "title": "[6/8] Add a sparse teacher-policy dumper",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-19",
     "commit": "8a8dceb6097c5d162d3f074d0fd7c05c2fa4bb59",
     "pr_number": 2871,
     "author": "github-actions[bot]",
     "title": "[chore]: weekly bump of uv.lock on main (2026-10-19)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "commit": "df0f7f7f0f5b478efd4602a62aee13446a22fdf3",
+    "pr_number": 2870,
+    "author": "kevalmorabia97",
+    "title": "Run GPU CI only for PRs targeting main",
     "tags": [
       "infra"
     ]

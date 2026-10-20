@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-20 | [d8abfb44](https://github.com/NVIDIA/Model-Optimizer/commit/d8abfb447dd110be5a9489a9eff3cee0cf1faa64) | [#2640](https://github.com/NVIDIA/Model-Optimizer/pull/2640) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[6/8\] Add a sparse teacher-policy dumper |
 | 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-17 | [83b1e696](https://github.com/NVIDIA/Model-Optimizer/commit/83b1e69609e2bfcf4d7b1f3975e1112826e65bbf) | [#2778](https://github.com/NVIDIA/Model-Optimizer/pull/2778) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `tests` `torch` | \[2/2\] Unified export: quantized-weight packing and state transforms |
 | 2026-10-17 | [f47cf6ba](https://github.com/NVIDIA/Model-Optimizer/commit/f47cf6ba104c29edf3ad288e367bf8c778fb39f6) | [#2729](https://github.com/NVIDIA/Model-Optimizer/pull/2729) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | Validate vLLM skip-softmax calibration with serving-path refinement |
@@ -612,4 +613,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 606 PRs**
+**Total: 607 PRs**
