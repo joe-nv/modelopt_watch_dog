@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-21 | [754d3bc7](https://github.com/NVIDIA/Model-Optimizer/commit/754d3bc752d8846b0ee61a360e77ff7ce8b96fbc) | [#2910](https://github.com/NVIDIA/Model-Optimizer/pull/2910) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `distillation` `docs` `export` `infra` `nas` `onnx` `pruning` `speculative_decoding` `tests` `torch` | \[NVBug 6966551\] Fix spelling errors and duplicated words in docs and docstrings. |
 | 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-16 | [786b84e4](https://github.com/NVIDIA/Model-Optimizer/commit/786b84e4a5ecd26575f688595616653d9e4cf50c) | [#2809](https://github.com/NVIDIA/Model-Optimizer/pull/2809) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | Upgrade ONNX Runtime 1.30 and CUDA 13 for Linux x86-64 |
 | 2026-10-12 | [ff458490](https://github.com/NVIDIA/Model-Optimizer/commit/ff4584903f191897e00980a08b36296a83719a47) | [#2712](https://github.com/NVIDIA/Model-Optimizer/pull/2712) | [@meenchen](https://github.com/meenchen) | `docs` `infra` | docs: add AutoQuant KV mixed-precision quantization blog |
@@ -80,4 +81,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 74 PRs**
+**Total: 75 PRs**

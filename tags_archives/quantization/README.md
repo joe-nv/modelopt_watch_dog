@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-21 | [11c2a851](https://github.com/NVIDIA/Model-Optimizer/commit/11c2a85160d8b3a84e16e45759a842ce4fb1f13b) | [#2849](https://github.com/NVIDIA/Model-Optimizer/pull/2849) | [@shengliangxu](https://github.com/shengliangxu) | `onnx` `quantization` `tests` | \[OMNIML-6179\] \[5/11\] Make the ONNX tests cheaper: CPU-only ones to the unit lane, small models |
+| 2026-10-20 | [ff336e72](https://github.com/NVIDIA/Model-Optimizer/commit/ff336e72129f5b2bae47fb2e3ff35112f1bdbc8d) | [#2836](https://github.com/NVIDIA/Model-Optimizer/pull/2836) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | CI follow-up: cache source-built wheels and extensions, bump CI containers, trim slow GPU tests |
 | 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-16 | [725a66fe](https://github.com/NVIDIA/Model-Optimizer/commit/725a66fe94eadf4571882ebe1e31b21ea612db57) | [#2777](https://github.com/NVIDIA/Model-Optimizer/pull/2777) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `quantization` `tests` `torch` | \[1/2\] Unified export: quantized-weight state capture |
 | 2026-10-16 | [1a3d5195](https://github.com/NVIDIA/Model-Optimizer/commit/1a3d51950a12d788a8ba29aa37d5e6f771e9e2fe) | [#2773](https://github.com/NVIDIA/Model-Optimizer/pull/2773) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | Sync GPTQ Hessians across data-parallel ranks |
@@ -363,4 +365,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 357 PRs**
+**Total: 359 PRs**

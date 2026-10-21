@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-21 | [4df410a0](https://github.com/NVIDIA/Model-Optimizer/commit/4df410a099df288f6634993c96112fe12afa1af0) | [#2876](https://github.com/NVIDIA/Model-Optimizer/pull/2876) | [@meenchen](https://github.com/meenchen) | `export` `tests` `torch` | Fix layerwise MoE source-weight accounting (NVBug 6954041) |
+| 2026-10-21 | [800d88aa](https://github.com/NVIDIA/Model-Optimizer/commit/800d88aa6e9a7bbb02d109a9dba6dd2295c4411b) | [#2610](https://github.com/NVIDIA/Model-Optimizer/pull/2610) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `tests` `torch` | megatron_bridge: load the HF model from local disk; Megatron export copies its non-model files |
+| 2026-10-21 | [754d3bc7](https://github.com/NVIDIA/Model-Optimizer/commit/754d3bc752d8846b0ee61a360e77ff7ce8b96fbc) | [#2910](https://github.com/NVIDIA/Model-Optimizer/pull/2910) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `distillation` `docs` `export` `infra` `nas` `onnx` `pruning` `speculative_decoding` `tests` `torch` | \[NVBug 6966551\] Fix spelling errors and duplicated words in docs and docstrings. |
+| 2026-10-20 | [ff336e72](https://github.com/NVIDIA/Model-Optimizer/commit/ff336e72129f5b2bae47fb2e3ff35112f1bdbc8d) | [#2836](https://github.com/NVIDIA/Model-Optimizer/pull/2836) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | CI follow-up: cache source-built wheels and extensions, bump CI containers, trim slow GPU tests |
 | 2026-10-17 | [06c70b36](https://github.com/NVIDIA/Model-Optimizer/commit/06c70b367e151cf4de567250645e2f21bff70000) | [#2843](https://github.com/NVIDIA/Model-Optimizer/pull/2843) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `distillation` `docs` `example` `experimental` `export` `infra` `nas` `onnx` `quantization` `sparsity` `tests` `torch` | \[Cherry-pick\] PRs #2647 #2700 #2718 #2578 #2580 #2711 #2731 #2726 #2697 #2769 #2770 #2719 #2796 #2801 #2794 #2787 #2682 #2793 #2791 #2792 #2766 #2823 #2777 #2773 #2813 #2832 #2795 #2684 #2822 #2838 #2807 #2772 #2837 #2820 |
 | 2026-10-17 | [83b1e696](https://github.com/NVIDIA/Model-Optimizer/commit/83b1e69609e2bfcf4d7b1f3975e1112826e65bbf) | [#2778](https://github.com/NVIDIA/Model-Optimizer/pull/2778) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `tests` `torch` | \[2/2\] Unified export: quantized-weight packing and state transforms |
 | 2026-10-16 | [725a66fe](https://github.com/NVIDIA/Model-Optimizer/commit/725a66fe94eadf4571882ebe1e31b21ea612db57) | [#2777](https://github.com/NVIDIA/Model-Optimizer/pull/2777) | [@mxinO](https://github.com/mxinO) | `core` `export` `infra` `quantization` `tests` `torch` | \[1/2\] Unified export: quantized-weight state capture |
@@ -205,4 +209,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 199 PRs**
+**Total: 203 PRs**

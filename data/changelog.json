@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-10-21",
+    "commit": "4df410a099df288f6634993c96112fe12afa1af0",
+    "pr_number": 2876,
+    "author": "meenchen",
+    "title": "Fix layerwise MoE source-weight accounting (NVBug 6954041)",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "800d88aa6e9a7bbb02d109a9dba6dd2295c4411b",
+    "pr_number": 2610,
+    "author": "shengliangxu",
+    "title": "megatron_bridge: load the HF model from local disk; Megatron export copies its non-model files",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "576c66f2b64732cc16e1d2d3a891e7b947da77f1",
+    "pr_number": 2900,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6228] Fix two flaky tests: MTP causality tolerance and example-runner port collisions",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "91385ae9667520c2e5ad64b42dbc4428fb7ada37",
+    "pr_number": 2846,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6178] [2/11] Use the sysmon coverage core in CI",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "c07dd2c439ad03de93b7274622e7d66f85c0cda5",
+    "pr_number": 2852,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6180] [8/11] Trim the DFlash regression test",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "e754a5d0be66b6c596a0fbe84aa9c229ddb604b6",
+    "pr_number": 2854,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6181] [10/11] Make the distributed worker pool fail fast when a worker dies",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "11c2a85160d8b3a84e16e45759a842ce4fb1f13b",
+    "pr_number": 2849,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6179] [5/11] Make the ONNX tests cheaper: CPU-only ones to the unit lane, small models",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "754d3bc752d8846b0ee61a360e77ff7ce8b96fbc",
+    "pr_number": 2910,
+    "author": "noeyy-mino",
+    "title": "[NVBug 6966551] Fix spelling errors and duplicated words in docs and docstrings.",
+    "tags": [
+      "core",
+      "distillation",
+      "docs",
+      "export",
+      "infra",
+      "nas",
+      "onnx",
+      "pruning",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "commit": "af6d7d96da3ca07d654196d8b8c7a2a27a26bea1",
+    "pr_number": 2911,
+    "author": "kevalmorabia97",
+    "title": "Leave MTP layers unquantized at any depth in the default PTQ exclusions",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-10-20",
     "commit": "d8abfb447dd110be5a9489a9eff3cee0cf1faa64",
     "pr_number": 2640,
@@ -10,6 +120,70 @@
       "speculative_decoding",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "commit": "28a38b6aaca7d0578a13e61c09d91568daf4be2a",
+    "pr_number": 2892,
+    "author": "kevalmorabia97",
+    "title": "Pin \"leptonai<0.47\" to fix tools/launcher CI job",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "commit": "ff336e72129f5b2bae47fb2e3ff35112f1bdbc8d",
+    "pr_number": 2836,
+    "author": "kevalmorabia97",
+    "title": "CI follow-up: cache source-built wheels and extensions, bump CI containers, trim slow GPU tests",
+    "tags": [
+      "core",
+      "deploy",
+      "export",
+      "infra",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "commit": "25f99e65394edc0bbce7a7bc100911ac5d1b46e8",
+    "pr_number": 2845,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6178] [1/11] Run the unit tests in parallel with pytest-xdist",
+    "tags": [
+      "infra",
+      "nas",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "commit": "3d90067f2926a9985f45f479314b8d5cd003f202",
+    "pr_number": 2687,
+    "author": "phicksy",
+    "title": "[7/8] Add an optional vocabulary swap for cross-tokenizer external drafts",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "commit": "92a3cd50a6b0f051fbfac6fa56805b97f2dde351",
+    "pr_number": 2881,
+    "author": "cjluo-nv",
+    "title": "Report doom-loop repetition stops as length for nemo-skills evals",
+    "tags": [
+      "infra"
     ]
   },
   {

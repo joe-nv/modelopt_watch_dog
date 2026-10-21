@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-21 | [754d3bc7](https://github.com/NVIDIA/Model-Optimizer/commit/754d3bc752d8846b0ee61a360e77ff7ce8b96fbc) | [#2910](https://github.com/NVIDIA/Model-Optimizer/pull/2910) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `distillation` `docs` `export` `infra` `nas` `onnx` `pruning` `speculative_decoding` `tests` `torch` | \[NVBug 6966551\] Fix spelling errors and duplicated words in docs and docstrings. |
 | 2026-10-20 | [d8abfb44](https://github.com/NVIDIA/Model-Optimizer/commit/d8abfb447dd110be5a9489a9eff3cee0cf1faa64) | [#2640](https://github.com/NVIDIA/Model-Optimizer/pull/2640) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[6/8\] Add a sparse teacher-policy dumper |
+| 2026-10-20 | [ff336e72](https://github.com/NVIDIA/Model-Optimizer/commit/ff336e72129f5b2bae47fb2e3ff35112f1bdbc8d) | [#2836](https://github.com/NVIDIA/Model-Optimizer/pull/2836) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | CI follow-up: cache source-built wheels and extensions, bump CI containers, trim slow GPU tests |
+| 2026-10-20 | [25f99e65](https://github.com/NVIDIA/Model-Optimizer/commit/25f99e65394edc0bbce7a7bc100911ac5d1b46e8) | [#2845](https://github.com/NVIDIA/Model-Optimizer/pull/2845) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `nas` `speculative_decoding` `tests` `torch` | \[OMNIML-6178\] \[1/11\] Run the unit tests in parallel with pytest-xdist |
+| 2026-10-20 | [3d90067f](https://github.com/NVIDIA/Model-Optimizer/commit/3d90067f2926a9985f45f479314b8d5cd003f202) | [#2687](https://github.com/NVIDIA/Model-Optimizer/pull/2687) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[7/8\] Add an optional vocabulary swap for cross-tokenizer external drafts |
 | 2026-10-16 | [98c10fc9](https://github.com/NVIDIA/Model-Optimizer/commit/98c10fc9d9f36763975bc4f68acc91d4776b4186) | [#2637](https://github.com/NVIDIA/Model-Optimizer/pull/2637) | [@phicksy](https://github.com/phicksy) | `example` `infra` `speculative_decoding` `tests` `torch` | \[3/8\] Add the external-draft recipe and training entrypoint |
 | 2026-10-15 | [e66318d0](https://github.com/NVIDIA/Model-Optimizer/commit/e66318d0913381993c1249f10685dad4b338705e) | [#2790](https://github.com/NVIDIA/Model-Optimizer/pull/2790) | [@phicksy](https://github.com/phicksy) | `core` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
 | 2026-10-14 | [d016be28](https://github.com/NVIDIA/Model-Optimizer/commit/d016be28b164540d373be75cd8b5df5390e52a95) | [#2636](https://github.com/NVIDIA/Model-Optimizer/pull/2636) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[2/8\] Add the external draft speculative-decoding mode |
@@ -103,4 +107,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 97 PRs**
+**Total: 101 PRs**
