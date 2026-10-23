@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-23 | [c00ac438](https://github.com/NVIDIA/Model-Optimizer/commit/c00ac438331a6308e6cb40cf961935b7fcd09ea5) | [#2929](https://github.com/NVIDIA/Model-Optimizer/pull/2929) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `tests` `torch` | \[NVBug 6959002\]\[fix\] Supply image inputs for Wan I2V export fusion |
+| 2026-10-22 | [46dacc81](https://github.com/NVIDIA/Model-Optimizer/commit/46dacc81df4cfdb5f31e2c820cdea248a328c095) | [#2888](https://github.com/NVIDIA/Model-Optimizer/pull/2888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `quantization` `tests` `torch` `vllm` | \[1/2\] Reload versioned quantizer recipes in vLLM fake-quant serving |
+| 2026-10-22 | [db4dc7a4](https://github.com/NVIDIA/Model-Optimizer/commit/db4dc7a44293049c3ec73130e150d22aa478560b) | [#2733](https://github.com/NVIDIA/Model-Optimizer/pull/2733) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `tests` `torch` | \[OMNIML-6080\] Derive the unplaced source keys once, at load, through a core load_pretrained |
 | 2026-10-21 | [4df410a0](https://github.com/NVIDIA/Model-Optimizer/commit/4df410a099df288f6634993c96112fe12afa1af0) | [#2876](https://github.com/NVIDIA/Model-Optimizer/pull/2876) | [@meenchen](https://github.com/meenchen) | `export` `tests` `torch` | Fix layerwise MoE source-weight accounting (NVBug 6954041) |
 | 2026-10-21 | [800d88aa](https://github.com/NVIDIA/Model-Optimizer/commit/800d88aa6e9a7bbb02d109a9dba6dd2295c4411b) | [#2610](https://github.com/NVIDIA/Model-Optimizer/pull/2610) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `tests` `torch` | megatron_bridge: load the HF model from local disk; Megatron export copies its non-model files |
 | 2026-10-21 | [754d3bc7](https://github.com/NVIDIA/Model-Optimizer/commit/754d3bc752d8846b0ee61a360e77ff7ce8b96fbc) | [#2910](https://github.com/NVIDIA/Model-Optimizer/pull/2910) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `distillation` `docs` `export` `infra` `nas` `onnx` `pruning` `speculative_decoding` `tests` `torch` | \[NVBug 6966551\] Fix spelling errors and duplicated words in docs and docstrings. |
@@ -209,4 +212,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 203 PRs**
+**Total: 206 PRs**

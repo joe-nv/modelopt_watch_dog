@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-23 | [ace9fd96](https://github.com/NVIDIA/Model-Optimizer/commit/ace9fd96671695901a6347b3f0d3d24f071f71b6) | [#2912](https://github.com/NVIDIA/Model-Optimizer/pull/2912) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Megatron-Bridge distillation: packed chat-SFT data prep and per-document attention |
+| 2026-10-22 | [46dacc81](https://github.com/NVIDIA/Model-Optimizer/commit/46dacc81df4cfdb5f31e2c820cdea248a328c095) | [#2888](https://github.com/NVIDIA/Model-Optimizer/pull/2888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `quantization` `tests` `torch` `vllm` | \[1/2\] Reload versioned quantizer recipes in vLLM fake-quant serving |
+| 2026-10-22 | [e74587b3](https://github.com/NVIDIA/Model-Optimizer/commit/e74587b39e59008e7bb66694c60ca22f6ed092fd) | [#2923](https://github.com/NVIDIA/Model-Optimizer/pull/2923) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6179\] Run the HF checkpoint multi-rank tests on the shared CPU worker pool |
+| 2026-10-22 | [db4dc7a4](https://github.com/NVIDIA/Model-Optimizer/commit/db4dc7a44293049c3ec73130e150d22aa478560b) | [#2733](https://github.com/NVIDIA/Model-Optimizer/pull/2733) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `tests` `torch` | \[OMNIML-6080\] Derive the unplaced source keys once, at load, through a core load_pretrained |
+| 2026-10-22 | [17a96c25](https://github.com/NVIDIA/Model-Optimizer/commit/17a96c2567d8ce87413dd882d3bb362feefc453d) | [#2942](https://github.com/NVIDIA/Model-Optimizer/pull/2942) | [@younes-hourri](https://github.com/younes-hourri) | `core` `example` `infra` `tests` `torch` | Balance pipeline-parallel distillation in distill.py |
 | 2026-10-21 | [800d88aa](https://github.com/NVIDIA/Model-Optimizer/commit/800d88aa6e9a7bbb02d109a9dba6dd2295c4411b) | [#2610](https://github.com/NVIDIA/Model-Optimizer/pull/2610) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `tests` `torch` | megatron_bridge: load the HF model from local disk; Megatron export copies its non-model files |
 | 2026-10-21 | [754d3bc7](https://github.com/NVIDIA/Model-Optimizer/commit/754d3bc752d8846b0ee61a360e77ff7ce8b96fbc) | [#2910](https://github.com/NVIDIA/Model-Optimizer/pull/2910) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `distillation` `docs` `export` `infra` `nas` `onnx` `pruning` `speculative_decoding` `tests` `torch` | \[NVBug 6966551\] Fix spelling errors and duplicated words in docs and docstrings. |
 | 2026-10-20 | [ff336e72](https://github.com/NVIDIA/Model-Optimizer/commit/ff336e72129f5b2bae47fb2e3ff35112f1bdbc8d) | [#2836](https://github.com/NVIDIA/Model-Optimizer/pull/2836) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | CI follow-up: cache source-built wheels and extensions, bump CI containers, trim slow GPU tests |
@@ -213,4 +218,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 207 PRs**
+**Total: 212 PRs**
