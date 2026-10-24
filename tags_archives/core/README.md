@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-24 | [0638a274](https://github.com/NVIDIA/Model-Optimizer/commit/0638a274cf195870564d8e3c164e4f859e5be2a2) | [#2738](https://github.com/NVIDIA/Model-Optimizer/pull/2738) | [@shengliangxu](https://github.com/shengliangxu) | `core` `quantization` `tests` `torch` | \[OMNIML-6059\] \[1/21\] Add the DP=EP all-to-all expert transport |
+| 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-23 | [ace9fd96](https://github.com/NVIDIA/Model-Optimizer/commit/ace9fd96671695901a6347b3f0d3d24f071f71b6) | [#2912](https://github.com/NVIDIA/Model-Optimizer/pull/2912) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Megatron-Bridge distillation: packed chat-SFT data prep and per-document attention |
+| 2026-10-23 | [414268fa](https://github.com/NVIDIA/Model-Optimizer/commit/414268fa35af7e467cf76b185a144d95ce86d806) | [#2943](https://github.com/NVIDIA/Model-Optimizer/pull/2943) | [@meenchen](https://github.com/meenchen) | `core` `infra` `tests` `torch` | \[1/3\] Fix AutoQuant automatic batch-size probing |
 | 2026-10-22 | [46dacc81](https://github.com/NVIDIA/Model-Optimizer/commit/46dacc81df4cfdb5f31e2c820cdea248a328c095) | [#2888](https://github.com/NVIDIA/Model-Optimizer/pull/2888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `quantization` `tests` `torch` `vllm` | \[1/2\] Reload versioned quantizer recipes in vLLM fake-quant serving |
 | 2026-10-22 | [e74587b3](https://github.com/NVIDIA/Model-Optimizer/commit/e74587b39e59008e7bb66694c60ca22f6ed092fd) | [#2923](https://github.com/NVIDIA/Model-Optimizer/pull/2923) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6179\] Run the HF checkpoint multi-rank tests on the shared CPU worker pool |
 | 2026-10-22 | [db4dc7a4](https://github.com/NVIDIA/Model-Optimizer/commit/db4dc7a44293049c3ec73130e150d22aa478560b) | [#2733](https://github.com/NVIDIA/Model-Optimizer/pull/2733) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `tests` `torch` | \[OMNIML-6080\] Derive the unplaced source keys once, at load, through a core load_pretrained |
@@ -218,4 +221,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 212 PRs**
+**Total: 215 PRs**

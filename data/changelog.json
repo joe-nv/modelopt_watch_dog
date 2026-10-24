@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-24",
+    "commit": "0638a274cf195870564d8e3c164e4f859e5be2a2",
+    "pr_number": 2738,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6059] [1/21] Add the DP=EP all-to-all expert transport",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "commit": "fb3ccd0e65bcf983ad69a37c8ac8600604690f02",
+    "pr_number": 2889,
+    "author": "kevalmorabia97",
+    "title": "[2/2] Export vLLM fake-quant checkpoints through Megatron-Bridge",
+    "tags": [
+      "core",
+      "deploy",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
     "date": "2026-10-23",
     "commit": "3a34d65059073d166700185bb6277aa1a569694c",
     "pr_number": 2947,
@@ -82,6 +113,123 @@
       "diffusers",
       "example",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "7c40a2e54985bff7b4878e788a755be422ad3a99",
+    "pr_number": 2688,
+    "author": "phicksy",
+    "title": "[8/8] Add an external-draft training runbook",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "414268fa35af7e467cf76b185a144d95ce86d806",
+    "pr_number": 2943,
+    "author": "meenchen",
+    "title": "[1/3] Fix AutoQuant automatic batch-size probing",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "5383d1abca35bbca716e362d7fb4d617eae1d354",
+    "pr_number": 2902,
+    "author": "sragrawal",
+    "title": "Fix vanilla DSpark checkpoint exports for vLLM",
+    "tags": [
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "55003cc81036efd66f196d1c4e052d895541e7b2",
+    "pr_number": 2978,
+    "author": "phicksy",
+    "title": "Drop orphan draft references from the external-draft learning-rate note",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "67e7ac3dfde3570fa693f85f95f6ceae49bcb571",
+    "pr_number": 2924,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6180] Run the small example lanes of a job together",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "8aa5824ad3766ec5edd996ae016b34b5071b3255",
+    "pr_number": 2886,
+    "author": "danielkorzekwa",
+    "title": "[OMNIML-5940] Document Hugging Face QAD workflow in the QAD skill",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "587b4cc6b07e411ec71479f8714da74741ea38bd",
+    "pr_number": 2982,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6180] Add a nightly test marker and use it for the example PR skips",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "37d166f0126b2614eb72c3b914ba3d70782c3608",
+    "pr_number": 2839,
+    "author": "Zhehao-Hu",
+    "title": "[1/8] launcher: make the regression gate machine-readable and opt-in strict",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "f29bb605548b0be7bdc17cdc2155292afcc5a949",
+    "pr_number": 2864,
+    "author": "cjluo-nv",
+    "title": "[2/3] Speed up layerwise GPTQ on MoE models",
+    "tags": [
+      "docs",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "commit": "6cd9cede9521b3054390a09434f56f3636723cee",
+    "pr_number": 2930,
+    "author": "Zhehao-Hu",
+    "title": "[2/8] launcher: harden the vLLM smoke test and newest-checkpoint selection",
+    "tags": [
+      "infra"
     ]
   },
   {

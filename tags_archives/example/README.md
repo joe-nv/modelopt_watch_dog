@@ -4,9 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-23 | [4cb2f5d5](https://github.com/NVIDIA/Model-Optimizer/commit/4cb2f5d59138b137dcf3ae724bd06a78c6752ed1) | [#2467](https://github.com/NVIDIA/Model-Optimizer/pull/2467) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` | \[6034518\] Fix remote safety benchmark latency |
 | 2026-10-23 | [ace9fd96](https://github.com/NVIDIA/Model-Optimizer/commit/ace9fd96671695901a6347b3f0d3d24f071f71b6) | [#2912](https://github.com/NVIDIA/Model-Optimizer/pull/2912) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Megatron-Bridge distillation: packed chat-SFT data prep and per-document attention |
 | 2026-10-23 | [cb3aba63](https://github.com/NVIDIA/Model-Optimizer/commit/cb3aba63aa30720486e72d14f75e02cd88be96f0) | [#2972](https://github.com/NVIDIA/Model-Optimizer/pull/2972) | [@yingguo-trt](https://github.com/yingguo-trt) | `diffusers` `example` `torch` | \[NVBug 6981670\]\[docs\] Fix Cache Diffusion prepare calls |
+| 2026-10-23 | [7c40a2e5](https://github.com/NVIDIA/Model-Optimizer/commit/7c40a2e54985bff7b4878e788a755be422ad3a99) | [#2688](https://github.com/NVIDIA/Model-Optimizer/pull/2688) | [@phicksy](https://github.com/phicksy) | `example` `infra` `speculative_decoding` `torch` | \[8/8\] Add an external-draft training runbook |
+| 2026-10-23 | [55003cc8](https://github.com/NVIDIA/Model-Optimizer/commit/55003cc81036efd66f196d1c4e052d895541e7b2) | [#2978](https://github.com/NVIDIA/Model-Optimizer/pull/2978) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `torch` | Drop orphan draft references from the external-draft learning-rate note |
 | 2026-10-22 | [46dacc81](https://github.com/NVIDIA/Model-Optimizer/commit/46dacc81df4cfdb5f31e2c820cdea248a328c095) | [#2888](https://github.com/NVIDIA/Model-Optimizer/pull/2888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `quantization` `tests` `torch` `vllm` | \[1/2\] Reload versioned quantizer recipes in vLLM fake-quant serving |
 | 2026-10-22 | [17a96c25](https://github.com/NVIDIA/Model-Optimizer/commit/17a96c2567d8ce87413dd882d3bb362feefc453d) | [#2942](https://github.com/NVIDIA/Model-Optimizer/pull/2942) | [@younes-hourri](https://github.com/younes-hourri) | `core` `example` `infra` `tests` `torch` | Balance pipeline-parallel distillation in distill.py |
 | 2026-10-21 | [800d88aa](https://github.com/NVIDIA/Model-Optimizer/commit/800d88aa6e9a7bbb02d109a9dba6dd2295c4411b) | [#2610](https://github.com/NVIDIA/Model-Optimizer/pull/2610) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `tests` `torch` | megatron_bridge: load the HF model from local disk; Megatron export copies its non-model files |
@@ -360,4 +363,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 354 PRs**
+**Total: 357 PRs**

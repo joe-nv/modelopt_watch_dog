@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-10-23 | [659d3176](https://github.com/NVIDIA/Model-Optimizer/commit/659d317690d37f2d769f41daa33a80b805faf3d6) | [#2279](https://github.com/NVIDIA/Model-Optimizer/pull/2279) | [@h-guo18](https://github.com/h-guo18) | `speculative_decoding` `tests` `torch` | perf(speculative): speed up DFlash/DSpark drafter training 3.49x |
+| 2026-10-23 | [7c40a2e5](https://github.com/NVIDIA/Model-Optimizer/commit/7c40a2e54985bff7b4878e788a755be422ad3a99) | [#2688](https://github.com/NVIDIA/Model-Optimizer/pull/2688) | [@phicksy](https://github.com/phicksy) | `example` `infra` `speculative_decoding` `torch` | \[8/8\] Add an external-draft training runbook |
+| 2026-10-23 | [5383d1ab](https://github.com/NVIDIA/Model-Optimizer/commit/5383d1abca35bbca716e362d7fb4d617eae1d354) | [#2902](https://github.com/NVIDIA/Model-Optimizer/pull/2902) | [@sragrawal](https://github.com/sragrawal) | `export` `infra` `speculative_decoding` `tests` `torch` | Fix vanilla DSpark checkpoint exports for vLLM |
+| 2026-10-23 | [55003cc8](https://github.com/NVIDIA/Model-Optimizer/commit/55003cc81036efd66f196d1c4e052d895541e7b2) | [#2978](https://github.com/NVIDIA/Model-Optimizer/pull/2978) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `torch` | Drop orphan draft references from the external-draft learning-rate note |
 | 2026-10-21 | [754d3bc7](https://github.com/NVIDIA/Model-Optimizer/commit/754d3bc752d8846b0ee61a360e77ff7ce8b96fbc) | [#2910](https://github.com/NVIDIA/Model-Optimizer/pull/2910) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `distillation` `docs` `export` `infra` `nas` `onnx` `pruning` `speculative_decoding` `tests` `torch` | \[NVBug 6966551\] Fix spelling errors and duplicated words in docs and docstrings. |
 | 2026-10-20 | [d8abfb44](https://github.com/NVIDIA/Model-Optimizer/commit/d8abfb447dd110be5a9489a9eff3cee0cf1faa64) | [#2640](https://github.com/NVIDIA/Model-Optimizer/pull/2640) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `tests` `torch` | \[6/8\] Add a sparse teacher-policy dumper |
 | 2026-10-20 | [ff336e72](https://github.com/NVIDIA/Model-Optimizer/commit/ff336e72129f5b2bae47fb2e3ff35112f1bdbc8d) | [#2836](https://github.com/NVIDIA/Model-Optimizer/pull/2836) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | CI follow-up: cache source-built wheels and extensions, bump CI containers, trim slow GPU tests |
@@ -108,4 +111,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 102 PRs**
+**Total: 105 PRs**

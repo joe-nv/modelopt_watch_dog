@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-22 | [46dacc81](https://github.com/NVIDIA/Model-Optimizer/commit/46dacc81df4cfdb5f31e2c820cdea248a328c095) | [#2888](https://github.com/NVIDIA/Model-Optimizer/pull/2888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `quantization` `tests` `torch` `vllm` | \[1/2\] Reload versioned quantizer recipes in vLLM fake-quant serving |
 | 2026-10-17 | [f47cf6ba](https://github.com/NVIDIA/Model-Optimizer/commit/f47cf6ba104c29edf3ad288e367bf8c778fb39f6) | [#2729](https://github.com/NVIDIA/Model-Optimizer/pull/2729) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | Validate vLLM skip-softmax calibration with serving-path refinement |
 | 2026-10-14 | [7abb00b0](https://github.com/NVIDIA/Model-Optimizer/commit/7abb00b074306496ad91ce773151637f271cb90b) | [#2627](https://github.com/NVIDIA/Model-Optimizer/pull/2627) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `example` `export` `tests` `torch` `vllm` | \[2/5\] Export Megatron fakequant quantizer state and YAML |
@@ -40,4 +41,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 34 PRs**
+**Total: 35 PRs**
