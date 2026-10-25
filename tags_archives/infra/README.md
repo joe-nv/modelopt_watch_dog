@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-25 | [a1a018fc](https://github.com/NVIDIA/Model-Optimizer/commit/a1a018fcf5f0b8d5c68b2a9677c6a15a7846b4d4) | [#3004](https://github.com/NVIDIA/Model-Optimizer/pull/3004) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.48.0 (2026-10-25) |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
+| 2026-10-24 | [3c423a9f](https://github.com/NVIDIA/Model-Optimizer/commit/3c423a9f165b3744e38c5e1e9929b4f15081c413) | [#2816](https://github.com/NVIDIA/Model-Optimizer/pull/2816) | [@anmaurya001](https://github.com/anmaurya001) | `docs` `infra` `onnx` `tests` | Fix Windows ONNX external data corruption by upgrading ONNX |
 | 2026-10-23 | [4cb2f5d5](https://github.com/NVIDIA/Model-Optimizer/commit/4cb2f5d59138b137dcf3ae724bd06a78c6752ed1) | [#2467](https://github.com/NVIDIA/Model-Optimizer/pull/2467) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` | \[6034518\] Fix remote safety benchmark latency |
 | 2026-10-23 | [845dc9b1](https://github.com/NVIDIA/Model-Optimizer/commit/845dc9b16da08dd864c54a2f6d472bdda97224a0) | [#2950](https://github.com/NVIDIA/Model-Optimizer/pull/2950) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | \[OMNIML-6260\] Pin the hosted Linux runners to ubuntu-24.04 |
 | 2026-10-23 | [ace9fd96](https://github.com/NVIDIA/Model-Optimizer/commit/ace9fd96671695901a6347b3f0d3d24f071f71b6) | [#2912](https://github.com/NVIDIA/Model-Optimizer/pull/2912) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Megatron-Bridge distillation: packed chat-SFT data prep and per-document attention |
@@ -739,4 +741,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 733 PRs**
+**Total: 735 PRs**

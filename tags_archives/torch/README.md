@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-25 | [37888814](https://github.com/NVIDIA/Model-Optimizer/commit/378888145a223a03c99df4658449d92507da6177) | [#3005](https://github.com/NVIDIA/Model-Optimizer/pull/3005) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `export` `tests` `torch` | Quantize FP8 weights in float32 in the functional export |
 | 2026-10-24 | [0638a274](https://github.com/NVIDIA/Model-Optimizer/commit/0638a274cf195870564d8e3c164e4f859e5be2a2) | [#2738](https://github.com/NVIDIA/Model-Optimizer/pull/2738) | [@shengliangxu](https://github.com/shengliangxu) | `core` `quantization` `tests` `torch` | \[OMNIML-6059\] \[1/21\] Add the DP=EP all-to-all expert transport |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-23 | [c00ac438](https://github.com/NVIDIA/Model-Optimizer/commit/c00ac438331a6308e6cb40cf961935b7fcd09ea5) | [#2929](https://github.com/NVIDIA/Model-Optimizer/pull/2929) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `tests` `torch` | \[NVBug 6959002\]\[fix\] Supply image inputs for Wan I2V export fusion |
@@ -635,4 +636,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 629 PRs**
+**Total: 630 PRs**

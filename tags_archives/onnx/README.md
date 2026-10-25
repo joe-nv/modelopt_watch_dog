@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-24 | [3c423a9f](https://github.com/NVIDIA/Model-Optimizer/commit/3c423a9f165b3744e38c5e1e9929b4f15081c413) | [#2816](https://github.com/NVIDIA/Model-Optimizer/pull/2816) | [@anmaurya001](https://github.com/anmaurya001) | `docs` `infra` `onnx` `tests` | Fix Windows ONNX external data corruption by upgrading ONNX |
 | 2026-10-23 | [4cb2f5d5](https://github.com/NVIDIA/Model-Optimizer/commit/4cb2f5d59138b137dcf3ae724bd06a78c6752ed1) | [#2467](https://github.com/NVIDIA/Model-Optimizer/pull/2467) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` | \[6034518\] Fix remote safety benchmark latency |
 | 2026-10-21 | [11c2a851](https://github.com/NVIDIA/Model-Optimizer/commit/11c2a85160d8b3a84e16e45759a842ce4fb1f13b) | [#2849](https://github.com/NVIDIA/Model-Optimizer/pull/2849) | [@shengliangxu](https://github.com/shengliangxu) | `onnx` `quantization` `tests` | \[OMNIML-6179\] \[5/11\] Make the ONNX tests cheaper: CPU-only ones to the unit lane, small models |
 | 2026-10-21 | [754d3bc7](https://github.com/NVIDIA/Model-Optimizer/commit/754d3bc752d8846b0ee61a360e77ff7ce8b96fbc) | [#2910](https://github.com/NVIDIA/Model-Optimizer/pull/2910) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `distillation` `docs` `export` `infra` `nas` `onnx` `pruning` `speculative_decoding` `tests` `torch` | \[NVBug 6966551\] Fix spelling errors and duplicated words in docs and docstrings. |
@@ -129,4 +130,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 123 PRs**
+**Total: 124 PRs**

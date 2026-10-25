@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-10-25",
+    "commit": "a1a018fcf5f0b8d5c68b2a9677c6a15a7846b4d4",
+    "pr_number": 3004,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on release/0.48.0 (2026-10-25)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-25",
+    "commit": "378888145a223a03c99df4658449d92507da6177",
+    "pr_number": 3005,
+    "author": "kevalmorabia97",
+    "title": "Quantize FP8 weights in float32 in the functional export",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-24",
     "commit": "0638a274cf195870564d8e3c164e4f859e5be2a2",
     "pr_number": 2738,
@@ -28,6 +50,19 @@
       "tests",
       "torch",
       "vllm"
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "commit": "3c423a9f165b3744e38c5e1e9929b4f15081c413",
+    "pr_number": 2816,
+    "author": "anmaurya001",
+    "title": "Fix Windows ONNX external data corruption by upgrading ONNX",
+    "tags": [
+      "docs",
+      "infra",
+      "onnx",
+      "tests"
     ]
   },
   {

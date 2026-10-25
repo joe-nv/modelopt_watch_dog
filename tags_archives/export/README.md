@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-25 | [37888814](https://github.com/NVIDIA/Model-Optimizer/commit/378888145a223a03c99df4658449d92507da6177) | [#3005](https://github.com/NVIDIA/Model-Optimizer/pull/3005) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `export` `tests` `torch` | Quantize FP8 weights in float32 in the functional export |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-23 | [c00ac438](https://github.com/NVIDIA/Model-Optimizer/commit/c00ac438331a6308e6cb40cf961935b7fcd09ea5) | [#2929](https://github.com/NVIDIA/Model-Optimizer/pull/2929) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `tests` `torch` | \[NVBug 6959002\]\[fix\] Supply image inputs for Wan I2V export fusion |
 | 2026-10-23 | [5383d1ab](https://github.com/NVIDIA/Model-Optimizer/commit/5383d1abca35bbca716e362d7fb4d617eae1d354) | [#2902](https://github.com/NVIDIA/Model-Optimizer/pull/2902) | [@sragrawal](https://github.com/sragrawal) | `export` `infra` `speculative_decoding` `tests` `torch` | Fix vanilla DSpark checkpoint exports for vLLM |
@@ -214,4 +215,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 208 PRs**
+**Total: 209 PRs**

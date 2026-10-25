@@ -8,8 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-10-25 | [a1a018fc](https://github.com/NVIDIA/Model-Optimizer/commit/a1a018fcf5f0b8d5c68b2a9677c6a15a7846b4d4) | [#3004](https://github.com/NVIDIA/Model-Optimizer/pull/3004) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.48.0 (2026-10-25) |
+|  | 2026-10-25 | [37888814](https://github.com/NVIDIA/Model-Optimizer/commit/378888145a223a03c99df4658449d92507da6177) | [#3005](https://github.com/NVIDIA/Model-Optimizer/pull/3005) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `export` `tests` `torch` | Quantize FP8 weights in float32 in the functional export |
 |  | 2026-10-24 | [0638a274](https://github.com/NVIDIA/Model-Optimizer/commit/0638a274cf195870564d8e3c164e4f859e5be2a2) | [#2738](https://github.com/NVIDIA/Model-Optimizer/pull/2738) | [@shengliangxu](https://github.com/shengliangxu) | `core` `quantization` `tests` `torch` | \[OMNIML-6059\] \[1/21\] Add the DP=EP all-to-all expert transport |
 | 🔵 | **2026-10-24** | **[fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02)** | **[#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | **\[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge** |
+| 🟠 | **2026-10-24** | **[3c423a9f](https://github.com/NVIDIA/Model-Optimizer/commit/3c423a9f165b3744e38c5e1e9929b4f15081c413)** | **[#2816](https://github.com/NVIDIA/Model-Optimizer/pull/2816)** | **[@anmaurya001](https://github.com/anmaurya001)** | `docs` `infra` `onnx` `tests` | **Fix Windows ONNX external data corruption by upgrading ONNX** |
 |  | 2026-10-23 | [3a34d650](https://github.com/NVIDIA/Model-Optimizer/commit/3a34d65059073d166700185bb6277aa1a569694c) | [#2947](https://github.com/NVIDIA/Model-Optimizer/pull/2947) | [@shengliangxu](https://github.com/shengliangxu) | `tests` | \[OMNIML-6228\] Shrink the input of the conv/IsInf ONNX test model |
 |  | 2026-10-23 | [c00ac438](https://github.com/NVIDIA/Model-Optimizer/commit/c00ac438331a6308e6cb40cf961935b7fcd09ea5) | [#2929](https://github.com/NVIDIA/Model-Optimizer/pull/2929) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `tests` `torch` | \[NVBug 6959002\]\[fix\] Supply image inputs for Wan I2V export fusion |
 | 🟠 | **2026-10-23** | **[4cb2f5d5](https://github.com/NVIDIA/Model-Optimizer/commit/4cb2f5d59138b137dcf3ae724bd06a78c6752ed1)** | **[#2467](https://github.com/NVIDIA/Model-Optimizer/pull/2467)** | **[@ajrasane](https://github.com/ajrasane)** | `docs` `example` `infra` `onnx` `quantization` `tests` | **\[6034518\] Fix remote safety benchmark latency** |
@@ -151,4 +154,4 @@
 |  | 2026-10-01 | [f977c05d](https://github.com/NVIDIA/Model-Optimizer/commit/f977c05d40ed376eee0820acc38b170bb43fc271) | [#2508](https://github.com/NVIDIA/Model-Optimizer/pull/2508) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | Use HF converter.rename_source_key when available to reverse naming conversion |
 
 ---
-**Total: 141 PRs** | **Highlighted: 19**
+**Total: 144 PRs** | **Highlighted: 20**
