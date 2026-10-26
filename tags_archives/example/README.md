@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-26 | [c646f2ae](https://github.com/NVIDIA/Model-Optimizer/commit/c646f2ae5de0ff1ffc23d5289af1301253980979) | [#2899](https://github.com/NVIDIA/Model-Optimizer/pull/2899) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `torch` | docs(qwen3.6): isolation/loss-mask rerun, chat-SFT kernel correction, Omniscience calibration, announcement update |
+| 2026-10-26 | [a382b8eb](https://github.com/NVIDIA/Model-Optimizer/commit/a382b8ebf79eb750a19f842b4cb1766860c482a0) | [#2863](https://github.com/NVIDIA/Model-Optimizer/pull/2863) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | Address post-merge review of the chat JSONL blend and the Super VL QAD tutorial |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-23 | [4cb2f5d5](https://github.com/NVIDIA/Model-Optimizer/commit/4cb2f5d59138b137dcf3ae724bd06a78c6752ed1) | [#2467](https://github.com/NVIDIA/Model-Optimizer/pull/2467) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` | \[6034518\] Fix remote safety benchmark latency |
 | 2026-10-23 | [ace9fd96](https://github.com/NVIDIA/Model-Optimizer/commit/ace9fd96671695901a6347b3f0d3d24f071f71b6) | [#2912](https://github.com/NVIDIA/Model-Optimizer/pull/2912) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Megatron-Bridge distillation: packed chat-SFT data prep and per-document attention |
@@ -363,4 +365,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 357 PRs**
+**Total: 359 PRs**

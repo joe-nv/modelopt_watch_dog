@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-26 | [c646f2ae](https://github.com/NVIDIA/Model-Optimizer/commit/c646f2ae5de0ff1ffc23d5289af1301253980979) | [#2899](https://github.com/NVIDIA/Model-Optimizer/pull/2899) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `torch` | docs(qwen3.6): isolation/loss-mask rerun, chat-SFT kernel correction, Omniscience calibration, announcement update |
 | 2026-10-24 | [3c423a9f](https://github.com/NVIDIA/Model-Optimizer/commit/3c423a9f165b3744e38c5e1e9929b4f15081c413) | [#2816](https://github.com/NVIDIA/Model-Optimizer/pull/2816) | [@anmaurya001](https://github.com/anmaurya001) | `docs` `infra` `onnx` `tests` | Fix Windows ONNX external data corruption by upgrading ONNX |
 | 2026-10-23 | [4cb2f5d5](https://github.com/NVIDIA/Model-Optimizer/commit/4cb2f5d59138b137dcf3ae724bd06a78c6752ed1) | [#2467](https://github.com/NVIDIA/Model-Optimizer/pull/2467) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` | \[6034518\] Fix remote safety benchmark latency |
 | 2026-10-23 | [f29bb605](https://github.com/NVIDIA/Model-Optimizer/commit/f29bb605548b0be7bdc17cdc2155292afcc5a949) | [#2864](https://github.com/NVIDIA/Model-Optimizer/pull/2864) | [@cjluo-nv](https://github.com/cjluo-nv) | `docs` `infra` `quantization` `tests` `torch` | \[2/3\] Speed up layerwise GPTQ on MoE models |
@@ -84,4 +85,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 78 PRs**
+**Total: 79 PRs**

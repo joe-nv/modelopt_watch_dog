@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-26",
+    "commit": "c646f2ae5de0ff1ffc23d5289af1301253980979",
+    "pr_number": 2899,
+    "author": "kevalmorabia97",
+    "title": "docs(qwen3.6): isolation/loss-mask rerun, chat-SFT kernel correction, Omniscience calibration, announcement update",
+    "tags": [
+      "core",
+      "docs",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "commit": "a382b8ebf79eb750a19f842b4cb1766860c482a0",
+    "pr_number": 2863,
+    "author": "yueshen2016",
+    "title": "Address post-merge review of the chat JSONL blend and the Super VL QAD tutorial",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-25",
     "commit": "a1a018fcf5f0b8d5c68b2a9677c6a15a7846b4d4",
     "pr_number": 3004,
