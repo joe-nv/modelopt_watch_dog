@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
 | 2026-10-26 | [c646f2ae](https://github.com/NVIDIA/Model-Optimizer/commit/c646f2ae5de0ff1ffc23d5289af1301253980979) | [#2899](https://github.com/NVIDIA/Model-Optimizer/pull/2899) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `torch` | docs(qwen3.6): isolation/loss-mask rerun, chat-SFT kernel correction, Omniscience calibration, announcement update |
 | 2026-10-26 | [a382b8eb](https://github.com/NVIDIA/Model-Optimizer/commit/a382b8ebf79eb750a19f842b4cb1766860c482a0) | [#2863](https://github.com/NVIDIA/Model-Optimizer/pull/2863) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | Address post-merge review of the chat JSONL blend and the Super VL QAD tutorial |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
@@ -365,4 +366,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 359 PRs**
+**Total: 360 PRs**

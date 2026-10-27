@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
 | 2026-10-23 | [cb3aba63](https://github.com/NVIDIA/Model-Optimizer/commit/cb3aba63aa30720486e72d14f75e02cd88be96f0) | [#2972](https://github.com/NVIDIA/Model-Optimizer/pull/2972) | [@yingguo-trt](https://github.com/yingguo-trt) | `diffusers` `example` `torch` | \[NVBug 6981670\]\[docs\] Fix Cache Diffusion prepare calls |
 | 2026-10-06 | [9ceca982](https://github.com/NVIDIA/Model-Optimizer/commit/9ceca982a68c5fa27ef58015de764adf4b9d1ac1) | [#2329](https://github.com/NVIDIA/Model-Optimizer/pull/2329) | [@mxinO](https://github.com/mxinO) | `diffusers` `example` `infra` `tests` `torch` | Add Parallel Decoding Distillation to FastGen |
 | 2026-09-18 | [cf1f48fa](https://github.com/NVIDIA/Model-Optimizer/commit/cf1f48fa0f7a10684c6f981930e93a6e9eb34225) | [#2336](https://github.com/NVIDIA/Model-Optimizer/pull/2336) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5565357\] Fix SDXL NVFP4 export and performance |
@@ -41,4 +42,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 35 PRs**
+**Total: 36 PRs**

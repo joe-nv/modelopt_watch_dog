@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-27 | [aed61b7d](https://github.com/NVIDIA/Model-Optimizer/commit/aed61b7de16ea225c08bf04d6776cc26961d2a8d) | [#2345](https://github.com/NVIDIA/Model-Optimizer/pull/2345) | [@darkdi](https://github.com/darkdi) | `infra` `tests` | Fix selected layers being skipped by post-init sparsity |
+| 2026-10-27 | [bcefd5bb](https://github.com/NVIDIA/Model-Optimizer/commit/bcefd5bbcff64a1e457842db13bda37cbd2d2758) | [#2583](https://github.com/NVIDIA/Model-Optimizer/pull/2583) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(onnx): move a negative DequantizeLinear axis when transposing the weight |
+| 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
+| 2026-10-27 | [35922f17](https://github.com/NVIDIA/Model-Optimizer/commit/35922f17912f7b02a635ec62f8edbecbad5d12c2) | [#3020](https://github.com/NVIDIA/Model-Optimizer/pull/3020) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | fix(speculative): pin and hash-verify the Kimi-K2 remote modeling code |
 | 2026-10-26 | [a382b8eb](https://github.com/NVIDIA/Model-Optimizer/commit/a382b8ebf79eb750a19f842b4cb1766860c482a0) | [#2863](https://github.com/NVIDIA/Model-Optimizer/pull/2863) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | Address post-merge review of the chat JSONL blend and the Super VL QAD tutorial |
 | 2026-10-25 | [a1a018fc](https://github.com/NVIDIA/Model-Optimizer/commit/a1a018fcf5f0b8d5c68b2a9677c6a15a7846b4d4) | [#3004](https://github.com/NVIDIA/Model-Optimizer/pull/3004) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.48.0 (2026-10-25) |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
@@ -742,4 +746,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 736 PRs**
+**Total: 740 PRs**

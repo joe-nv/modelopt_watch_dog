@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
+| 2026-10-27 | [35922f17](https://github.com/NVIDIA/Model-Optimizer/commit/35922f17912f7b02a635ec62f8edbecbad5d12c2) | [#3020](https://github.com/NVIDIA/Model-Optimizer/pull/3020) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | fix(speculative): pin and hash-verify the Kimi-K2 remote modeling code |
 | 2026-10-23 | [659d3176](https://github.com/NVIDIA/Model-Optimizer/commit/659d317690d37f2d769f41daa33a80b805faf3d6) | [#2279](https://github.com/NVIDIA/Model-Optimizer/pull/2279) | [@h-guo18](https://github.com/h-guo18) | `speculative_decoding` `tests` `torch` | perf(speculative): speed up DFlash/DSpark drafter training 3.49x |
 | 2026-10-23 | [7c40a2e5](https://github.com/NVIDIA/Model-Optimizer/commit/7c40a2e54985bff7b4878e788a755be422ad3a99) | [#2688](https://github.com/NVIDIA/Model-Optimizer/pull/2688) | [@phicksy](https://github.com/phicksy) | `example` `infra` `speculative_decoding` `torch` | \[8/8\] Add an external-draft training runbook |
 | 2026-10-23 | [5383d1ab](https://github.com/NVIDIA/Model-Optimizer/commit/5383d1abca35bbca716e362d7fb4d617eae1d354) | [#2902](https://github.com/NVIDIA/Model-Optimizer/pull/2902) | [@sragrawal](https://github.com/sragrawal) | `export` `infra` `speculative_decoding` `tests` `torch` | Fix vanilla DSpark checkpoint exports for vLLM |
@@ -111,4 +113,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 105 PRs**
+**Total: 107 PRs**

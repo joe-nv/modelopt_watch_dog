@@ -5,25 +5,25 @@ Click a tag to see its full history.
 
 | Tag | Description | PRs |
 |-----|-------------|:---:|
-| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 217 |
+| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 218 |
 | [`deploy`](deploy/) | modelopt.deploy - deployment tools, serving, vLLM, TensorRT-LLM integration | 57 |
-| [`diffusers`](diffusers/) | diffusion model optimization (Stable Diffusion, FLUX, etc.) | 35 |
-| [`distillation`](distillation/) | knowledge distillation, teacher-student training | 31 |
-| [`docs`](docs/) | documentation, guides, API reference | 79 |
-| [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 98 |
-| [`example`](example/) | example scripts and notebooks | 359 |
-| [`experimental`](experimental/) | experimental features, research prototypes | 8 |
-| [`export`](export/) | model export, torch-to-ONNX conversion | 209 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 736 |
+| [`diffusers`](diffusers/) | diffusion model optimization (Stable Diffusion, FLUX, etc.) | 36 |
+| [`distillation`](distillation/) | knowledge distillation, teacher-student training | 32 |
+| [`docs`](docs/) | documentation, guides, API reference | 80 |
+| [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 99 |
+| [`example`](example/) | example scripts and notebooks | 360 |
+| [`experimental`](experimental/) | experimental features, research prototypes | 9 |
+| [`export`](export/) | model export, torch-to-ONNX conversion | 211 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 740 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 24 |
-| [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 124 |
+| [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 126 |
 | [`peft`](peft/) | parameter-efficient fine-tuning, LoRA, adapters | 1 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 39 |
-| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 364 |
+| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 365 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 53 |
-| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 105 |
-| [`tests`](tests/) | test infrastructure, test utilities | 598 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 632 |
+| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 107 |
+| [`tests`](tests/) | test infrastructure, test utilities | 603 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 635 |
 | [`vllm`](vllm/) | vLLM serving and integration | 35 |
 | [`vlm`](vlm/) | vision-language model optimization | 6 |
-| [`windows`](windows/) | Windows platform-specific code and examples | 21 |
+| [`windows`](windows/) | Windows platform-specific code and examples | 22 |

@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-10-27",
+    "commit": "55605ec44ec47c39ded5820f63698dbdf926dd48",
+    "pr_number": 2825,
+    "author": "cjluo-nv",
+    "title": "[NVBug 6779760] Test NVFP4 export of CPU-offloaded models",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "commit": "aed61b7de16ea225c08bf04d6776cc26961d2a8d",
+    "pr_number": 2345,
+    "author": "darkdi",
+    "title": "Fix selected layers being skipped by post-init sparsity",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "commit": "bcefd5bbcff64a1e457842db13bda37cbd2d2758",
+    "pr_number": 2583,
+    "author": "SID-6921",
+    "title": "fix(onnx): move a negative DequantizeLinear axis when transposing the weight",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "commit": "1c40150d459e4817e43c9fe3db75f3b6e3a24417",
+    "pr_number": 3007,
+    "author": "kevalmorabia97",
+    "title": "[OMNIML-5802] Drop Python 3.10 support and adopt Python 3.11+ features",
+    "tags": [
+      "core",
+      "diffusers",
+      "distillation",
+      "docs",
+      "eval",
+      "example",
+      "experimental",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "commit": "35922f17912f7b02a635ec62f8edbecbad5d12c2",
+    "pr_number": 3020,
+    "author": "h-guo18",
+    "title": "fix(speculative): pin and hash-verify the Kimi-K2 remote modeling code",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-26",
     "commit": "c646f2ae5de0ff1ffc23d5289af1301253980979",
     "pr_number": 2899,

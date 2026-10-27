@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-27 | [55605ec4](https://github.com/NVIDIA/Model-Optimizer/commit/55605ec44ec47c39ded5820f63698dbdf926dd48) | [#2825](https://github.com/NVIDIA/Model-Optimizer/pull/2825) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `tests` `torch` | \[NVBug 6779760\] Test NVFP4 export of CPU-offloaded models |
+| 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
+| 2026-10-27 | [35922f17](https://github.com/NVIDIA/Model-Optimizer/commit/35922f17912f7b02a635ec62f8edbecbad5d12c2) | [#3020](https://github.com/NVIDIA/Model-Optimizer/pull/3020) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | fix(speculative): pin and hash-verify the Kimi-K2 remote modeling code |
 | 2026-10-26 | [c646f2ae](https://github.com/NVIDIA/Model-Optimizer/commit/c646f2ae5de0ff1ffc23d5289af1301253980979) | [#2899](https://github.com/NVIDIA/Model-Optimizer/pull/2899) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `torch` | docs(qwen3.6): isolation/loss-mask rerun, chat-SFT kernel correction, Omniscience calibration, announcement update |
 | 2026-10-26 | [a382b8eb](https://github.com/NVIDIA/Model-Optimizer/commit/a382b8ebf79eb750a19f842b4cb1766860c482a0) | [#2863](https://github.com/NVIDIA/Model-Optimizer/pull/2863) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | Address post-merge review of the chat JSONL blend and the Super VL QAD tutorial |
 | 2026-10-25 | [37888814](https://github.com/NVIDIA/Model-Optimizer/commit/378888145a223a03c99df4658449d92507da6177) | [#3005](https://github.com/NVIDIA/Model-Optimizer/pull/3005) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `export` `tests` `torch` | Quantize FP8 weights in float32 in the functional export |
@@ -638,4 +641,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 632 PRs**
+**Total: 635 PRs**

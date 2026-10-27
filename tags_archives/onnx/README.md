@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-27 | [bcefd5bb](https://github.com/NVIDIA/Model-Optimizer/commit/bcefd5bbcff64a1e457842db13bda37cbd2d2758) | [#2583](https://github.com/NVIDIA/Model-Optimizer/pull/2583) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(onnx): move a negative DequantizeLinear axis when transposing the weight |
+| 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
 | 2026-10-24 | [3c423a9f](https://github.com/NVIDIA/Model-Optimizer/commit/3c423a9f165b3744e38c5e1e9929b4f15081c413) | [#2816](https://github.com/NVIDIA/Model-Optimizer/pull/2816) | [@anmaurya001](https://github.com/anmaurya001) | `docs` `infra` `onnx` `tests` | Fix Windows ONNX external data corruption by upgrading ONNX |
 | 2026-10-23 | [4cb2f5d5](https://github.com/NVIDIA/Model-Optimizer/commit/4cb2f5d59138b137dcf3ae724bd06a78c6752ed1) | [#2467](https://github.com/NVIDIA/Model-Optimizer/pull/2467) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `infra` `onnx` `quantization` `tests` | \[6034518\] Fix remote safety benchmark latency |
 | 2026-10-21 | [11c2a851](https://github.com/NVIDIA/Model-Optimizer/commit/11c2a85160d8b3a84e16e45759a842ce4fb1f13b) | [#2849](https://github.com/NVIDIA/Model-Optimizer/pull/2849) | [@shengliangxu](https://github.com/shengliangxu) | `onnx` `quantization` `tests` | \[OMNIML-6179\] \[5/11\] Make the ONNX tests cheaper: CPU-only ones to the unit lane, small models |
@@ -130,4 +132,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 124 PRs**
+**Total: 126 PRs**
