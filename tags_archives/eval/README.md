@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-28 | [d3b0d75e](https://github.com/NVIDIA/Model-Optimizer/commit/d3b0d75e1e7d8ee0b95951f1c2e5534b6c0f6f91) | [#3063](https://github.com/NVIDIA/Model-Optimizer/pull/3063) | [@sbhendigeri](https://github.com/sbhendigeri) | `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `tests` `torch` `windows` | Fix SonarQube findings: Puzzletron MoE init TypeError, FVD unsafe pickle, mutable defaults |
 | 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
 | 2026-09-08 | [58eafdf1](https://github.com/NVIDIA/Model-Optimizer/commit/58eafdf172a6cbda4853947763cd36e54f80bd50) | [#2358](https://github.com/NVIDIA/Model-Optimizer/pull/2358) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `torch` | Fix the llm_eval README commands that no longer run as written |
 | 2026-09-08 | [19de0075](https://github.com/NVIDIA/Model-Optimizer/commit/19de0075cb5897f37b69d46947be40cf66fe1075) | [#2300](https://github.com/NVIDIA/Model-Optimizer/pull/2300) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Forward kv_cache_free_gpu_memory_fraction to the lm_eval TensorRT-LLM engine (NVBug 6701763) |
@@ -105,4 +106,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 99 PRs**
+**Total: 100 PRs**

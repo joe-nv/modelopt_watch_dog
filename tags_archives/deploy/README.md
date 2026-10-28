@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
+| 2026-10-28 | [d3b0d75e](https://github.com/NVIDIA/Model-Optimizer/commit/d3b0d75e1e7d8ee0b95951f1c2e5534b6c0f6f91) | [#3063](https://github.com/NVIDIA/Model-Optimizer/pull/3063) | [@sbhendigeri](https://github.com/sbhendigeri) | `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `tests` `torch` `windows` | Fix SonarQube findings: Puzzletron MoE init TypeError, FVD unsafe pickle, mutable defaults |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-22 | [46dacc81](https://github.com/NVIDIA/Model-Optimizer/commit/46dacc81df4cfdb5f31e2c820cdea248a328c095) | [#2888](https://github.com/NVIDIA/Model-Optimizer/pull/2888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `quantization` `tests` `torch` `vllm` | \[1/2\] Reload versioned quantizer recipes in vLLM fake-quant serving |
 | 2026-10-20 | [ff336e72](https://github.com/NVIDIA/Model-Optimizer/commit/ff336e72129f5b2bae47fb2e3ff35112f1bdbc8d) | [#2836](https://github.com/NVIDIA/Model-Optimizer/pull/2836) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | CI follow-up: cache source-built wheels and extensions, bump CI containers, trim slow GPU tests |
@@ -63,4 +65,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 57 PRs**
+**Total: 59 PRs**

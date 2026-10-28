@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
+| 2026-10-28 | [d3b0d75e](https://github.com/NVIDIA/Model-Optimizer/commit/d3b0d75e1e7d8ee0b95951f1c2e5534b6c0f6f91) | [#3063](https://github.com/NVIDIA/Model-Optimizer/pull/3063) | [@sbhendigeri](https://github.com/sbhendigeri) | `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `tests` `torch` `windows` | Fix SonarQube findings: Puzzletron MoE init TypeError, FVD unsafe pickle, mutable defaults |
 | 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
@@ -28,4 +30,4 @@
 | 2026-01-25 | [5cc2a545](https://github.com/NVIDIA/Model-Optimizer/commit/5cc2a5451984ba0f1225153c7df68746313118f5) | [#762](https://github.com/NVIDIA/Model-Optimizer/pull/762) | [@ynankani](https://github.com/ynankani) | `example` `onnx` `quantization` `windows` | Ynankani/update windows benchmark md |
 
 ---
-**Total: 22 PRs**
+**Total: 24 PRs**
