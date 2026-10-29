@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-29 | [4bf3d000](https://github.com/NVIDIA/Model-Optimizer/commit/4bf3d0005e26e7cf796d03f9e4fbd19abc73ce08) | [#3092](https://github.com/NVIDIA/Model-Optimizer/pull/3092) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `example` `export` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump diffusers to \>=0.37 and other \[hf\] floors; drop older-version code paths |
 | 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
 | 2026-10-28 | [d3b0d75e](https://github.com/NVIDIA/Model-Optimizer/commit/d3b0d75e1e7d8ee0b95951f1c2e5534b6c0f6f91) | [#3063](https://github.com/NVIDIA/Model-Optimizer/pull/3063) | [@sbhendigeri](https://github.com/sbhendigeri) | `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `tests` `torch` `windows` | Fix SonarQube findings: Puzzletron MoE init TypeError, FVD unsafe pickle, mutable defaults |
 | 2026-10-28 | [b6b0ff52](https://github.com/NVIDIA/Model-Optimizer/commit/b6b0ff5249109729c515cdc739a50d518e9cbec0) | [#3034](https://github.com/NVIDIA/Model-Optimizer/pull/3034) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `quantization` `tests` `torch` | Add a fake-quantized weight cache for QAT and QAD |
@@ -369,4 +370,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 363 PRs**
+**Total: 364 PRs**
