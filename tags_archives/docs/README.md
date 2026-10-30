@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-29 | [cfd4ace1](https://github.com/NVIDIA/Model-Optimizer/commit/cfd4ace121cc520f7b26324f00c44e3f43f9c87a) | [#3093](https://github.com/NVIDIA/Model-Optimizer/pull/3093) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `docs` `example` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | Drop version checks for long-unsupported dependency releases |
 | 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
 | 2026-10-28 | [25947a73](https://github.com/NVIDIA/Model-Optimizer/commit/25947a738cf929832d1508b5e86bba6da5ac6197) | [#2915](https://github.com/NVIDIA/Model-Optimizer/pull/2915) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `infra` | docs: GLM-5.3-Flash at 2-3 bits per expert weight: IQ2_S PTQ recipes and QAD |
 | 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
@@ -88,4 +89,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 82 PRs**
+**Total: 83 PRs**

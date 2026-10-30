@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-29 | [cfd4ace1](https://github.com/NVIDIA/Model-Optimizer/commit/cfd4ace121cc520f7b26324f00c44e3f43f9c87a) | [#3093](https://github.com/NVIDIA/Model-Optimizer/pull/3093) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `docs` `example` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | Drop version checks for long-unsupported dependency releases |
 | 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
 | 2026-10-28 | [d3b0d75e](https://github.com/NVIDIA/Model-Optimizer/commit/d3b0d75e1e7d8ee0b95951f1c2e5534b6c0f6f91) | [#3063](https://github.com/NVIDIA/Model-Optimizer/pull/3063) | [@sbhendigeri](https://github.com/sbhendigeri) | `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `tests` `torch` `windows` | Fix SonarQube findings: Puzzletron MoE init TypeError, FVD unsafe pickle, mutable defaults |
 | 2026-10-27 | [bcefd5bb](https://github.com/NVIDIA/Model-Optimizer/commit/bcefd5bbcff64a1e457842db13bda37cbd2d2758) | [#2583](https://github.com/NVIDIA/Model-Optimizer/pull/2583) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(onnx): move a negative DequantizeLinear axis when transposing the weight |
@@ -134,4 +135,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 128 PRs**
+**Total: 129 PRs**

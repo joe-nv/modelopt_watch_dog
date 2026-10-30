@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-29 | [cfd4ace1](https://github.com/NVIDIA/Model-Optimizer/commit/cfd4ace121cc520f7b26324f00c44e3f43f9c87a) | [#3093](https://github.com/NVIDIA/Model-Optimizer/pull/3093) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `docs` `example` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | Drop version checks for long-unsupported dependency releases |
 | 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
 | 2026-10-24 | [fb3ccd0e](https://github.com/NVIDIA/Model-Optimizer/commit/fb3ccd0e65bcf983ad69a37c8ac8600604690f02) | [#2889](https://github.com/NVIDIA/Model-Optimizer/pull/2889) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | \[2/2\] Export vLLM fake-quant checkpoints through Megatron-Bridge |
 | 2026-10-22 | [46dacc81](https://github.com/NVIDIA/Model-Optimizer/commit/46dacc81df4cfdb5f31e2c820cdea248a328c095) | [#2888](https://github.com/NVIDIA/Model-Optimizer/pull/2888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `quantization` `tests` `torch` `vllm` | \[1/2\] Reload versioned quantizer recipes in vLLM fake-quant serving |
@@ -42,4 +43,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 36 PRs**
+**Total: 37 PRs**
