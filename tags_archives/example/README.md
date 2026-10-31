@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-30 | [584a80c2](https://github.com/NVIDIA/Model-Optimizer/commit/584a80c246f70d476b4230faae55db16f1c987ff) | [#3104](https://github.com/NVIDIA/Model-Optimizer/pull/3104) | [@sychen52](https://github.com/sychen52) | `core` `example` `infra` `quantization` `tests` `torch` | Skip long-lived objects in the per-step gc.collect() of QAT and QAD |
 | 2026-10-29 | [4bf3d000](https://github.com/NVIDIA/Model-Optimizer/commit/4bf3d0005e26e7cf796d03f9e4fbd19abc73ce08) | [#3092](https://github.com/NVIDIA/Model-Optimizer/pull/3092) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `example` `export` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump diffusers to \>=0.37 and other \[hf\] floors; drop older-version code paths |
 | 2026-10-29 | [cfd4ace1](https://github.com/NVIDIA/Model-Optimizer/commit/cfd4ace121cc520f7b26324f00c44e3f43f9c87a) | [#3093](https://github.com/NVIDIA/Model-Optimizer/pull/3093) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `docs` `example` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | Drop version checks for long-unsupported dependency releases |
 | 2026-10-29 | [41d315cf](https://github.com/NVIDIA/Model-Optimizer/commit/41d315cfe3cf491673bbc5a3b0d74e206ed1dd4a) | [#3108](https://github.com/NVIDIA/Model-Optimizer/pull/3108) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump dev dependencies and pre-commit hooks |
@@ -372,4 +373,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 366 PRs**
+**Total: 367 PRs**

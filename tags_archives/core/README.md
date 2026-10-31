@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-30 | [2f14b947](https://github.com/NVIDIA/Model-Optimizer/commit/2f14b94767ea33d201e4a5c4edbaa69e477569e4) | [#3124](https://github.com/NVIDIA/Model-Optimizer/pull/3124) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `quantization` `tests` `torch` | Keep GatedDeltaNet beta / alpha gates unquantized in Megatron fake quant |
+| 2026-10-30 | [88db1d66](https://github.com/NVIDIA/Model-Optimizer/commit/88db1d66f14b74c7f2d2382426f4c1637281bb72) | [#3131](https://github.com/NVIDIA/Model-Optimizer/pull/3131) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6060\] \[1/3\] Add require_transformers, and build a VLM without its LM head |
+| 2026-10-30 | [584a80c2](https://github.com/NVIDIA/Model-Optimizer/commit/584a80c246f70d476b4230faae55db16f1c987ff) | [#3104](https://github.com/NVIDIA/Model-Optimizer/pull/3104) | [@sychen52](https://github.com/sychen52) | `core` `example` `infra` `quantization` `tests` `torch` | Skip long-lived objects in the per-step gc.collect() of QAT and QAD |
+| 2026-10-30 | [d464d30b](https://github.com/NVIDIA/Model-Optimizer/commit/d464d30b120254151309c217a8410adde6ee1c45) | [#3074](https://github.com/NVIDIA/Model-Optimizer/pull/3074) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6073\] \[2/2\] Calibrate fused experts on grouped_mm and torch_a2a instead of forcing eager |
 | 2026-10-29 | [4bf3d000](https://github.com/NVIDIA/Model-Optimizer/commit/4bf3d0005e26e7cf796d03f9e4fbd19abc73ce08) | [#3092](https://github.com/NVIDIA/Model-Optimizer/pull/3092) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `example` `export` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump diffusers to \>=0.37 and other \[hf\] floors; drop older-version code paths |
 | 2026-10-29 | [41d315cf](https://github.com/NVIDIA/Model-Optimizer/commit/41d315cfe3cf491673bbc5a3b0d74e206ed1dd4a) | [#3108](https://github.com/NVIDIA/Model-Optimizer/pull/3108) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump dev dependencies and pre-commit hooks |
 | 2026-10-29 | [4bef8527](https://github.com/NVIDIA/Model-Optimizer/commit/4bef85279e4d79d8f4e449c3d82de22a7ca0f5b3) | [#3101](https://github.com/NVIDIA/Model-Optimizer/pull/3101) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `tests` `torch` | \[OMNIML-6082\] \[2/3\] Move each tensor of a sharded model whole to one owner rank |
@@ -232,4 +236,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 226 PRs**
+**Total: 230 PRs**

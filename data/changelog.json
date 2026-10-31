@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-10-31",
+    "commit": "df9798b6a08549fca0073b624ef46f3bfe162ae4",
+    "pr_number": 3002,
+    "author": "cjluo-nv",
+    "title": "Run fused-MoE expert GPTQ updates on all of this process's GPUs",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "commit": "2bb126f698c2d9ff87c59df6d8e1e2afe7931f3b",
+    "pr_number": 3044,
+    "author": "cjluo-nv",
+    "title": "Collect imatrix statistics with one fused float32 reduction",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "commit": "e352caca3c36236fc15adea2627a9d42788380c4",
+    "pr_number": 3156,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6273] Let the Claude review bot submit its review again",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-10-30",
     "commit": "99c3834f62c7184bdc389b08c2118166d33489a3",
     "pr_number": 2750,
@@ -40,6 +74,146 @@
     "author": "cjluo-nv",
     "title": "Skip Qwen3.8's QSA indexer loop during calibration when it keeps every token",
     "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "563636e5ab993ad37c72b222f17b877e1ea6e609",
+    "pr_number": 2757,
+    "author": "h-guo18",
+    "title": "refactor(speculative): one home each for the DFlash family's shared rules",
+    "tags": [
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "55898ee4e3b1a5b04f0c54dbc8874e18bb2cb97b",
+    "pr_number": 3122,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6073] [1/2] Calibrate and fold expert-parallel fused experts on each rank's own experts",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "2f14b94767ea33d201e4a5c4edbaa69e477569e4",
+    "pr_number": 3124,
+    "author": "kevalmorabia97",
+    "title": "Keep GatedDeltaNet beta / alpha gates unquantized in Megatron fake quant",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "88db1d66f14b74c7f2d2382426f4c1637281bb72",
+    "pr_number": 3131,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6060] [1/3] Add require_transformers, and build a VLM without its LM head",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "62a5c48f3744601b74c8b801562b7fa72385d681",
+    "pr_number": 2751,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6082] [3/3] Write a sharded model's HF checkpoint shards from each tensor's owner rank",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "584a80c246f70d476b4230faae55db16f1c987ff",
+    "pr_number": 3104,
+    "author": "sychen52",
+    "title": "Skip long-lived objects in the per-step gc.collect() of QAT and QAD",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "7bc60bd012d77aaf3d078fb9b83e3142c5c98b13",
+    "pr_number": 3128,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6081] Fix the FSDP2 export of W4A8 (SequentialQuantizer) models, and refuse compressing them",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "ff964eb00c205194dc88fdee45dfb6b0651b1a67",
+    "pr_number": 3134,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6076] [1/3] Describe expert parallelism in the model specs",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "059588b89a5d206bac7bfc4b560b095faa206879",
+    "pr_number": 3149,
+    "author": "ChenhanYu",
+    "title": "ci: establish a shared review baseline and adopt it in Claude reviews",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "56c048c3992a1e76478803e6b9a3716d847f6c91",
+    "pr_number": 3121,
+    "author": "mxinO",
+    "title": "fix(export): support stateless constant KV scales in functional capture",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "commit": "d464d30b120254151309c217a8410adde6ee1c45",
+    "pr_number": 3074,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6073] [2/2] Calibrate fused experts on grouped_mm and torch_a2a instead of forcing eager",
+    "tags": [
+      "core",
       "infra",
       "quantization",
       "tests",
