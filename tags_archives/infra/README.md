@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-01 | [d48a5450](https://github.com/NVIDIA/Model-Optimizer/commit/d48a5450d70e7ec4d9ea22bc6ce4d403fef37a12) | [#1986](https://github.com/NVIDIA/Model-Optimizer/pull/1986) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | Track launcher jobs in MLflow and prepare required assets |
 | 2026-10-31 | [e352caca](https://github.com/NVIDIA/Model-Optimizer/commit/e352caca3c36236fc15adea2627a9d42788380c4) | [#3156](https://github.com/NVIDIA/Model-Optimizer/pull/3156) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | \[OMNIML-6273\] Let the Claude review bot submit its review again |
 | 2026-10-30 | [1ec85c45](https://github.com/NVIDIA/Model-Optimizer/commit/1ec85c4598da03a06e6feb97fc2657c1f84757a2) | [#3130](https://github.com/NVIDIA/Model-Optimizer/pull/3130) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | \[OMNIML-6063\] \[1/3\] Stage and keep patched a checkpoint's own modeling code |
 | 2026-10-30 | [7168107c](https://github.com/NVIDIA/Model-Optimizer/commit/7168107c08c29b3d7da8a5722ce07c6f73bcc46e) | [#3132](https://github.com/NVIDIA/Model-Optimizer/pull/3132) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | \[OMNIML-6079\] \[1/2\] Fix Kimi-K3's own modeling code for current transformers and fla-core |
@@ -772,4 +773,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 766 PRs**
+**Total: 767 PRs**

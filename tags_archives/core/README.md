@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-01 | [51645db6](https://github.com/NVIDIA/Model-Optimizer/commit/51645db66dc363b0f8df3f72b1d4373a27ae7273) | [#3140](https://github.com/NVIDIA/Model-Optimizer/pull/3140) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6054\] \[1/2\] Move fsdp2_wrap out of distributed.py into fsdp2_utils |
 | 2026-10-30 | [2f14b947](https://github.com/NVIDIA/Model-Optimizer/commit/2f14b94767ea33d201e4a5c4edbaa69e477569e4) | [#3124](https://github.com/NVIDIA/Model-Optimizer/pull/3124) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `quantization` `tests` `torch` | Keep GatedDeltaNet beta / alpha gates unquantized in Megatron fake quant |
 | 2026-10-30 | [88db1d66](https://github.com/NVIDIA/Model-Optimizer/commit/88db1d66f14b74c7f2d2382426f4c1637281bb72) | [#3131](https://github.com/NVIDIA/Model-Optimizer/pull/3131) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6060\] \[1/3\] Add require_transformers, and build a VLM without its LM head |
 | 2026-10-30 | [584a80c2](https://github.com/NVIDIA/Model-Optimizer/commit/584a80c246f70d476b4230faae55db16f1c987ff) | [#3104](https://github.com/NVIDIA/Model-Optimizer/pull/3104) | [@sychen52](https://github.com/sychen52) | `core` `example` `infra` `quantization` `tests` `torch` | Skip long-lived objects in the per-step gc.collect() of QAT and QAD |
@@ -236,4 +237,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 230 PRs**
+**Total: 231 PRs**

@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-11-02",
+    "commit": "509acae921bad5bcb6a1fb96a8cc5ceb4fb3f6b2",
+    "pr_number": 3098,
+    "author": "kinjalpatel27",
+    "title": "Document vLLM fakequant layer and backend support",
+    "tags": [
+      "deploy",
+      "example",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "commit": "51645db66dc363b0f8df3f72b1d4373a27ae7273",
+    "pr_number": 3140,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6054] [1/2] Move fsdp2_wrap out of distributed.py into fsdp2_utils",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "commit": "d48a5450d70e7ec4d9ea22bc6ce4d403fef37a12",
+    "pr_number": 1986,
+    "author": "ChenhanYu",
+    "title": "Track launcher jobs in MLflow and prepare required assets",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-10-31",
     "commit": "df9798b6a08549fca0073b624ef46f3bfe162ae4",
     "pr_number": 3002,

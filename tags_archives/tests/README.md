@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-01 | [51645db6](https://github.com/NVIDIA/Model-Optimizer/commit/51645db66dc363b0f8df3f72b1d4373a27ae7273) | [#3140](https://github.com/NVIDIA/Model-Optimizer/pull/3140) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6054\] \[1/2\] Move fsdp2_wrap out of distributed.py into fsdp2_utils |
 | 2026-10-31 | [df9798b6](https://github.com/NVIDIA/Model-Optimizer/commit/df9798b6a08549fca0073b624ef46f3bfe162ae4) | [#3002](https://github.com/NVIDIA/Model-Optimizer/pull/3002) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | Run fused-MoE expert GPTQ updates on all of this process's GPUs |
 | 2026-10-31 | [2bb126f6](https://github.com/NVIDIA/Model-Optimizer/commit/2bb126f698c2d9ff87c59df6d8e1e2afe7931f3b) | [#3044](https://github.com/NVIDIA/Model-Optimizer/pull/3044) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | Collect imatrix statistics with one fused float32 reduction |
 | 2026-10-30 | [99c3834f](https://github.com/NVIDIA/Model-Optimizer/commit/99c3834f62c7184bdc389b08c2118166d33489a3) | [#2750](https://github.com/NVIDIA/Model-Optimizer/pull/2750) | [@shengliangxu](https://github.com/shengliangxu) | `export` `tests` `torch` | \[OMNIML-6081\] \[2/2\] Fold fused experts' quantizers into their weights shard-locally |
@@ -643,4 +644,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 637 PRs**
+**Total: 638 PRs**
