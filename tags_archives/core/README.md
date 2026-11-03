@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-03 | [4319255b](https://github.com/NVIDIA/Model-Optimizer/commit/4319255bd2f52285c7fef856d5449e7be6ae9681) | [#3177](https://github.com/NVIDIA/Model-Optimizer/pull/3177) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Make the megatron tests run on 4-GPU nodes |
+| 2026-11-03 | [db6700df](https://github.com/NVIDIA/Model-Optimizer/commit/db6700df2c5c037144299b0befb8af6d387fe474) | [#3125](https://github.com/NVIDIA/Model-Optimizer/pull/3125) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Test Nemotron-H and Qwen3.5-VL bridge export with full NVFP4 |
+| 2026-11-03 | [7d442467](https://github.com/NVIDIA/Model-Optimizer/commit/7d442467504cdae155812baf15242628d96971b5) | [#2780](https://github.com/NVIDIA/Model-Optimizer/pull/2780) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | \[OMNIML-6060\] Load an expert-parallel plan through load_pretrained, and apply the model spec when deciding and loading it |
 | 2026-11-01 | [51645db6](https://github.com/NVIDIA/Model-Optimizer/commit/51645db66dc363b0f8df3f72b1d4373a27ae7273) | [#3140](https://github.com/NVIDIA/Model-Optimizer/pull/3140) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6054\] \[1/2\] Move fsdp2_wrap out of distributed.py into fsdp2_utils |
 | 2026-10-30 | [2f14b947](https://github.com/NVIDIA/Model-Optimizer/commit/2f14b94767ea33d201e4a5c4edbaa69e477569e4) | [#3124](https://github.com/NVIDIA/Model-Optimizer/pull/3124) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `quantization` `tests` `torch` | Keep GatedDeltaNet beta / alpha gates unquantized in Megatron fake quant |
 | 2026-10-30 | [88db1d66](https://github.com/NVIDIA/Model-Optimizer/commit/88db1d66f14b74c7f2d2382426f4c1637281bb72) | [#3131](https://github.com/NVIDIA/Model-Optimizer/pull/3131) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6060\] \[1/3\] Add require_transformers, and build a VLM without its LM head |
@@ -237,4 +240,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 231 PRs**
+**Total: 234 PRs**

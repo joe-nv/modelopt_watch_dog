@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
 | 2026-10-29 | [4bf3d000](https://github.com/NVIDIA/Model-Optimizer/commit/4bf3d0005e26e7cf796d03f9e4fbd19abc73ce08) | [#3092](https://github.com/NVIDIA/Model-Optimizer/pull/3092) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `example` `export` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump diffusers to \>=0.37 and other \[hf\] floors; drop older-version code paths |
 | 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
 | 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
@@ -44,4 +45,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 38 PRs**
+**Total: 39 PRs**

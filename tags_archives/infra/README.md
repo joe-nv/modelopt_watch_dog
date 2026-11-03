@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
+| 2026-11-03 | [7d442467](https://github.com/NVIDIA/Model-Optimizer/commit/7d442467504cdae155812baf15242628d96971b5) | [#2780](https://github.com/NVIDIA/Model-Optimizer/pull/2780) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | \[OMNIML-6060\] Load an expert-parallel plan through load_pretrained, and apply the model spec when deciding and loading it |
+| 2026-11-03 | [472ecb39](https://github.com/NVIDIA/Model-Optimizer/commit/472ecb39ad498a6b0d818583d5b1dc483a708abf) | [#3179](https://github.com/NVIDIA/Model-Optimizer/pull/3179) | [@yingguo-trt](https://github.com/yingguo-trt) | `infra` `quantization` `tests` `torch` | \[NVBug 7035880\] Apply the calibrated bias in NVFP4 affine KV fake quantization |
 | 2026-11-01 | [d48a5450](https://github.com/NVIDIA/Model-Optimizer/commit/d48a5450d70e7ec4d9ea22bc6ce4d403fef37a12) | [#1986](https://github.com/NVIDIA/Model-Optimizer/pull/1986) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | Track launcher jobs in MLflow and prepare required assets |
 | 2026-10-31 | [e352caca](https://github.com/NVIDIA/Model-Optimizer/commit/e352caca3c36236fc15adea2627a9d42788380c4) | [#3156](https://github.com/NVIDIA/Model-Optimizer/pull/3156) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | \[OMNIML-6273\] Let the Claude review bot submit its review again |
 | 2026-10-30 | [1ec85c45](https://github.com/NVIDIA/Model-Optimizer/commit/1ec85c4598da03a06e6feb97fc2657c1f84757a2) | [#3130](https://github.com/NVIDIA/Model-Optimizer/pull/3130) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | \[OMNIML-6063\] \[1/3\] Stage and keep patched a checkpoint's own modeling code |
@@ -773,4 +776,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 767 PRs**
+**Total: 770 PRs**

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
+| 2026-11-03 | [472ecb39](https://github.com/NVIDIA/Model-Optimizer/commit/472ecb39ad498a6b0d818583d5b1dc483a708abf) | [#3179](https://github.com/NVIDIA/Model-Optimizer/pull/3179) | [@yingguo-trt](https://github.com/yingguo-trt) | `infra` `quantization` `tests` `torch` | \[NVBug 7035880\] Apply the calibrated bias in NVFP4 affine KV fake quantization |
 | 2026-10-31 | [df9798b6](https://github.com/NVIDIA/Model-Optimizer/commit/df9798b6a08549fca0073b624ef46f3bfe162ae4) | [#3002](https://github.com/NVIDIA/Model-Optimizer/pull/3002) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | Run fused-MoE expert GPTQ updates on all of this process's GPUs |
 | 2026-10-31 | [2bb126f6](https://github.com/NVIDIA/Model-Optimizer/commit/2bb126f698c2d9ff87c59df6d8e1e2afe7931f3b) | [#3044](https://github.com/NVIDIA/Model-Optimizer/pull/3044) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | Collect imatrix statistics with one fused float32 reduction |
 | 2026-10-30 | [cb9ab4de](https://github.com/NVIDIA/Model-Optimizer/commit/cb9ab4de0698bfdf701cad4924093867b790eb17) | [#3008](https://github.com/NVIDIA/Model-Optimizer/pull/3008) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Skip Qwen3.8's QSA indexer loop during calibration when it keeps every token |
@@ -391,4 +393,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 385 PRs**
+**Total: 387 PRs**

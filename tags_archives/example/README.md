@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
 | 2026-11-02 | [509acae9](https://github.com/NVIDIA/Model-Optimizer/commit/509acae921bad5bcb6a1fb96a8cc5ceb4fb3f6b2) | [#3098](https://github.com/NVIDIA/Model-Optimizer/pull/3098) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` | Document vLLM fakequant layer and backend support |
 | 2026-10-30 | [584a80c2](https://github.com/NVIDIA/Model-Optimizer/commit/584a80c246f70d476b4230faae55db16f1c987ff) | [#3104](https://github.com/NVIDIA/Model-Optimizer/pull/3104) | [@sychen52](https://github.com/sychen52) | `core` `example` `infra` `quantization` `tests` `torch` | Skip long-lived objects in the per-step gc.collect() of QAT and QAD |
 | 2026-10-29 | [4bf3d000](https://github.com/NVIDIA/Model-Optimizer/commit/4bf3d0005e26e7cf796d03f9e4fbd19abc73ce08) | [#3092](https://github.com/NVIDIA/Model-Optimizer/pull/3092) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `example` `export` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump diffusers to \>=0.37 and other \[hf\] floors; drop older-version code paths |
@@ -374,4 +375,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 368 PRs**
+**Total: 369 PRs**
