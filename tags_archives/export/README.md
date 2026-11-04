@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
+| 2026-11-03 | [58706989](https://github.com/NVIDIA/Model-Optimizer/commit/5870698930cd28f3ab6aa05dea96a07f3ffb7822) | [#3137](https://github.com/NVIDIA/Model-Optimizer/pull/3137) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `tests` `torch` | \[OMNIML-6063\] \[2/2\] Decompress compressed-tensors MoE experts as they load, expert-parallel loads included |
+| 2026-11-03 | [2cc54d5f](https://github.com/NVIDIA/Model-Optimizer/commit/2cc54d5ff9f50052bffbe710c47f9559063119a7) | [#2539](https://github.com/NVIDIA/Model-Optimizer/pull/2539) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `tests` `torch` | \[3/3\] Add GLM-5.3-Flash support to Megatron-Bridge PTQ and HF export |
+| 2026-11-03 | [3968c370](https://github.com/NVIDIA/Model-Optimizer/commit/3968c37051d010c21e19f28fb5f7a77685d289eb) | [#3127](https://github.com/NVIDIA/Model-Optimizer/pull/3127) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `tests` `torch` | Support text only calibration of vision-language models in the FSDP2 PTQ flow |
 | 2026-10-30 | [99c3834f](https://github.com/NVIDIA/Model-Optimizer/commit/99c3834f62c7184bdc389b08c2118166d33489a3) | [#2750](https://github.com/NVIDIA/Model-Optimizer/pull/2750) | [@shengliangxu](https://github.com/shengliangxu) | `export` `tests` `torch` | \[OMNIML-6081\] \[2/2\] Fold fused experts' quantizers into their weights shard-locally |
 | 2026-10-30 | [2f14b947](https://github.com/NVIDIA/Model-Optimizer/commit/2f14b94767ea33d201e4a5c4edbaa69e477569e4) | [#3124](https://github.com/NVIDIA/Model-Optimizer/pull/3124) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `quantization` `tests` `torch` | Keep GatedDeltaNet beta / alpha gates unquantized in Megatron fake quant |
 | 2026-10-30 | [62a5c48f](https://github.com/NVIDIA/Model-Optimizer/commit/62a5c48f3744601b74c8b801562b7fa72385d681) | [#2751](https://github.com/NVIDIA/Model-Optimizer/pull/2751) | [@shengliangxu](https://github.com/shengliangxu) | `export` `tests` `torch` | \[OMNIML-6082\] \[3/3\] Write a sharded model's HF checkpoint shards from each tensor's owner rank |
@@ -232,4 +235,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 226 PRs**
+**Total: 229 PRs**

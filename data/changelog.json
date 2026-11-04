@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-04",
+    "commit": "344f8c0a5c0d38e2f89a9e09e094e3d9810f4ef1",
+    "pr_number": 3180,
+    "author": "yingguo-trt",
+    "title": "[NVBug 7029942] Fix Triton NVFP4 fake quantization ignoring the configured block size",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "commit": "e47c2538cdbf6cbc1ab758bc4909450caae17d29",
+    "pr_number": 3138,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6078] Add the Kimi-VL and Kimi-K2.5 expert-parallel adapters",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "commit": "e481d487570a1ad13092d88be900ba8d985ce850",
+    "pr_number": 3086,
+    "author": "talorabr",
+    "title": "Update SPEED-Bench v1.1 preparation script",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-03",
     "commit": "8d19f74d1321f0686b99ca994d362ff706791070",
     "pr_number": 3013,
@@ -61,6 +100,147 @@
     "pr_number": 3179,
     "author": "yingguo-trt",
     "title": "[NVBug 7035880] Apply the calibrated bias in NVFP4 affine KV fake quantization",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "bd2e9d163e834ca191e86faa21f92bc9b638cb6a",
+    "pr_number": 3174,
+    "author": "cjluo-nv",
+    "title": "[NVBug 6938145] Keep HF_TOKEN off argv and use a private temp dir in the MRCR gym recipe",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "5870698930cd28f3ab6aa05dea96a07f3ffb7822",
+    "pr_number": 3137,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6063] [2/2] Decompress compressed-tensors MoE experts as they load, expert-parallel loads included",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "b002695e7d4ccd94ae95162550c3ee6ca02e0827",
+    "pr_number": 2742,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6061] Load the dense part sharded, and size the load warmup to each rank",
+    "tags": [
+      "core",
+      "docs",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "2cc54d5ff9f50052bffbe710c47f9559063119a7",
+    "pr_number": 2539,
+    "author": "kevalmorabia97",
+    "title": "[3/3] Add GLM-5.3-Flash support to Megatron-Bridge PTQ and HF export",
+    "tags": [
+      "core",
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "f949b81ecee6ff4f536dff24d32c073a7e72ca33",
+    "pr_number": 2741,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6060] [3/3] Refuse an expert-parallel load that would calibrate the experts wrong",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "cc4b76d74625b42cca1967118628b25ed326a3d1",
+    "pr_number": 3199,
+    "author": "kevalmorabia97",
+    "title": "Sync Megatron-Core TELinear quantizer ranges over Megatron's parallel groups",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "a7cbbdf9a20b3e1af37e249c385fb562032d998c",
+    "pr_number": 2743,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6062] Dequantize block-FP8 checkpoints as they load expert-parallel",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "3968c37051d010c21e19f28fb5f7a77685d289eb",
+    "pr_number": 3127,
+    "author": "sugunav14",
+    "title": "Support text only calibration of vision-language models in the FSDP2 PTQ flow",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "1947e4220e59f73d927493e359e24408545baa43",
+    "pr_number": 3198,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6061] Keep the expert-parallel GPU test's routing clear of near-ties",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "aa46d91fe312ba4dde9498f91db810cf08d98010",
+    "pr_number": 3161,
+    "author": "cjluo-nv",
+    "title": "Spread GPTQ updates of sequential-MoE expert linears over this process's GPUs",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "commit": "ba053c3f4cac1f22e0b4cd23ef99f3c954e1d01f",
+    "pr_number": 3204,
+    "author": "cjluo-nv",
+    "title": "Take IQ1_S block scales from the PyTorch predictor, as the other IQ formats do",
     "tags": [
       "infra",
       "quantization",
