@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-06 | [77ef4879](https://github.com/NVIDIA/Model-Optimizer/commit/77ef48794f0f3082ffdb136b65538d876d1f4e29) | [#3213](https://github.com/NVIDIA/Model-Optimizer/pull/3213) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `infra` `tests` `torch` | \[NVBug 7031438\] Make GPTQ layerwise checkpointing opt-in so multi-GPU runs work |
+| 2026-11-05 | [7cb24aa4](https://github.com/NVIDIA/Model-Optimizer/commit/7cb24aa44eecaf84adc7e9b2fed21db84f2372d0) | [#3233](https://github.com/NVIDIA/Model-Optimizer/pull/3233) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #3219 #2666 #2547 #2718 |
+| 2026-11-05 | [9dca7390](https://github.com/NVIDIA/Model-Optimizer/commit/9dca7390228db796c7795d17380498e4233652b7) | [#3216](https://github.com/NVIDIA/Model-Optimizer/pull/3216) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | Share calibration ranges of DeepSeek-V4 and HF-named Megatron projections that deployments fuse |
+| 2026-11-05 | [219b34a7](https://github.com/NVIDIA/Model-Optimizer/commit/219b34a713c1a930ef225454a62a42a4af2a3b2c) | [#3197](https://github.com/NVIDIA/Model-Optimizer/pull/3197) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Keep the IQ scales and importance GPTQ chose, so QAD starts from GPTQ's codes |
 | 2026-11-04 | [e47c2538](https://github.com/NVIDIA/Model-Optimizer/commit/e47c2538cdbf6cbc1ab758bc4909450caae17d29) | [#3138](https://github.com/NVIDIA/Model-Optimizer/pull/3138) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-6078\] Add the Kimi-VL and Kimi-K2.5 expert-parallel adapters |
 | 2026-11-03 | [4319255b](https://github.com/NVIDIA/Model-Optimizer/commit/4319255bd2f52285c7fef856d5449e7be6ae9681) | [#3177](https://github.com/NVIDIA/Model-Optimizer/pull/3177) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Make the megatron tests run on 4-GPU nodes |
 | 2026-11-03 | [db6700df](https://github.com/NVIDIA/Model-Optimizer/commit/db6700df2c5c037144299b0befb8af6d387fe474) | [#3125](https://github.com/NVIDIA/Model-Optimizer/pull/3125) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Test Nemotron-H and Qwen3.5-VL bridge export with full NVFP4 |
@@ -248,4 +252,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 242 PRs**
+**Total: 246 PRs**

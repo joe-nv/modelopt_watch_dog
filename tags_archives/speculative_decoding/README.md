@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-06 | [09a14b9a](https://github.com/NVIDIA/Model-Optimizer/commit/09a14b9ae89522363ffca9b0ac2245cbbb073fdd) | [#3230](https://github.com/NVIDIA/Model-Optimizer/pull/3230) | [@sragrawal](https://github.com/sragrawal) | `speculative_decoding` `tests` `torch` | Fix EAGLE TTT attention-mask reuse across sequence lengths |
+| 2026-11-05 | [7cb24aa4](https://github.com/NVIDIA/Model-Optimizer/commit/7cb24aa44eecaf84adc7e9b2fed21db84f2372d0) | [#3233](https://github.com/NVIDIA/Model-Optimizer/pull/3233) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #3219 #2666 #2547 #2718 |
+| 2026-11-05 | [3bf72ad5](https://github.com/NVIDIA/Model-Optimizer/commit/3bf72ad598e428b9562c127a893c43873edb2805) | [#3001](https://github.com/NVIDIA/Model-Optimizer/pull/3001) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/4\] perf(speculative): deliver training batches out of order; compile + FlexAttention in the DFlash2 recipe |
+| 2026-11-05 | [a29629b2](https://github.com/NVIDIA/Model-Optimizer/commit/a29629b28f9d41de709d3610097fd326ffd20d16) | [#3229](https://github.com/NVIDIA/Model-Optimizer/pull/3229) | [@sragrawal](https://github.com/sragrawal) | `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE gradient scaling during accumulation |
+| 2026-11-05 | [bc00ef30](https://github.com/NVIDIA/Model-Optimizer/commit/bc00ef3043103a32881f4f792d4828994eec546e) | [#2632](https://github.com/NVIDIA/Model-Optimizer/pull/2632) | [@ConstBob](https://github.com/ConstBob) | `example` `speculative_decoding` `torch` | Add Cosmos3 Edge DFlash training recipe |
 | 2026-11-04 | [e481d487](https://github.com/NVIDIA/Model-Optimizer/commit/e481d487570a1ad13092d88be900ba8d985ce850) | [#3086](https://github.com/NVIDIA/Model-Optimizer/pull/3086) | [@talorabr](https://github.com/talorabr) | `example` `infra` `speculative_decoding` `torch` | Update SPEED-Bench v1.1 preparation script |
 | 2026-10-30 | [563636e5](https://github.com/NVIDIA/Model-Optimizer/commit/563636e5ab993ad37c72b222f17b877e1ea6e609) | [#2757](https://github.com/NVIDIA/Model-Optimizer/pull/2757) | [@h-guo18](https://github.com/h-guo18) | `speculative_decoding` `tests` `torch` | refactor(speculative): one home each for the DFlash family's shared rules |
 | 2026-10-29 | [4bf3d000](https://github.com/NVIDIA/Model-Optimizer/commit/4bf3d0005e26e7cf796d03f9e4fbd19abc73ce08) | [#3092](https://github.com/NVIDIA/Model-Optimizer/pull/3092) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `example` `export` `infra` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Bump diffusers to \>=0.37 and other \[hf\] floors; drop older-version code paths |
@@ -119,4 +124,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 113 PRs**
+**Total: 118 PRs**

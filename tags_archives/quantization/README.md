@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-06 | [58ea3f7b](https://github.com/NVIDIA/Model-Optimizer/commit/58ea3f7bc598ed1ec7205ac2d6d32fb72931982d) | [#3154](https://github.com/NVIDIA/Model-Optimizer/pull/3154) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[1/5\] Isolate weight-rewriting AutoQuantize candidates from the source weights |
+| 2026-11-05 | [9dca7390](https://github.com/NVIDIA/Model-Optimizer/commit/9dca7390228db796c7795d17380498e4233652b7) | [#3216](https://github.com/NVIDIA/Model-Optimizer/pull/3216) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | Share calibration ranges of DeepSeek-V4 and HF-named Megatron projections that deployments fuse |
+| 2026-11-05 | [219b34a7](https://github.com/NVIDIA/Model-Optimizer/commit/219b34a713c1a930ef225454a62a42a4af2a3b2c) | [#3197](https://github.com/NVIDIA/Model-Optimizer/pull/3197) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Keep the IQ scales and importance GPTQ chose, so QAD starts from GPTQ's codes |
 | 2026-11-04 | [344f8c0a](https://github.com/NVIDIA/Model-Optimizer/commit/344f8c0a5c0d38e2f89a9e09e094e3d9810f4ef1) | [#3180](https://github.com/NVIDIA/Model-Optimizer/pull/3180) | [@yingguo-trt](https://github.com/yingguo-trt) | `infra` `quantization` `tests` `torch` | \[NVBug 7029942\] Fix Triton NVFP4 fake quantization ignoring the configured block size |
 | 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
 | 2026-11-03 | [472ecb39](https://github.com/NVIDIA/Model-Optimizer/commit/472ecb39ad498a6b0d818583d5b1dc483a708abf) | [#3179](https://github.com/NVIDIA/Model-Optimizer/pull/3179) | [@yingguo-trt](https://github.com/yingguo-trt) | `infra` `quantization` `tests` `torch` | \[NVBug 7035880\] Apply the calibrated bias in NVFP4 affine KV fake quantization |
@@ -398,4 +401,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 392 PRs**
+**Total: 395 PRs**

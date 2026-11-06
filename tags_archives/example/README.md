@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-05 | [7cb24aa4](https://github.com/NVIDIA/Model-Optimizer/commit/7cb24aa44eecaf84adc7e9b2fed21db84f2372d0) | [#3233](https://github.com/NVIDIA/Model-Optimizer/pull/3233) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #3219 #2666 #2547 #2718 |
+| 2026-11-05 | [3bf72ad5](https://github.com/NVIDIA/Model-Optimizer/commit/3bf72ad598e428b9562c127a893c43873edb2805) | [#3001](https://github.com/NVIDIA/Model-Optimizer/pull/3001) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/4\] perf(speculative): deliver training batches out of order; compile + FlexAttention in the DFlash2 recipe |
+| 2026-11-05 | [bc00ef30](https://github.com/NVIDIA/Model-Optimizer/commit/bc00ef3043103a32881f4f792d4828994eec546e) | [#2632](https://github.com/NVIDIA/Model-Optimizer/pull/2632) | [@ConstBob](https://github.com/ConstBob) | `example` `speculative_decoding` `torch` | Add Cosmos3 Edge DFlash training recipe |
 | 2026-11-04 | [e481d487](https://github.com/NVIDIA/Model-Optimizer/commit/e481d487570a1ad13092d88be900ba8d985ce850) | [#3086](https://github.com/NVIDIA/Model-Optimizer/pull/3086) | [@talorabr](https://github.com/talorabr) | `example` `infra` `speculative_decoding` `torch` | Update SPEED-Bench v1.1 preparation script |
 | 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
 | 2026-11-03 | [2cc54d5f](https://github.com/NVIDIA/Model-Optimizer/commit/2cc54d5ff9f50052bffbe710c47f9559063119a7) | [#2539](https://github.com/NVIDIA/Model-Optimizer/pull/2539) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `tests` `torch` | \[3/3\] Add GLM-5.3-Flash support to Megatron-Bridge PTQ and HF export |
@@ -377,4 +380,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 371 PRs**
+**Total: 374 PRs**

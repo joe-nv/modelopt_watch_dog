@@ -1,5 +1,159 @@
 [
   {
+    "date": "2026-11-06",
+    "commit": "58ea3f7bc598ed1ec7205ac2d6d32fb72931982d",
+    "pr_number": 3154,
+    "author": "meenchen",
+    "title": "[OMNIML-6370] [1/5] Isolate weight-rewriting AutoQuantize candidates from the source weights",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "commit": "77ef48794f0f3082ffdb136b65538d876d1f4e29",
+    "pr_number": 3213,
+    "author": "noeyy-mino",
+    "title": "[NVBug 7031438] Make GPTQ layerwise checkpointing opt-in so multi-GPU runs work",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "commit": "09a14b9ae89522363ffca9b0ac2245cbbb073fdd",
+    "pr_number": 3230,
+    "author": "sragrawal",
+    "title": "Fix EAGLE TTT attention-mask reuse across sequence lengths",
+    "tags": [
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "commit": "732f7d6335eb4d5ec87e4bfb3af96359483ded36",
+    "pr_number": 3237,
+    "author": "chadvoegele",
+    "title": "docs: exclude incorrect model code from runtime failures",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "7cb24aa44eecaf84adc7e9b2fed21db84f2372d0",
+    "pr_number": 3233,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #3219 #2666 #2547 #2718",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "3bf72ad598e428b9562c127a893c43873edb2805",
+    "pr_number": 3001,
+    "author": "h-guo18",
+    "title": "[2/4] perf(speculative): deliver training batches out of order; compile + FlexAttention in the DFlash2 recipe",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "52becc2080fe38b417194649f6168646874bff62",
+    "pr_number": 3221,
+    "author": "kevalmorabia97",
+    "title": "Pack weight-only MXFP4 weights in the functional export API",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "a29629b28f9d41de709d3610097fd326ffd20d16",
+    "pr_number": 3229,
+    "author": "sragrawal",
+    "title": "Fix EAGLE gradient scaling during accumulation",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "9dca7390228db796c7795d17380498e4233652b7",
+    "pr_number": 3216,
+    "author": "kevalmorabia97",
+    "title": "Share calibration ranges of DeepSeek-V4 and HF-named Megatron projections that deployments fuse",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "c0f99ad4f8eb7add82344bb710dd2cc44daab714",
+    "pr_number": 3165,
+    "author": "dependabot[bot]",
+    "title": "Bump the github-actions group across 2 directories with 4 updates",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "219b34a713c1a930ef225454a62a42a4af2a3b2c",
+    "pr_number": 3197,
+    "author": "cjluo-nv",
+    "title": "Keep the IQ scales and importance GPTQ chose, so QAD starts from GPTQ's codes",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "commit": "bc00ef3043103a32881f4f792d4828994eec546e",
+    "pr_number": 2632,
+    "author": "ConstBob",
+    "title": "Add Cosmos3 Edge DFlash training recipe",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-04",
     "commit": "344f8c0a5c0d38e2f89a9e09e094e3d9810f4ef1",
     "pr_number": 3180,
