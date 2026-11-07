@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-07 | [86bd9b78](https://github.com/NVIDIA/Model-Optimizer/commit/86bd9b78425a23a45b329c7c9b86ea772d7a9e77) | [#3235](https://github.com/NVIDIA/Model-Optimizer/pull/3235) | [@sragrawal](https://github.com/sragrawal) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix gradient accumulation in EAGLE, Medusa and external drafts |
 | 2026-11-06 | [09a14b9a](https://github.com/NVIDIA/Model-Optimizer/commit/09a14b9ae89522363ffca9b0ac2245cbbb073fdd) | [#3230](https://github.com/NVIDIA/Model-Optimizer/pull/3230) | [@sragrawal](https://github.com/sragrawal) | `speculative_decoding` `tests` `torch` | Fix EAGLE TTT attention-mask reuse across sequence lengths |
 | 2026-11-05 | [7cb24aa4](https://github.com/NVIDIA/Model-Optimizer/commit/7cb24aa44eecaf84adc7e9b2fed21db84f2372d0) | [#3233](https://github.com/NVIDIA/Model-Optimizer/pull/3233) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #3219 #2666 #2547 #2718 |
 | 2026-11-05 | [3bf72ad5](https://github.com/NVIDIA/Model-Optimizer/commit/3bf72ad598e428b9562c127a893c43873edb2805) | [#3001](https://github.com/NVIDIA/Model-Optimizer/pull/3001) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/4\] perf(speculative): deliver training batches out of order; compile + FlexAttention in the DFlash2 recipe |
@@ -124,4 +125,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 118 PRs**
+**Total: 119 PRs**

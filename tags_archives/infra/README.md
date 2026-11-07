@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-07 | [86bd9b78](https://github.com/NVIDIA/Model-Optimizer/commit/86bd9b78425a23a45b329c7c9b86ea772d7a9e77) | [#3235](https://github.com/NVIDIA/Model-Optimizer/pull/3235) | [@sragrawal](https://github.com/sragrawal) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix gradient accumulation in EAGLE, Medusa and external drafts |
 | 2026-11-06 | [58ea3f7b](https://github.com/NVIDIA/Model-Optimizer/commit/58ea3f7bc598ed1ec7205ac2d6d32fb72931982d) | [#3154](https://github.com/NVIDIA/Model-Optimizer/pull/3154) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[1/5\] Isolate weight-rewriting AutoQuantize candidates from the source weights |
 | 2026-11-06 | [77ef4879](https://github.com/NVIDIA/Model-Optimizer/commit/77ef48794f0f3082ffdb136b65538d876d1f4e29) | [#3213](https://github.com/NVIDIA/Model-Optimizer/pull/3213) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `infra` `tests` `torch` | \[NVBug 7031438\] Make GPTQ layerwise checkpointing opt-in so multi-GPU runs work |
 | 2026-11-06 | [732f7d63](https://github.com/NVIDIA/Model-Optimizer/commit/732f7d6335eb4d5ec87e4bfb3af96359483ded36) | [#3237](https://github.com/NVIDIA/Model-Optimizer/pull/3237) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | docs: exclude incorrect model code from runtime failures |
@@ -795,4 +796,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 789 PRs**
+**Total: 790 PRs**

@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-07",
+    "commit": "86bd9b78425a23a45b329c7c9b86ea772d7a9e77",
+    "pr_number": 3235,
+    "author": "sragrawal",
+    "title": "Fix gradient accumulation in EAGLE, Medusa and external drafts",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-06",
     "commit": "58ea3f7bc598ed1ec7205ac2d6d32fb72931982d",
     "pr_number": 3154,
