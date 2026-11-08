@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-08",
+    "commit": "d16cc688adeaddc84ec220be5dbe5354f88ab3c0",
+    "pr_number": 3214,
+    "author": "talorabr",
+    "title": "Uniform layer sample hidden states mixing in Eagle training",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-07",
     "commit": "86bd9b78425a23a45b329c7c9b86ea772d7a9e77",
     "pr_number": 3235,
