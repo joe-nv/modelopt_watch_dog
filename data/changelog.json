@@ -1,5 +1,99 @@
 [
   {
+    "date": "2026-11-10",
+    "commit": "6713c5a679fab80fdd9b688df01845f545c307b1",
+    "pr_number": 3273,
+    "author": "cjluo-nv",
+    "title": "Finish a moved GGML GPTQ update's writes to the weight's GPU before returning",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "commit": "64cb6ed78e518439bd2d4c1bd7b4da99e361534a",
+    "pr_number": 3247,
+    "author": "yingguo-trt",
+    "title": "[NVBug 6927434] Fix the Wan VAE Hugging Face export declaring NVFP4 for unquantized Conv3d weights",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "commit": "bbfb0027d7f0e00af436d8e339b8bca85f39af90",
+    "pr_number": 3265,
+    "author": "yingguo-trt",
+    "title": "[NVBug 6934719] Fix the diffusers Hugging Face export declaring static input scales for uncalibrated layers",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "commit": "84f5afc4bd50244a1abf2c74dfb23066ac609879",
+    "pr_number": 3209,
+    "author": "cjluo-nv",
+    "title": "[3/4] Let GPTQ pick GGML IQ local scales by its compensated block Hessian",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "commit": "90ff1a26fe9d3aaa9e9fb780bf49b1d3405d5b37",
+    "pr_number": 3223,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6429] [1/2] Move the speculative-draft check and the TRT-LLM enc-dec list into library modules",
+    "tags": [
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "commit": "55979033f00d334babc4a98eb6a136885ad24841",
+    "pr_number": 3224,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6429] [2/2] Move hf_ptq's per-model loading, preview and calibration rules into the model registry",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "commit": "914e9abcb4b3be4b943b68a66db07776a73817b7",
+    "pr_number": 3218,
+    "author": "cjluo-nv",
+    "title": "[4/4] Run the local-Hessian choice search as one CUDA kernel",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-08",
     "commit": "d16cc688adeaddc84ec220be5dbe5354f88ab3c0",
     "pr_number": 3214,

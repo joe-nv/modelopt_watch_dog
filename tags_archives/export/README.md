@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-09 | [64cb6ed7](https://github.com/NVIDIA/Model-Optimizer/commit/64cb6ed78e518439bd2d4c1bd7b4da99e361534a) | [#3247](https://github.com/NVIDIA/Model-Optimizer/pull/3247) | [@yingguo-trt](https://github.com/yingguo-trt) | `diffusers` `example` `export` `infra` `quantization` `tests` `torch` | \[NVBug 6927434\] Fix the Wan VAE Hugging Face export declaring NVFP4 for unquantized Conv3d weights |
+| 2026-11-09 | [bbfb0027](https://github.com/NVIDIA/Model-Optimizer/commit/bbfb0027d7f0e00af436d8e339b8bca85f39af90) | [#3265](https://github.com/NVIDIA/Model-Optimizer/pull/3265) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `infra` `tests` `torch` | \[NVBug 6934719\] Fix the diffusers Hugging Face export declaring static input scales for uncalibrated layers |
+| 2026-11-09 | [90ff1a26](https://github.com/NVIDIA/Model-Optimizer/commit/90ff1a26fe9d3aaa9e9fb780bf49b1d3405d5b37) | [#3223](https://github.com/NVIDIA/Model-Optimizer/pull/3223) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `speculative_decoding` `tests` `torch` | \[OMNIML-6429\] \[1/2\] Move the speculative-draft check and the TRT-LLM enc-dec list into library modules |
+| 2026-11-09 | [55979033](https://github.com/NVIDIA/Model-Optimizer/commit/55979033f00d334babc4a98eb6a136885ad24841) | [#3224](https://github.com/NVIDIA/Model-Optimizer/pull/3224) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `tests` `torch` | \[OMNIML-6429\] \[2/2\] Move hf_ptq's per-model loading, preview and calibration rules into the model registry |
 | 2026-11-05 | [52becc20](https://github.com/NVIDIA/Model-Optimizer/commit/52becc2080fe38b417194649f6168646874bff62) | [#3221](https://github.com/NVIDIA/Model-Optimizer/pull/3221) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `export` `infra` `tests` `torch` | Pack weight-only MXFP4 weights in the functional export API |
 | 2026-11-05 | [219b34a7](https://github.com/NVIDIA/Model-Optimizer/commit/219b34a713c1a930ef225454a62a42a4af2a3b2c) | [#3197](https://github.com/NVIDIA/Model-Optimizer/pull/3197) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Keep the IQ scales and importance GPTQ chose, so QAD starts from GPTQ's codes |
 | 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
@@ -237,4 +241,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 231 PRs**
+**Total: 235 PRs**

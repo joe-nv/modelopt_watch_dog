@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-10 | [6713c5a6](https://github.com/NVIDIA/Model-Optimizer/commit/6713c5a679fab80fdd9b688df01845f545c307b1) | [#3273](https://github.com/NVIDIA/Model-Optimizer/pull/3273) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | Finish a moved GGML GPTQ update's writes to the weight's GPU before returning |
+| 2026-11-09 | [64cb6ed7](https://github.com/NVIDIA/Model-Optimizer/commit/64cb6ed78e518439bd2d4c1bd7b4da99e361534a) | [#3247](https://github.com/NVIDIA/Model-Optimizer/pull/3247) | [@yingguo-trt](https://github.com/yingguo-trt) | `diffusers` `example` `export` `infra` `quantization` `tests` `torch` | \[NVBug 6927434\] Fix the Wan VAE Hugging Face export declaring NVFP4 for unquantized Conv3d weights |
+| 2026-11-09 | [84f5afc4](https://github.com/NVIDIA/Model-Optimizer/commit/84f5afc4bd50244a1abf2c74dfb23066ac609879) | [#3209](https://github.com/NVIDIA/Model-Optimizer/pull/3209) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[3/4\] Let GPTQ pick GGML IQ local scales by its compensated block Hessian |
+| 2026-11-09 | [914e9abc](https://github.com/NVIDIA/Model-Optimizer/commit/914e9abcb4b3be4b943b68a66db07776a73817b7) | [#3218](https://github.com/NVIDIA/Model-Optimizer/pull/3218) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[4/4\] Run the local-Hessian choice search as one CUDA kernel |
 | 2026-11-06 | [58ea3f7b](https://github.com/NVIDIA/Model-Optimizer/commit/58ea3f7bc598ed1ec7205ac2d6d32fb72931982d) | [#3154](https://github.com/NVIDIA/Model-Optimizer/pull/3154) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[1/5\] Isolate weight-rewriting AutoQuantize candidates from the source weights |
 | 2026-11-05 | [9dca7390](https://github.com/NVIDIA/Model-Optimizer/commit/9dca7390228db796c7795d17380498e4233652b7) | [#3216](https://github.com/NVIDIA/Model-Optimizer/pull/3216) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | Share calibration ranges of DeepSeek-V4 and HF-named Megatron projections that deployments fuse |
 | 2026-11-05 | [219b34a7](https://github.com/NVIDIA/Model-Optimizer/commit/219b34a713c1a930ef225454a62a42a4af2a3b2c) | [#3197](https://github.com/NVIDIA/Model-Optimizer/pull/3197) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Keep the IQ scales and importance GPTQ chose, so QAD starts from GPTQ's codes |
@@ -401,4 +405,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 395 PRs**
+**Total: 399 PRs**

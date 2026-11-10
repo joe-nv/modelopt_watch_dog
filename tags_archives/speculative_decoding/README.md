@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-09 | [90ff1a26](https://github.com/NVIDIA/Model-Optimizer/commit/90ff1a26fe9d3aaa9e9fb780bf49b1d3405d5b37) | [#3223](https://github.com/NVIDIA/Model-Optimizer/pull/3223) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `speculative_decoding` `tests` `torch` | \[OMNIML-6429\] \[1/2\] Move the speculative-draft check and the TRT-LLM enc-dec list into library modules |
 | 2026-11-08 | [d16cc688](https://github.com/NVIDIA/Model-Optimizer/commit/d16cc688adeaddc84ec220be5dbe5354f88ab3c0) | [#3214](https://github.com/NVIDIA/Model-Optimizer/pull/3214) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | Uniform layer sample hidden states mixing in Eagle training |
 | 2026-11-07 | [86bd9b78](https://github.com/NVIDIA/Model-Optimizer/commit/86bd9b78425a23a45b329c7c9b86ea772d7a9e77) | [#3235](https://github.com/NVIDIA/Model-Optimizer/pull/3235) | [@sragrawal](https://github.com/sragrawal) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix gradient accumulation in EAGLE, Medusa and external drafts |
 | 2026-11-06 | [09a14b9a](https://github.com/NVIDIA/Model-Optimizer/commit/09a14b9ae89522363ffca9b0ac2245cbbb073fdd) | [#3230](https://github.com/NVIDIA/Model-Optimizer/pull/3230) | [@sragrawal](https://github.com/sragrawal) | `speculative_decoding` `tests` `torch` | Fix EAGLE TTT attention-mask reuse across sequence lengths |
@@ -126,4 +127,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 120 PRs**
+**Total: 121 PRs**
