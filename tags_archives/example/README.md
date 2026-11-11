@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-10 | [bcb847d6](https://github.com/NVIDIA/Model-Optimizer/commit/bcb847d6857374781af15d0a240a11eb3bb0b155) | [#3203](https://github.com/NVIDIA/Model-Optimizer/pull/3203) | [@sychen52](https://github.com/sychen52) | `core` `distillation` `example` `infra` `tests` `torch` | Add skip_frozen_mtp to skip a frozen MTP head in Megatron distillation training |
+| 2026-11-10 | [f036ffa5](https://github.com/NVIDIA/Model-Optimizer/commit/f036ffa5ed1fd0cabbecfddb1bd8dc95a9d38647) | [#3267](https://github.com/NVIDIA/Model-Optimizer/pull/3267) | [@hychiang-git](https://github.com/hychiang-git) | `core` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-6104\] Add configurable latent-weight initialization for QAD |
 | 2026-11-09 | [64cb6ed7](https://github.com/NVIDIA/Model-Optimizer/commit/64cb6ed78e518439bd2d4c1bd7b4da99e361534a) | [#3247](https://github.com/NVIDIA/Model-Optimizer/pull/3247) | [@yingguo-trt](https://github.com/yingguo-trt) | `diffusers` `example` `export` `infra` `quantization` `tests` `torch` | \[NVBug 6927434\] Fix the Wan VAE Hugging Face export declaring NVFP4 for unquantized Conv3d weights |
 | 2026-11-08 | [d16cc688](https://github.com/NVIDIA/Model-Optimizer/commit/d16cc688adeaddc84ec220be5dbe5354f88ab3c0) | [#3214](https://github.com/NVIDIA/Model-Optimizer/pull/3214) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | Uniform layer sample hidden states mixing in Eagle training |
 | 2026-11-07 | [86bd9b78](https://github.com/NVIDIA/Model-Optimizer/commit/86bd9b78425a23a45b329c7c9b86ea772d7a9e77) | [#3235](https://github.com/NVIDIA/Model-Optimizer/pull/3235) | [@sragrawal](https://github.com/sragrawal) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix gradient accumulation in EAGLE, Medusa and external drafts |
@@ -383,4 +385,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 377 PRs**
+**Total: 379 PRs**

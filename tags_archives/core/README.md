@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-11 | [9aeff419](https://github.com/NVIDIA/Model-Optimizer/commit/9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77) | [#3278](https://github.com/NVIDIA/Model-Optimizer/pull/3278) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-6486\] Read every MODELOPT_* environment variable through modelopt/env.py |
+| 2026-11-10 | [bcb847d6](https://github.com/NVIDIA/Model-Optimizer/commit/bcb847d6857374781af15d0a240a11eb3bb0b155) | [#3203](https://github.com/NVIDIA/Model-Optimizer/pull/3203) | [@sychen52](https://github.com/sychen52) | `core` `distillation` `example` `infra` `tests` `torch` | Add skip_frozen_mtp to skip a frozen MTP head in Megatron distillation training |
+| 2026-11-10 | [f036ffa5](https://github.com/NVIDIA/Model-Optimizer/commit/f036ffa5ed1fd0cabbecfddb1bd8dc95a9d38647) | [#3267](https://github.com/NVIDIA/Model-Optimizer/pull/3267) | [@hychiang-git](https://github.com/hychiang-git) | `core` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-6104\] Add configurable latent-weight initialization for QAD |
 | 2026-11-08 | [d16cc688](https://github.com/NVIDIA/Model-Optimizer/commit/d16cc688adeaddc84ec220be5dbe5354f88ab3c0) | [#3214](https://github.com/NVIDIA/Model-Optimizer/pull/3214) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | Uniform layer sample hidden states mixing in Eagle training |
 | 2026-11-06 | [77ef4879](https://github.com/NVIDIA/Model-Optimizer/commit/77ef48794f0f3082ffdb136b65538d876d1f4e29) | [#3213](https://github.com/NVIDIA/Model-Optimizer/pull/3213) | [@noeyy-mino](https://github.com/noeyy-mino) | `core` `infra` `tests` `torch` | \[NVBug 7031438\] Make GPTQ layerwise checkpointing opt-in so multi-GPU runs work |
 | 2026-11-05 | [7cb24aa4](https://github.com/NVIDIA/Model-Optimizer/commit/7cb24aa44eecaf84adc7e9b2fed21db84f2372d0) | [#3233](https://github.com/NVIDIA/Model-Optimizer/pull/3233) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #3219 #2666 #2547 #2718 |
@@ -253,4 +256,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 247 PRs**
+**Total: 250 PRs**

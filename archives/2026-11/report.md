@@ -8,7 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-11-11 | [9aeff419](https://github.com/NVIDIA/Model-Optimizer/commit/9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77) | [#3278](https://github.com/NVIDIA/Model-Optimizer/pull/3278) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-6486\] Read every MODELOPT_* environment variable through modelopt/env.py |
 |  | 2026-11-10 | [6713c5a6](https://github.com/NVIDIA/Model-Optimizer/commit/6713c5a679fab80fdd9b688df01845f545c307b1) | [#3273](https://github.com/NVIDIA/Model-Optimizer/pull/3273) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | Finish a moved GGML GPTQ update's writes to the weight's GPU before returning |
+|  | 2026-11-10 | [cf564515](https://github.com/NVIDIA/Model-Optimizer/commit/cf5645153a5f655963a3dcf244873fb720ca95fe) | [#3151](https://github.com/NVIDIA/Model-Optimizer/pull/3151) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[2/5\] Calibrate and score AutoQuantize formats in parallel shards |
+|  | 2026-11-10 | [bcb847d6](https://github.com/NVIDIA/Model-Optimizer/commit/bcb847d6857374781af15d0a240a11eb3bb0b155) | [#3203](https://github.com/NVIDIA/Model-Optimizer/pull/3203) | [@sychen52](https://github.com/sychen52) | `core` `distillation` `example` `infra` `tests` `torch` | Add skip_frozen_mtp to skip a frozen MTP head in Megatron distillation training |
+|  | 2026-11-10 | [f036ffa5](https://github.com/NVIDIA/Model-Optimizer/commit/f036ffa5ed1fd0cabbecfddb1bd8dc95a9d38647) | [#3267](https://github.com/NVIDIA/Model-Optimizer/pull/3267) | [@hychiang-git](https://github.com/hychiang-git) | `core` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-6104\] Add configurable latent-weight initialization for QAD |
 |  | 2026-11-09 | [64cb6ed7](https://github.com/NVIDIA/Model-Optimizer/commit/64cb6ed78e518439bd2d4c1bd7b4da99e361534a) | [#3247](https://github.com/NVIDIA/Model-Optimizer/pull/3247) | [@yingguo-trt](https://github.com/yingguo-trt) | `diffusers` `example` `export` `infra` `quantization` `tests` `torch` | \[NVBug 6927434\] Fix the Wan VAE Hugging Face export declaring NVFP4 for unquantized Conv3d weights |
 |  | 2026-11-09 | [bbfb0027](https://github.com/NVIDIA/Model-Optimizer/commit/bbfb0027d7f0e00af436d8e339b8bca85f39af90) | [#3265](https://github.com/NVIDIA/Model-Optimizer/pull/3265) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `infra` `tests` `torch` | \[NVBug 6934719\] Fix the diffusers Hugging Face export declaring static input scales for uncalibrated layers |
 |  | 2026-11-09 | [84f5afc4](https://github.com/NVIDIA/Model-Optimizer/commit/84f5afc4bd50244a1abf2c74dfb23066ac609879) | [#3209](https://github.com/NVIDIA/Model-Optimizer/pull/3209) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[3/4\] Let GPTQ pick GGML IQ local scales by its compensated block Hessian |
@@ -53,4 +57,4 @@
 |  | 2026-11-01 | [d48a5450](https://github.com/NVIDIA/Model-Optimizer/commit/d48a5450d70e7ec4d9ea22bc6ce4d403fef37a12) | [#1986](https://github.com/NVIDIA/Model-Optimizer/pull/1986) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | Track launcher jobs in MLflow and prepare required assets |
 
 ---
-**Total: 43 PRs** | **Highlighted: 2**
+**Total: 47 PRs** | **Highlighted: 2**

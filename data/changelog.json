@@ -1,11 +1,70 @@
 [
   {
+    "date": "2026-11-11",
+    "commit": "9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77",
+    "pr_number": 3278,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6486] Read every MODELOPT_* environment variable through modelopt/env.py",
+    "tags": [
+      "core",
+      "docs",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-10",
     "commit": "6713c5a679fab80fdd9b688df01845f545c307b1",
     "pr_number": 3273,
     "author": "cjluo-nv",
     "title": "Finish a moved GGML GPTQ update's writes to the weight's GPU before returning",
     "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "commit": "cf5645153a5f655963a3dcf244873fb720ca95fe",
+    "pr_number": 3151,
+    "author": "meenchen",
+    "title": "[OMNIML-6370] [2/5] Calibrate and score AutoQuantize formats in parallel shards",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "commit": "bcb847d6857374781af15d0a240a11eb3bb0b155",
+    "pr_number": 3203,
+    "author": "sychen52",
+    "title": "Add skip_frozen_mtp to skip a frozen MTP head in Megatron distillation training",
+    "tags": [
+      "core",
+      "distillation",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "commit": "f036ffa5ed1fd0cabbecfddb1bd8dc95a9d38647",
+    "pr_number": 3267,
+    "author": "hychiang-git",
+    "title": "[OMNIML-6104] Add configurable latent-weight initialization for QAD",
+    "tags": [
+      "core",
+      "example",
+      "infra",
       "quantization",
       "tests",
       "torch"
