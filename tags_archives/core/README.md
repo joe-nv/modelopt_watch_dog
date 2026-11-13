@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-13 | [9dc92212](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | [#3152](https://github.com/NVIDIA/Model-Optimizer/pull/3152) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[3/5\] Finalize AutoQuantize selections with sequential layerwise calibration |
+| 2026-11-13 | [cc6963de](https://github.com/NVIDIA/Model-Optimizer/commit/cc6963dea0a6f01d90d66c7699baf3884df5f64a) | [#2250](https://github.com/NVIDIA/Model-Optimizer/pull/2250) | [@Y-T-G](https://github.com/Y-T-G) | `core` `infra` `torch` | fix: make huggingface_hub plugin import optional |
 | 2026-11-11 | [9aeff419](https://github.com/NVIDIA/Model-Optimizer/commit/9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77) | [#3278](https://github.com/NVIDIA/Model-Optimizer/pull/3278) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-6486\] Read every MODELOPT_* environment variable through modelopt/env.py |
 | 2026-11-10 | [bcb847d6](https://github.com/NVIDIA/Model-Optimizer/commit/bcb847d6857374781af15d0a240a11eb3bb0b155) | [#3203](https://github.com/NVIDIA/Model-Optimizer/pull/3203) | [@sychen52](https://github.com/sychen52) | `core` `distillation` `example` `infra` `tests` `torch` | Add skip_frozen_mtp to skip a frozen MTP head in Megatron distillation training |
 | 2026-11-10 | [f036ffa5](https://github.com/NVIDIA/Model-Optimizer/commit/f036ffa5ed1fd0cabbecfddb1bd8dc95a9d38647) | [#3267](https://github.com/NVIDIA/Model-Optimizer/pull/3267) | [@hychiang-git](https://github.com/hychiang-git) | `core` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-6104\] Add configurable latent-weight initialization for QAD |
@@ -256,4 +258,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 250 PRs**
+**Total: 252 PRs**

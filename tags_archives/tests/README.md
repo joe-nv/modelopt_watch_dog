@@ -4,6 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-13 | [9dc92212](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | [#3152](https://github.com/NVIDIA/Model-Optimizer/pull/3152) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[3/5\] Finalize AutoQuantize selections with sequential layerwise calibration |
+| 2026-11-13 | [1318c296](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | [#3164](https://github.com/NVIDIA/Model-Optimizer/pull/3164) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `infra` `quantization` `tests` `torch` | Add experimental NVFP4 QAD adapter for NeMo AutoModel experts |
+| 2026-11-13 | [9002cb3b](https://github.com/NVIDIA/Model-Optimizer/commit/9002cb3b58432f6c25e9c53553c902ccf292db05) | [#3228](https://github.com/NVIDIA/Model-Optimizer/pull/3228) | [@sragrawal](https://github.com/sragrawal) | `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE3 training input normalization |
+| 2026-11-13 | [f7beef20](https://github.com/NVIDIA/Model-Optimizer/commit/f7beef20efe2f50af93777b29cb2bd3f0286e1a6) | [#3231](https://github.com/NVIDIA/Model-Optimizer/pull/3231) | [@sragrawal](https://github.com/sragrawal) | `example` `infra` `speculative_decoding` `tests` `torch` | Preserve conversation and template inputs in streaming datasets |
+| 2026-11-12 | [a3a487f4](https://github.com/NVIDIA/Model-Optimizer/commit/a3a487f415e6b04fb9e90ebfb5ff77cd1e1f17ff) | [#3274](https://github.com/NVIDIA/Model-Optimizer/pull/3274) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Calibrate the GGML IQ2 experts-only recipes with local_hessian instead of imatrix |
+| 2026-11-12 | [6cac13b5](https://github.com/NVIDIA/Model-Optimizer/commit/6cac13b59eab3f6106222a6043cf08865eaf9478) | [#3367](https://github.com/NVIDIA/Model-Optimizer/pull/3367) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] \[1/2\] Move the HF quantization plugin's remaining named-model code into modelopt/torch/models |
 | 2026-11-11 | [9aeff419](https://github.com/NVIDIA/Model-Optimizer/commit/9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77) | [#3278](https://github.com/NVIDIA/Model-Optimizer/pull/3278) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-6486\] Read every MODELOPT_* environment variable through modelopt/env.py |
 | 2026-11-10 | [6713c5a6](https://github.com/NVIDIA/Model-Optimizer/commit/6713c5a679fab80fdd9b688df01845f545c307b1) | [#3273](https://github.com/NVIDIA/Model-Optimizer/pull/3273) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | Finish a moved GGML GPTQ update's writes to the weight's GPU before returning |
 | 2026-11-10 | [cf564515](https://github.com/NVIDIA/Model-Optimizer/commit/cf5645153a5f655963a3dcf244873fb720ca95fe) | [#3151](https://github.com/NVIDIA/Model-Optimizer/pull/3151) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[2/5\] Calibrate and score AutoQuantize formats in parallel shards |
@@ -683,4 +689,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 677 PRs**
+**Total: 683 PRs**

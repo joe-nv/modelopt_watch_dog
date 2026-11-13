@@ -1,5 +1,146 @@
 [
   {
+    "date": "2026-11-13",
+    "commit": "9dc922121835c489615240ef60ba8f753efa630e",
+    "pr_number": 3152,
+    "author": "meenchen",
+    "title": "[OMNIML-6370] [3/5] Finalize AutoQuantize selections with sequential layerwise calibration",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "commit": "1318c296fca258880834d159c98bc01ff45f1776",
+    "pr_number": 3164,
+    "author": "Edwardf0t1",
+    "title": "Add experimental NVFP4 QAD adapter for NeMo AutoModel experts",
+    "tags": [
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "commit": "9002cb3b58432f6c25e9c53553c902ccf292db05",
+    "pr_number": 3228,
+    "author": "sragrawal",
+    "title": "Fix EAGLE3 training input normalization",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "commit": "f7beef20efe2f50af93777b29cb2bd3f0286e1a6",
+    "pr_number": 3231,
+    "author": "sragrawal",
+    "title": "Preserve conversation and template inputs in streaming datasets",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "commit": "cc6963dea0a6f01d90d66c7699baf3884df5f64a",
+    "pr_number": 2250,
+    "author": "Y-T-G",
+    "title": "fix: make huggingface_hub plugin import optional",
+    "tags": [
+      "core",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "commit": "814e6b49ea6752498b5443d49bc8d39a3ca6ad65",
+    "pr_number": 3290,
+    "author": "rohansjoshi",
+    "title": "Document running quantized Alpamayo checkpoints and the TensorRT export limit",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "commit": "73b3f74954e55757c3126203e836f2d800fab6d8",
+    "pr_number": 3282,
+    "author": "chadvoegele",
+    "title": "[1/5] Move canonical ModelOpt skills to repository root",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "commit": "a3a487f415e6b04fb9e90ebfb5ff77cd1e1f17ff",
+    "pr_number": 3274,
+    "author": "cjluo-nv",
+    "title": "Calibrate the GGML IQ2 experts-only recipes with local_hessian instead of imatrix",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "commit": "d00aedf72c9ef2a9f7c38d15b8d4897235590e89",
+    "pr_number": 3285,
+    "author": "chadvoegele",
+    "title": "[3/5] Move skill evaluation datasets to canonical paths",
+    "tags": []
+  },
+  {
+    "date": "2026-11-12",
+    "commit": "37a808249fff7eac42e37af13a655f980f102913",
+    "pr_number": 3286,
+    "author": "chadvoegele",
+    "title": "[5/5] Add draft skill cards and catalog eval cases",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "commit": "60689c73f7fed08bb836f988f4e8942e11e8d744",
+    "pr_number": 3283,
+    "author": "chadvoegele",
+    "title": "[2/5] Prefix ModelOpt catalog skill names",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "commit": "6cac13b59eab3f6106222a6043cf08865eaf9478",
+    "pr_number": 3367,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6533] [1/2] Move the HF quantization plugin's remaining named-model code into modelopt/torch/models",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-11",
     "commit": "9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77",
     "pr_number": 3278,
