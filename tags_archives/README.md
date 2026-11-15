@@ -21,9 +21,9 @@ Click a tag to see its full history.
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 41 |
 | [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 406 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 56 |
-| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 123 |
-| [`tests`](tests/) | test infrastructure, test utilities | 683 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 714 |
+| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 124 |
+| [`tests`](tests/) | test infrastructure, test utilities | 684 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 715 |
 | [`vllm`](vllm/) | vLLM serving and integration | 38 |
 | [`vlm`](vlm/) | vision-language model optimization | 6 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 24 |

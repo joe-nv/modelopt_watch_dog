@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-15",
+    "commit": "d9ff11fb8d000eaa8b5bfad4c51c49f8dfc6031d",
+    "pr_number": 3275,
+    "author": "sragrawal",
+    "title": "Load nested Nemotron final norms during draft training",
+    "tags": [
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-13",
     "commit": "9dc922121835c489615240ef60ba8f753efa630e",
     "pr_number": 3152,

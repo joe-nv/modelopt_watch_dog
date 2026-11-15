@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-15 | [d9ff11fb](https://github.com/NVIDIA/Model-Optimizer/commit/d9ff11fb8d000eaa8b5bfad4c51c49f8dfc6031d) | [#3275](https://github.com/NVIDIA/Model-Optimizer/pull/3275) | [@sragrawal](https://github.com/sragrawal) | `speculative_decoding` `tests` `torch` | Load nested Nemotron final norms during draft training |
 | 2026-11-13 | [9002cb3b](https://github.com/NVIDIA/Model-Optimizer/commit/9002cb3b58432f6c25e9c53553c902ccf292db05) | [#3228](https://github.com/NVIDIA/Model-Optimizer/pull/3228) | [@sragrawal](https://github.com/sragrawal) | `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE3 training input normalization |
 | 2026-11-13 | [f7beef20](https://github.com/NVIDIA/Model-Optimizer/commit/f7beef20efe2f50af93777b29cb2bd3f0286e1a6) | [#3231](https://github.com/NVIDIA/Model-Optimizer/pull/3231) | [@sragrawal](https://github.com/sragrawal) | `example` `infra` `speculative_decoding` `tests` `torch` | Preserve conversation and template inputs in streaming datasets |
 | 2026-11-09 | [90ff1a26](https://github.com/NVIDIA/Model-Optimizer/commit/90ff1a26fe9d3aaa9e9fb780bf49b1d3405d5b37) | [#3223](https://github.com/NVIDIA/Model-Optimizer/pull/3223) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `speculative_decoding` `tests` `torch` | \[OMNIML-6429\] \[1/2\] Move the speculative-draft check and the TRT-LLM enc-dec list into library modules |
@@ -129,4 +130,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 123 PRs**
+**Total: 124 PRs**
