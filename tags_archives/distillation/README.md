@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
 | 2026-11-10 | [bcb847d6](https://github.com/NVIDIA/Model-Optimizer/commit/bcb847d6857374781af15d0a240a11eb3bb0b155) | [#3203](https://github.com/NVIDIA/Model-Optimizer/pull/3203) | [@sychen52](https://github.com/sychen52) | `core` `distillation` `example` `infra` `tests` `torch` | Add skip_frozen_mtp to skip a frozen MTP head in Megatron distillation training |
 | 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
 | 2026-10-27 | [1c40150d](https://github.com/NVIDIA/Model-Optimizer/commit/1c40150d459e4817e43c9fe3db75f3b6e3a24417) | [#3007](https://github.com/NVIDIA/Model-Optimizer/pull/3007) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `experimental` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[OMNIML-5802\] Drop Python 3.10 support and adopt Python 3.11+ features |
@@ -40,4 +41,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 34 PRs**
+**Total: 35 PRs**

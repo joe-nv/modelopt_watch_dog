@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
+| 2026-11-17 | [9348b3a2](https://github.com/NVIDIA/Model-Optimizer/commit/9348b3a2fbcfe5d53e3d52229540d3b1abc68bed) | [#2540](https://github.com/NVIDIA/Model-Optimizer/pull/2540) | [@David-Wu1119](https://github.com/David-Wu1119) | `onnx` `quantization` `tests` | \[ONNX\] Remove every initializer output in remove_output_initializers |
 | 2026-11-13 | [9dc92212](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | [#3152](https://github.com/NVIDIA/Model-Optimizer/pull/3152) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[3/5\] Finalize AutoQuantize selections with sequential layerwise calibration |
 | 2026-11-13 | [1318c296](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | [#3164](https://github.com/NVIDIA/Model-Optimizer/pull/3164) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `infra` `quantization` `tests` `torch` | Add experimental NVFP4 QAD adapter for NeMo AutoModel experts |
 | 2026-11-12 | [a3a487f4](https://github.com/NVIDIA/Model-Optimizer/commit/a3a487f415e6b04fb9e90ebfb5ff77cd1e1f17ff) | [#3274](https://github.com/NVIDIA/Model-Optimizer/pull/3274) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Calibrate the GGML IQ2 experts-only recipes with local_hessian instead of imatrix |
@@ -412,4 +414,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 406 PRs**
+**Total: 408 PRs**

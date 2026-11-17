@@ -1,5 +1,99 @@
 [
   {
+    "date": "2026-11-17",
+    "commit": "a35496172d843be51292af82497ab5b0727f2af2",
+    "pr_number": 3414,
+    "author": "kevalmorabia97",
+    "title": "fix(onnx): require onnxslim 0.1.78 for ONNX 1.21",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "185d1309373ce26d55517575c7f80b959610177f",
+    "pr_number": 3403,
+    "author": "phicksy",
+    "title": "docs: refresh the external draft guide",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "6c4a3953f5befc2b15ff8503cd711006dcb27aef",
+    "pr_number": 3257,
+    "author": "grzegorz-k-karch",
+    "title": "Fix example CLI help and QAT dependency installation",
+    "tags": [
+      "core",
+      "distillation",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "125a9753ae12ffefab737a879afb2f4fd6e3cfcb",
+    "pr_number": 3406,
+    "author": "chadvoegele",
+    "title": "ci: add NVSkills CI request workflow",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "a4d4dd44242740494a24cf1dfd4faa436aa28e34",
+    "pr_number": 3376,
+    "author": "phicksy",
+    "title": "docs: Training standalone speculative decoding drafts for Fast Inference on Groq 3 LPX",
+    "tags": [
+      "docs",
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "9348b3a2fbcfe5d53e3d52229540d3b1abc68bed",
+    "pr_number": 2540,
+    "author": "David-Wu1119",
+    "title": "[ONNX] Remove every initializer output in remove_output_initializers",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "2795f4e64c7ea9633d1cd9c275540552f659c6bb",
+    "pr_number": 2603,
+    "author": "SashaMIT",
+    "title": "Keep an unset ONNX dimension in the reported shape",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "87b62c69dd5d2ac354377ed1844bc7d02d03bfb2",
+    "pr_number": 2575,
+    "author": "SID-6921",
+    "title": "fix(autocast): do not lose magnitude or sign when narrowing initializers",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-11-15",
     "commit": "d9ff11fb8d000eaa8b5bfad4c51c49f8dfc6031d",
     "pr_number": 3275,

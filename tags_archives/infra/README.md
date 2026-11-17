@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-17 | [a3549617](https://github.com/NVIDIA/Model-Optimizer/commit/a35496172d843be51292af82497ab5b0727f2af2) | [#3414](https://github.com/NVIDIA/Model-Optimizer/pull/3414) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | fix(onnx): require onnxslim 0.1.78 for ONNX 1.21 |
+| 2026-11-17 | [125a9753](https://github.com/NVIDIA/Model-Optimizer/commit/125a9753ae12ffefab737a879afb2f4fd6e3cfcb) | [#3406](https://github.com/NVIDIA/Model-Optimizer/pull/3406) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | ci: add NVSkills CI request workflow |
+| 2026-11-17 | [a4d4dd44](https://github.com/NVIDIA/Model-Optimizer/commit/a4d4dd44242740494a24cf1dfd4faa436aa28e34) | [#3376](https://github.com/NVIDIA/Model-Optimizer/pull/3376) | [@phicksy](https://github.com/phicksy) | `docs` `infra` | docs: Training standalone speculative decoding drafts for Fast Inference on Groq 3 LPX |
+| 2026-11-17 | [2795f4e6](https://github.com/NVIDIA/Model-Optimizer/commit/2795f4e64c7ea9633d1cd9c275540552f659c6bb) | [#2603](https://github.com/NVIDIA/Model-Optimizer/pull/2603) | [@SashaMIT](https://github.com/SashaMIT) | `infra` `onnx` `tests` | Keep an unset ONNX dimension in the reported shape |
+| 2026-11-17 | [87b62c69](https://github.com/NVIDIA/Model-Optimizer/commit/87b62c69dd5d2ac354377ed1844bc7d02d03bfb2) | [#2575](https://github.com/NVIDIA/Model-Optimizer/pull/2575) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(autocast): do not lose magnitude or sign when narrowing initializers |
 | 2026-11-13 | [9dc92212](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | [#3152](https://github.com/NVIDIA/Model-Optimizer/pull/3152) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[3/5\] Finalize AutoQuantize selections with sequential layerwise calibration |
 | 2026-11-13 | [1318c296](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | [#3164](https://github.com/NVIDIA/Model-Optimizer/pull/3164) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `infra` `quantization` `tests` `torch` | Add experimental NVFP4 QAD adapter for NeMo AutoModel experts |
 | 2026-11-13 | [9002cb3b](https://github.com/NVIDIA/Model-Optimizer/commit/9002cb3b58432f6c25e9c53553c902ccf292db05) | [#3228](https://github.com/NVIDIA/Model-Optimizer/pull/3228) | [@sragrawal](https://github.com/sragrawal) | `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE3 training input normalization |
@@ -818,4 +823,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 812 PRs**
+**Total: 817 PRs**

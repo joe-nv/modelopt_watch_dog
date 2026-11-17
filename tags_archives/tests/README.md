@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
+| 2026-11-17 | [9348b3a2](https://github.com/NVIDIA/Model-Optimizer/commit/9348b3a2fbcfe5d53e3d52229540d3b1abc68bed) | [#2540](https://github.com/NVIDIA/Model-Optimizer/pull/2540) | [@David-Wu1119](https://github.com/David-Wu1119) | `onnx` `quantization` `tests` | \[ONNX\] Remove every initializer output in remove_output_initializers |
+| 2026-11-17 | [2795f4e6](https://github.com/NVIDIA/Model-Optimizer/commit/2795f4e64c7ea9633d1cd9c275540552f659c6bb) | [#2603](https://github.com/NVIDIA/Model-Optimizer/pull/2603) | [@SashaMIT](https://github.com/SashaMIT) | `infra` `onnx` `tests` | Keep an unset ONNX dimension in the reported shape |
+| 2026-11-17 | [87b62c69](https://github.com/NVIDIA/Model-Optimizer/commit/87b62c69dd5d2ac354377ed1844bc7d02d03bfb2) | [#2575](https://github.com/NVIDIA/Model-Optimizer/pull/2575) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(autocast): do not lose magnitude or sign when narrowing initializers |
 | 2026-11-15 | [d9ff11fb](https://github.com/NVIDIA/Model-Optimizer/commit/d9ff11fb8d000eaa8b5bfad4c51c49f8dfc6031d) | [#3275](https://github.com/NVIDIA/Model-Optimizer/pull/3275) | [@sragrawal](https://github.com/sragrawal) | `speculative_decoding` `tests` `torch` | Load nested Nemotron final norms during draft training |
 | 2026-11-13 | [9dc92212](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | [#3152](https://github.com/NVIDIA/Model-Optimizer/pull/3152) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[3/5\] Finalize AutoQuantize selections with sequential layerwise calibration |
 | 2026-11-13 | [1318c296](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | [#3164](https://github.com/NVIDIA/Model-Optimizer/pull/3164) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `infra` `quantization` `tests` `torch` | Add experimental NVFP4 QAD adapter for NeMo AutoModel experts |
@@ -690,4 +694,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 684 PRs**
+**Total: 688 PRs**
