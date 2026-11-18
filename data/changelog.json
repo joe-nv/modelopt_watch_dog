@@ -1,5 +1,88 @@
 [
   {
+    "date": "2026-11-18",
+    "commit": "69dc3faa5a8162b8be1607b74bd412b339080f7b",
+    "pr_number": 2420,
+    "author": "haoxiz-nvidia",
+    "title": "Fix AutoCast unknown dimension metadata",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "commit": "fe3dab761b009bea8ff3373efd6d9b5bdcbd01ca",
+    "pr_number": 3415,
+    "author": "cjluo-nv",
+    "title": "Derive the GGML IQ super-block scale for local_hessian and match each block's energy under its Hessian",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "commit": "508e3d2cfe4102e26ac5f64c738604abe5430431",
+    "pr_number": 3470,
+    "author": "joe-nv",
+    "title": "fix(sparsity): require wonderwords>=2.2.0",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "commit": "53d4eb55c0a418689e83456add1fdd8dbd14132c",
+    "pr_number": 3416,
+    "author": "phicksy",
+    "title": "docs: Link the Qwen3.8-27B draft models to their Hugging Face repos",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "commit": "b7f546d305d8d9800559cbc7dc86c4897f68c378",
+    "pr_number": 3471,
+    "author": "joe-nv",
+    "title": "fix(config): require pydantic>=2.5.0",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "commit": "4579317f914083fc41dc7ff0b9bf26271ac04dc5",
+    "pr_number": 3371,
+    "author": "gcunhase",
+    "title": "Add per-node calibration to ONNX AutoCast",
+    "tags": [
+      "docs",
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "commit": "be9c492c7422bc1a5d20d31f7cf4c2455ee146da",
+    "pr_number": 3365,
+    "author": "Tracy-123-dev",
+    "title": "Avoid repeated calibration inference for shared ONNX AWQ activations",
+    "tags": [
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "windows"
+    ]
+  },
+  {
     "date": "2026-11-17",
     "commit": "a35496172d843be51292af82497ab5b0727f2af2",
     "pr_number": 3414,
@@ -91,6 +174,34 @@
       "infra",
       "onnx",
       "tests"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "e7181568c81ff76bec7d4e420b13648451331123",
+    "pr_number": 3153,
+    "author": "meenchen",
+    "title": "[OMNIML-6370] [4/5] Score AutoQuantize KL candidates in a low-bit context",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "commit": "17e646d6a7501a70793aadc1e970eadc6438ceb9",
+    "pr_number": 3293,
+    "author": "Tracy-123-dev",
+    "title": "Fix Qwen3.6 hybrid ONNX calibration and INT4 export (NVBug 7035423)",
+    "tags": [
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "windows"
     ]
   },
   {

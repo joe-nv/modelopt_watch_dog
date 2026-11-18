@@ -4,8 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-18 | [fe3dab76](https://github.com/NVIDIA/Model-Optimizer/commit/fe3dab761b009bea8ff3373efd6d9b5bdcbd01ca) | [#3415](https://github.com/NVIDIA/Model-Optimizer/pull/3415) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Derive the GGML IQ super-block scale for local_hessian and match each block's energy under its Hessian |
+| 2026-11-18 | [be9c492c](https://github.com/NVIDIA/Model-Optimizer/commit/be9c492c7422bc1a5d20d31f7cf4c2455ee146da) | [#3365](https://github.com/NVIDIA/Model-Optimizer/pull/3365) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Avoid repeated calibration inference for shared ONNX AWQ activations |
 | 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
 | 2026-11-17 | [9348b3a2](https://github.com/NVIDIA/Model-Optimizer/commit/9348b3a2fbcfe5d53e3d52229540d3b1abc68bed) | [#2540](https://github.com/NVIDIA/Model-Optimizer/pull/2540) | [@David-Wu1119](https://github.com/David-Wu1119) | `onnx` `quantization` `tests` | \[ONNX\] Remove every initializer output in remove_output_initializers |
+| 2026-11-17 | [e7181568](https://github.com/NVIDIA/Model-Optimizer/commit/e7181568c81ff76bec7d4e420b13648451331123) | [#3153](https://github.com/NVIDIA/Model-Optimizer/pull/3153) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[4/5\] Score AutoQuantize KL candidates in a low-bit context |
+| 2026-11-17 | [17e646d6](https://github.com/NVIDIA/Model-Optimizer/commit/17e646d6a7501a70793aadc1e970eadc6438ceb9) | [#3293](https://github.com/NVIDIA/Model-Optimizer/pull/3293) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Fix Qwen3.6 hybrid ONNX calibration and INT4 export (NVBug 7035423) |
 | 2026-11-13 | [9dc92212](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | [#3152](https://github.com/NVIDIA/Model-Optimizer/pull/3152) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[3/5\] Finalize AutoQuantize selections with sequential layerwise calibration |
 | 2026-11-13 | [1318c296](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | [#3164](https://github.com/NVIDIA/Model-Optimizer/pull/3164) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `infra` `quantization` `tests` `torch` | Add experimental NVFP4 QAD adapter for NeMo AutoModel experts |
 | 2026-11-12 | [a3a487f4](https://github.com/NVIDIA/Model-Optimizer/commit/a3a487f415e6b04fb9e90ebfb5ff77cd1e1f17ff) | [#3274](https://github.com/NVIDIA/Model-Optimizer/pull/3274) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Calibrate the GGML IQ2 experts-only recipes with local_hessian instead of imatrix |
@@ -414,4 +418,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 408 PRs**
+**Total: 412 PRs**

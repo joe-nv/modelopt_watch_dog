@@ -4,8 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-18 | [be9c492c](https://github.com/NVIDIA/Model-Optimizer/commit/be9c492c7422bc1a5d20d31f7cf4c2455ee146da) | [#3365](https://github.com/NVIDIA/Model-Optimizer/pull/3365) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Avoid repeated calibration inference for shared ONNX AWQ activations |
 | 2026-11-17 | [185d1309](https://github.com/NVIDIA/Model-Optimizer/commit/185d1309373ce26d55517575c7f80b959610177f) | [#3403](https://github.com/NVIDIA/Model-Optimizer/pull/3403) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `torch` | docs: refresh the external draft guide |
 | 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
+| 2026-11-17 | [17e646d6](https://github.com/NVIDIA/Model-Optimizer/commit/17e646d6a7501a70793aadc1e970eadc6438ceb9) | [#3293](https://github.com/NVIDIA/Model-Optimizer/pull/3293) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Fix Qwen3.6 hybrid ONNX calibration and INT4 export (NVBug 7035423) |
 | 2026-11-13 | [1318c296](https://github.com/NVIDIA/Model-Optimizer/commit/1318c296fca258880834d159c98bc01ff45f1776) | [#3164](https://github.com/NVIDIA/Model-Optimizer/pull/3164) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `infra` `quantization` `tests` `torch` | Add experimental NVFP4 QAD adapter for NeMo AutoModel experts |
 | 2026-11-13 | [f7beef20](https://github.com/NVIDIA/Model-Optimizer/commit/f7beef20efe2f50af93777b29cb2bd3f0286e1a6) | [#3231](https://github.com/NVIDIA/Model-Optimizer/pull/3231) | [@sragrawal](https://github.com/sragrawal) | `example` `infra` `speculative_decoding` `tests` `torch` | Preserve conversation and template inputs in streaming datasets |
 | 2026-11-10 | [bcb847d6](https://github.com/NVIDIA/Model-Optimizer/commit/bcb847d6857374781af15d0a240a11eb3bb0b155) | [#3203](https://github.com/NVIDIA/Model-Optimizer/pull/3203) | [@sychen52](https://github.com/sychen52) | `core` `distillation` `example` `infra` `tests` `torch` | Add skip_frozen_mtp to skip a frozen MTP head in Megatron distillation training |
@@ -389,4 +391,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 383 PRs**
+**Total: 385 PRs**

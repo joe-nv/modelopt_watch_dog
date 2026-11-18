@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-18 | [53d4eb55](https://github.com/NVIDIA/Model-Optimizer/commit/53d4eb55c0a418689e83456add1fdd8dbd14132c) | [#3416](https://github.com/NVIDIA/Model-Optimizer/pull/3416) | [@phicksy](https://github.com/phicksy) | `docs` | docs: Link the Qwen3.8-27B draft models to their Hugging Face repos |
+| 2026-11-18 | [4579317f](https://github.com/NVIDIA/Model-Optimizer/commit/4579317f914083fc41dc7ff0b9bf26271ac04dc5) | [#3371](https://github.com/NVIDIA/Model-Optimizer/pull/3371) | [@gcunhase](https://github.com/gcunhase) | `docs` `infra` `onnx` `tests` | Add per-node calibration to ONNX AutoCast |
 | 2026-11-17 | [a4d4dd44](https://github.com/NVIDIA/Model-Optimizer/commit/a4d4dd44242740494a24cf1dfd4faa436aa28e34) | [#3376](https://github.com/NVIDIA/Model-Optimizer/pull/3376) | [@phicksy](https://github.com/phicksy) | `docs` `infra` | docs: Training standalone speculative decoding drafts for Fast Inference on Groq 3 LPX |
 | 2026-11-11 | [9aeff419](https://github.com/NVIDIA/Model-Optimizer/commit/9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77) | [#3278](https://github.com/NVIDIA/Model-Optimizer/pull/3278) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-6486\] Read every MODELOPT_* environment variable through modelopt/env.py |
 | 2026-11-03 | [8d19f74d](https://github.com/NVIDIA/Model-Optimizer/commit/8d19f74d1321f0686b99ca994d362ff706791070) | [#3013](https://github.com/NVIDIA/Model-Optimizer/pull/3013) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `diffusers` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Fix ONNX export for initializers larger than 2 GiB |
@@ -95,4 +97,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 89 PRs**
+**Total: 91 PRs**
