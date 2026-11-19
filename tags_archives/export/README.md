@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
 | 2026-11-11 | [9aeff419](https://github.com/NVIDIA/Model-Optimizer/commit/9aeff419f3afa1b27e7bcc10dc6a90cc68df4d77) | [#3278](https://github.com/NVIDIA/Model-Optimizer/pull/3278) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-6486\] Read every MODELOPT_* environment variable through modelopt/env.py |
 | 2026-11-09 | [64cb6ed7](https://github.com/NVIDIA/Model-Optimizer/commit/64cb6ed78e518439bd2d4c1bd7b4da99e361534a) | [#3247](https://github.com/NVIDIA/Model-Optimizer/pull/3247) | [@yingguo-trt](https://github.com/yingguo-trt) | `diffusers` `example` `export` `infra` `quantization` `tests` `torch` | \[NVBug 6927434\] Fix the Wan VAE Hugging Face export declaring NVFP4 for unquantized Conv3d weights |
 | 2026-11-09 | [bbfb0027](https://github.com/NVIDIA/Model-Optimizer/commit/bbfb0027d7f0e00af436d8e339b8bca85f39af90) | [#3265](https://github.com/NVIDIA/Model-Optimizer/pull/3265) | [@yingguo-trt](https://github.com/yingguo-trt) | `export` `infra` `tests` `torch` | \[NVBug 6934719\] Fix the diffusers Hugging Face export declaring static input scales for uncalibrated layers |
@@ -242,4 +243,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 236 PRs**
+**Total: 237 PRs**

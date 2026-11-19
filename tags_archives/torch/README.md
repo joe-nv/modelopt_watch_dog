@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-19 | [8a261140](https://github.com/NVIDIA/Model-Optimizer/commit/8a261140bcf6eb945636364cbe75ca28be8b6e26) | [#3454](https://github.com/NVIDIA/Model-Optimizer/pull/3454) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/16\] Add native IQ scale fields and differentiable field state |
 | 2026-11-18 | [fe3dab76](https://github.com/NVIDIA/Model-Optimizer/commit/fe3dab761b009bea8ff3373efd6d9b5bdcbd01ca) | [#3415](https://github.com/NVIDIA/Model-Optimizer/pull/3415) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Derive the GGML IQ super-block scale for local_hessian and match each block's energy under its Hessian |
 | 2026-11-17 | [185d1309](https://github.com/NVIDIA/Model-Optimizer/commit/185d1309373ce26d55517575c7f80b959610177f) | [#3403](https://github.com/NVIDIA/Model-Optimizer/pull/3403) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `torch` | docs: refresh the external draft guide |
 | 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
@@ -725,4 +726,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 719 PRs**
+**Total: 720 PRs**

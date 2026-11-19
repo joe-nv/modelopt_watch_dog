@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-11-19",
+    "commit": "5fb4a01d97300e5409ba846abd16904af07169b9",
+    "pr_number": 3476,
+    "author": "sychen52",
+    "title": "[Cherry-pick] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365",
+    "tags": [
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "commit": "d2d92b00ed34662d835b3854bc951599a55eb760",
+    "pr_number": 3491,
+    "author": "kevalmorabia97",
+    "title": "Use a placeholder cluster host in the MCP README example",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "commit": "8a261140bcf6eb945636364cbe75ca28be8b6e26",
+    "pr_number": 3454,
+    "author": "Separius",
+    "title": "[OMNIML-5967] [1/16] Add native IQ scale fields and differentiable field state",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "commit": "4bb32a0983f577a707551d19f3f80e70658b329e",
+    "pr_number": 3162,
+    "author": "saiprakash-c",
+    "title": "Fix stream race in AutoTune benchmark test buffers",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "commit": "aa52575669bac5bdb3db712de396bb6d07bf8e9c",
+    "pr_number": 2567,
+    "author": "SID-6921",
+    "title": "fix(onnx): keep the converted weight's type in step with its zero point",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-11-18",
     "commit": "69dc3faa5a8162b8be1607b74bd412b339080f7b",
     "pr_number": 2420,

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
 | 2026-11-18 | [be9c492c](https://github.com/NVIDIA/Model-Optimizer/commit/be9c492c7422bc1a5d20d31f7cf4c2455ee146da) | [#3365](https://github.com/NVIDIA/Model-Optimizer/pull/3365) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Avoid repeated calibration inference for shared ONNX AWQ activations |
 | 2026-11-17 | [17e646d6](https://github.com/NVIDIA/Model-Optimizer/commit/17e646d6a7501a70793aadc1e970eadc6438ceb9) | [#3293](https://github.com/NVIDIA/Model-Optimizer/pull/3293) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Fix Qwen3.6 hybrid ONNX calibration and INT4 export (NVBug 7035423) |
 | 2026-10-28 | [2297adca](https://github.com/NVIDIA/Model-Optimizer/commit/2297adca065dea36d70de4224803304c6d353b16) | [#3072](https://github.com/NVIDIA/Model-Optimizer/pull/3072) | [@rohansjoshi](https://github.com/rohansjoshi) | `core` `deploy` `diffusers` `distillation` `docs` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `windows` | \[Cherry-pick\] PRs #2817 #2671 #2892 #2876 #2910 #2911 #2919 #2904 #2937 #2928 #2885 #2908 #2929 #2950 #2972 #2877 #2951 #2816 #3005 #3012 #2971 #3015 #3006 #3026 #2988 #3028 #1860 #3030 #2612 #3033 #2653 #2599 #2655 #2618 #2868 #3032 #3027 #2869 #2984 #2975 #2345 #3020 #2997 |
@@ -32,4 +33,4 @@
 | 2026-01-25 | [5cc2a545](https://github.com/NVIDIA/Model-Optimizer/commit/5cc2a5451984ba0f1225153c7df68746313118f5) | [#762](https://github.com/NVIDIA/Model-Optimizer/pull/762) | [@ynankani](https://github.com/ynankani) | `example` `onnx` `quantization` `windows` | Ynankani/update windows benchmark md |
 
 ---
-**Total: 26 PRs**
+**Total: 27 PRs**

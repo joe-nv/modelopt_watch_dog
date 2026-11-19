@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
+| 2026-11-19 | [8a261140](https://github.com/NVIDIA/Model-Optimizer/commit/8a261140bcf6eb945636364cbe75ca28be8b6e26) | [#3454](https://github.com/NVIDIA/Model-Optimizer/pull/3454) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/16\] Add native IQ scale fields and differentiable field state |
+| 2026-11-19 | [4bb32a09](https://github.com/NVIDIA/Model-Optimizer/commit/4bb32a0983f577a707551d19f3f80e70658b329e) | [#3162](https://github.com/NVIDIA/Model-Optimizer/pull/3162) | [@saiprakash-c](https://github.com/saiprakash-c) | `onnx` `quantization` `tests` | Fix stream race in AutoTune benchmark test buffers |
+| 2026-11-19 | [aa525756](https://github.com/NVIDIA/Model-Optimizer/commit/aa52575669bac5bdb3db712de396bb6d07bf8e9c) | [#2567](https://github.com/NVIDIA/Model-Optimizer/pull/2567) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): keep the converted weight's type in step with its zero point |
 | 2026-11-18 | [69dc3faa](https://github.com/NVIDIA/Model-Optimizer/commit/69dc3faa5a8162b8be1607b74bd412b339080f7b) | [#2420](https://github.com/NVIDIA/Model-Optimizer/pull/2420) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `infra` `onnx` `tests` | Fix AutoCast unknown dimension metadata |
 | 2026-11-18 | [fe3dab76](https://github.com/NVIDIA/Model-Optimizer/commit/fe3dab761b009bea8ff3373efd6d9b5bdcbd01ca) | [#3415](https://github.com/NVIDIA/Model-Optimizer/pull/3415) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Derive the GGML IQ super-block scale for local_hessian and match each block's energy under its Hessian |
 | 2026-11-18 | [4579317f](https://github.com/NVIDIA/Model-Optimizer/commit/4579317f914083fc41dc7ff0b9bf26271ac04dc5) | [#3371](https://github.com/NVIDIA/Model-Optimizer/pull/3371) | [@gcunhase](https://github.com/gcunhase) | `docs` `infra` `onnx` `tests` | Add per-node calibration to ONNX AutoCast |
@@ -700,4 +704,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 694 PRs**
+**Total: 698 PRs**

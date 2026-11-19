@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
+| 2026-11-19 | [d2d92b00](https://github.com/NVIDIA/Model-Optimizer/commit/d2d92b00ed34662d835b3854bc951599a55eb760) | [#3491](https://github.com/NVIDIA/Model-Optimizer/pull/3491) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Use a placeholder cluster host in the MCP README example |
+| 2026-11-19 | [aa525756](https://github.com/NVIDIA/Model-Optimizer/commit/aa52575669bac5bdb3db712de396bb6d07bf8e9c) | [#2567](https://github.com/NVIDIA/Model-Optimizer/pull/2567) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): keep the converted weight's type in step with its zero point |
 | 2026-11-18 | [69dc3faa](https://github.com/NVIDIA/Model-Optimizer/commit/69dc3faa5a8162b8be1607b74bd412b339080f7b) | [#2420](https://github.com/NVIDIA/Model-Optimizer/pull/2420) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `infra` `onnx` `tests` | Fix AutoCast unknown dimension metadata |
 | 2026-11-18 | [fe3dab76](https://github.com/NVIDIA/Model-Optimizer/commit/fe3dab761b009bea8ff3373efd6d9b5bdcbd01ca) | [#3415](https://github.com/NVIDIA/Model-Optimizer/pull/3415) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Derive the GGML IQ super-block scale for local_hessian and match each block's energy under its Hessian |
 | 2026-11-18 | [508e3d2c](https://github.com/NVIDIA/Model-Optimizer/commit/508e3d2cfe4102e26ac5f64c738604abe5430431) | [#3470](https://github.com/NVIDIA/Model-Optimizer/pull/3470) | [@joe-nv](https://github.com/joe-nv) | `infra` | fix(sparsity): require wonderwords\>=2.2.0 |
@@ -831,4 +834,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 825 PRs**
+**Total: 828 PRs**
