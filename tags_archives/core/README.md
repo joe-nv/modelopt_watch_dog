@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
+| 2026-11-19 | [abc3228e](https://github.com/NVIDIA/Model-Optimizer/commit/abc3228e1c01944fce1d0a34cbbad33401a75390) | [#3389](https://github.com/NVIDIA/Model-Optimizer/pull/3389) | [@yueshen2016](https://github.com/yueshen2016) | `core` `infra` `tests` `torch` | fix: preserve custom hybrid stacks during expert layout selection |
+| 2026-11-19 | [28ec4215](https://github.com/NVIDIA/Model-Optimizer/commit/28ec42150ae18b08a85a374ea0e9c97f789c3165) | [#2652](https://github.com/NVIDIA/Model-Optimizer/pull/2652) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `example` `infra` `quantization` `tests` `torch` | testing doctest |
 | 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
 | 2026-11-13 | [9dc92212](https://github.com/NVIDIA/Model-Optimizer/commit/9dc922121835c489615240ef60ba8f753efa630e) | [#3152](https://github.com/NVIDIA/Model-Optimizer/pull/3152) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6370\] \[3/5\] Finalize AutoQuantize selections with sequential layerwise calibration |
 | 2026-11-13 | [cc6963de](https://github.com/NVIDIA/Model-Optimizer/commit/cc6963dea0a6f01d90d66c7699baf3884df5f64a) | [#2250](https://github.com/NVIDIA/Model-Optimizer/pull/2250) | [@Y-T-G](https://github.com/Y-T-G) | `core` `infra` `torch` | fix: make huggingface_hub plugin import optional |
@@ -259,4 +262,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 253 PRs**
+**Total: 256 PRs**

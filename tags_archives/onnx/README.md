@@ -4,9 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-20 | [06d7e538](https://github.com/NVIDIA/Model-Optimizer/commit/06d7e538158ca064d13797b94806f21f8084c144) | [#2553](https://github.com/NVIDIA/Model-Optimizer/pull/2553) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(autocast): stream calibration batches instead of materializing all of them |
 | 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
 | 2026-11-19 | [4bb32a09](https://github.com/NVIDIA/Model-Optimizer/commit/4bb32a0983f577a707551d19f3f80e70658b329e) | [#3162](https://github.com/NVIDIA/Model-Optimizer/pull/3162) | [@saiprakash-c](https://github.com/saiprakash-c) | `onnx` `quantization` `tests` | Fix stream race in AutoTune benchmark test buffers |
 | 2026-11-19 | [aa525756](https://github.com/NVIDIA/Model-Optimizer/commit/aa52575669bac5bdb3db712de396bb6d07bf8e9c) | [#2567](https://github.com/NVIDIA/Model-Optimizer/pull/2567) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): keep the converted weight's type in step with its zero point |
+| 2026-11-19 | [87b986c4](https://github.com/NVIDIA/Model-Optimizer/commit/87b986c4da34c429ed90fe87da62e50a5326b85a) | [#2545](https://github.com/NVIDIA/Model-Optimizer/pull/2545) | [@Yi-111-a](https://github.com/Yi-111-a) | `example` `onnx` `quantization` | docs(onnx): clarify INT4 calibration data guidance |
+| 2026-11-19 | [3c815f8d](https://github.com/NVIDIA/Model-Optimizer/commit/3c815f8db9717cb7f4cf44821e8e395edbb24c2b) | [#3434](https://github.com/NVIDIA/Model-Optimizer/pull/3434) | [@mxinO](https://github.com/mxinO) | `export` `infra` `onnx` `quantization` `tests` `torch` | Match NVFP4 export packing to the Triton fake quant at rounding boundaries |
 | 2026-11-18 | [69dc3faa](https://github.com/NVIDIA/Model-Optimizer/commit/69dc3faa5a8162b8be1607b74bd412b339080f7b) | [#2420](https://github.com/NVIDIA/Model-Optimizer/pull/2420) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `infra` `onnx` `tests` | Fix AutoCast unknown dimension metadata |
 | 2026-11-18 | [4579317f](https://github.com/NVIDIA/Model-Optimizer/commit/4579317f914083fc41dc7ff0b9bf26271ac04dc5) | [#3371](https://github.com/NVIDIA/Model-Optimizer/pull/3371) | [@gcunhase](https://github.com/gcunhase) | `docs` `infra` `onnx` `tests` | Add per-node calibration to ONNX AutoCast |
 | 2026-11-18 | [be9c492c](https://github.com/NVIDIA/Model-Optimizer/commit/be9c492c7422bc1a5d20d31f7cf4c2455ee146da) | [#3365](https://github.com/NVIDIA/Model-Optimizer/pull/3365) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Avoid repeated calibration inference for shared ONNX AWQ activations |
@@ -146,4 +149,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 140 PRs**
+**Total: 143 PRs**

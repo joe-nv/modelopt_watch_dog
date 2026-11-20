@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
+| 2026-11-20 | [9373b181](https://github.com/NVIDIA/Model-Optimizer/commit/9373b181766696ab5b90884c375f40b95e64911b) | [#3501](https://github.com/NVIDIA/Model-Optimizer/pull/3501) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `infra` `quantization` `torch` `windows` | \[NVBug 7126379\] Fix typos and missing words |
 | 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
+| 2026-11-19 | [87b986c4](https://github.com/NVIDIA/Model-Optimizer/commit/87b986c4da34c429ed90fe87da62e50a5326b85a) | [#2545](https://github.com/NVIDIA/Model-Optimizer/pull/2545) | [@Yi-111-a](https://github.com/Yi-111-a) | `example` `onnx` `quantization` | docs(onnx): clarify INT4 calibration data guidance |
+| 2026-11-19 | [28ec4215](https://github.com/NVIDIA/Model-Optimizer/commit/28ec42150ae18b08a85a374ea0e9c97f789c3165) | [#2652](https://github.com/NVIDIA/Model-Optimizer/pull/2652) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `example` `infra` `quantization` `tests` `torch` | testing doctest |
 | 2026-11-18 | [be9c492c](https://github.com/NVIDIA/Model-Optimizer/commit/be9c492c7422bc1a5d20d31f7cf4c2455ee146da) | [#3365](https://github.com/NVIDIA/Model-Optimizer/pull/3365) | [@Tracy-123-dev](https://github.com/Tracy-123-dev) | `example` `infra` `onnx` `quantization` `tests` `windows` | Avoid repeated calibration inference for shared ONNX AWQ activations |
 | 2026-11-17 | [185d1309](https://github.com/NVIDIA/Model-Optimizer/commit/185d1309373ce26d55517575c7f80b959610177f) | [#3403](https://github.com/NVIDIA/Model-Optimizer/pull/3403) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `torch` | docs: refresh the external draft guide |
 | 2026-11-17 | [6c4a3953](https://github.com/NVIDIA/Model-Optimizer/commit/6c4a3953f5befc2b15ff8503cd711006dcb27aef) | [#3257](https://github.com/NVIDIA/Model-Optimizer/pull/3257) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `distillation` `example` `quantization` `tests` `torch` | Fix example CLI help and QAT dependency installation |
@@ -392,4 +396,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 386 PRs**
+**Total: 390 PRs**
