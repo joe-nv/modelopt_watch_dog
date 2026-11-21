@@ -4,9 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-21 | [3497c11e](https://github.com/NVIDIA/Model-Optimizer/commit/3497c11ea16ff44109e8a2d581026cb1d5a7e828) | [#3363](https://github.com/NVIDIA/Model-Optimizer/pull/3363) | [@juhi10071998](https://github.com/juhi10071998) | `infra` `tests` | Add Kimi-K3.1-Pro NVFP4 recipe: recipe-driven per-module formats in the K3 converter |
 | 2026-11-20 | [37da7348](https://github.com/NVIDIA/Model-Optimizer/commit/37da734816b7704e9dea5b81938f9ce21dd62bf6) | [#3494](https://github.com/NVIDIA/Model-Optimizer/pull/3494) | [@mxinO](https://github.com/mxinO) | `export` `infra` `tests` `torch` | Fix quantized export state capture for FSDP2 weights |
 | 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
 | 2026-11-20 | [06d7e538](https://github.com/NVIDIA/Model-Optimizer/commit/06d7e538158ca064d13797b94806f21f8084c144) | [#2553](https://github.com/NVIDIA/Model-Optimizer/pull/2553) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(autocast): stream calibration batches instead of materializing all of them |
+| 2026-11-20 | [b735732e](https://github.com/NVIDIA/Model-Optimizer/commit/b735732ef59c632c1d788d32e1ac024f61850016) | [#2598](https://github.com/NVIDIA/Model-Optimizer/pull/2598) | [@namgyu-yun](https://github.com/namgyu-yun) | `infra` `quantization` `tests` `torch` | Default GPTQ to the fused NVFP4 update |
 | 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
 | 2026-11-19 | [8a261140](https://github.com/NVIDIA/Model-Optimizer/commit/8a261140bcf6eb945636364cbe75ca28be8b6e26) | [#3454](https://github.com/NVIDIA/Model-Optimizer/pull/3454) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/16\] Add native IQ scale fields and differentiable field state |
 | 2026-11-19 | [4bb32a09](https://github.com/NVIDIA/Model-Optimizer/commit/4bb32a0983f577a707551d19f3f80e70658b329e) | [#3162](https://github.com/NVIDIA/Model-Optimizer/pull/3162) | [@saiprakash-c](https://github.com/saiprakash-c) | `onnx` `quantization` `tests` | Fix stream race in AutoTune benchmark test buffers |
@@ -715,4 +717,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 709 PRs**
+**Total: 711 PRs**

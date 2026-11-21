@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-11-20 | [9373b181](https://github.com/NVIDIA/Model-Optimizer/commit/9373b181766696ab5b90884c375f40b95e64911b) | [#3501](https://github.com/NVIDIA/Model-Optimizer/pull/3501) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `infra` `quantization` `torch` `windows` | \[NVBug 7126379\] Fix typos and missing words |
+| 2026-11-20 | [b735732e](https://github.com/NVIDIA/Model-Optimizer/commit/b735732ef59c632c1d788d32e1ac024f61850016) | [#2598](https://github.com/NVIDIA/Model-Optimizer/pull/2598) | [@namgyu-yun](https://github.com/namgyu-yun) | `infra` `quantization` `tests` `torch` | Default GPTQ to the fused NVFP4 update |
 | 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
 | 2026-11-19 | [8a261140](https://github.com/NVIDIA/Model-Optimizer/commit/8a261140bcf6eb945636364cbe75ca28be8b6e26) | [#3454](https://github.com/NVIDIA/Model-Optimizer/pull/3454) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/16\] Add native IQ scale fields and differentiable field state |
 | 2026-11-19 | [4bb32a09](https://github.com/NVIDIA/Model-Optimizer/commit/4bb32a0983f577a707551d19f3f80e70658b329e) | [#3162](https://github.com/NVIDIA/Model-Optimizer/pull/3162) | [@saiprakash-c](https://github.com/saiprakash-c) | `onnx` `quantization` `tests` | Fix stream race in AutoTune benchmark test buffers |
@@ -429,4 +430,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 423 PRs**
+**Total: 424 PRs**

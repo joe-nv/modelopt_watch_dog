@@ -7,6 +7,7 @@
 | 2026-11-20 | [37da7348](https://github.com/NVIDIA/Model-Optimizer/commit/37da734816b7704e9dea5b81938f9ce21dd62bf6) | [#3494](https://github.com/NVIDIA/Model-Optimizer/pull/3494) | [@mxinO](https://github.com/mxinO) | `export` `infra` `tests` `torch` | Fix quantized export state capture for FSDP2 weights |
 | 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
 | 2026-11-20 | [9373b181](https://github.com/NVIDIA/Model-Optimizer/commit/9373b181766696ab5b90884c375f40b95e64911b) | [#3501](https://github.com/NVIDIA/Model-Optimizer/pull/3501) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `infra` `quantization` `torch` `windows` | \[NVBug 7126379\] Fix typos and missing words |
+| 2026-11-20 | [b735732e](https://github.com/NVIDIA/Model-Optimizer/commit/b735732ef59c632c1d788d32e1ac024f61850016) | [#2598](https://github.com/NVIDIA/Model-Optimizer/pull/2598) | [@namgyu-yun](https://github.com/namgyu-yun) | `infra` `quantization` `tests` `torch` | Default GPTQ to the fused NVFP4 update |
 | 2026-11-19 | [8a261140](https://github.com/NVIDIA/Model-Optimizer/commit/8a261140bcf6eb945636364cbe75ca28be8b6e26) | [#3454](https://github.com/NVIDIA/Model-Optimizer/pull/3454) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/16\] Add native IQ scale fields and differentiable field state |
 | 2026-11-19 | [f10394a5](https://github.com/NVIDIA/Model-Optimizer/commit/f10394a5596b5dc82bc5929cc57f8b1bb6d46d4b) | [#3176](https://github.com/NVIDIA/Model-Optimizer/pull/3176) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `tests` `torch` | Write GGML exports that mix formats as ModelOpt INT8_PB_WO checkpoints |
 | 2026-11-19 | [abc3228e](https://github.com/NVIDIA/Model-Optimizer/commit/abc3228e1c01944fce1d0a34cbbad33401a75390) | [#3389](https://github.com/NVIDIA/Model-Optimizer/pull/3389) | [@yueshen2016](https://github.com/yueshen2016) | `core` `infra` `tests` `torch` | fix: preserve custom hybrid stacks during expert layout selection |
@@ -737,4 +738,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 731 PRs**
+**Total: 732 PRs**

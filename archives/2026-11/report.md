@@ -8,10 +8,13 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-11-21 | [3497c11e](https://github.com/NVIDIA/Model-Optimizer/commit/3497c11ea16ff44109e8a2d581026cb1d5a7e828) | [#3363](https://github.com/NVIDIA/Model-Optimizer/pull/3363) | [@juhi10071998](https://github.com/juhi10071998) | `infra` `tests` | Add Kimi-K3.1-Pro NVFP4 recipe: recipe-driven per-module formats in the K3 converter |
 |  | 2026-11-20 | [37da7348](https://github.com/NVIDIA/Model-Optimizer/commit/37da734816b7704e9dea5b81938f9ce21dd62bf6) | [#3494](https://github.com/NVIDIA/Model-Optimizer/pull/3494) | [@mxinO](https://github.com/mxinO) | `export` `infra` `tests` `torch` | Fix quantized export state capture for FSDP2 weights |
 |  | 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
 |  | 2026-11-20 | [9373b181](https://github.com/NVIDIA/Model-Optimizer/commit/9373b181766696ab5b90884c375f40b95e64911b) | [#3501](https://github.com/NVIDIA/Model-Optimizer/pull/3501) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `infra` `quantization` `torch` `windows` | \[NVBug 7126379\] Fix typos and missing words |
 | 🟠 | **2026-11-20** | **[06d7e538](https://github.com/NVIDIA/Model-Optimizer/commit/06d7e538158ca064d13797b94806f21f8084c144)** | **[#2553](https://github.com/NVIDIA/Model-Optimizer/pull/2553)** | **[@SID-6921](https://github.com/SID-6921)** | `infra` `onnx` `tests` | **fix(autocast): stream calibration batches instead of materializing all of them** |
+|  | 2026-11-20 | [de3aa48c](https://github.com/NVIDIA/Model-Optimizer/commit/de3aa48ca716ff4b22d2236e1ee23dde072e32f1) | [#3506](https://github.com/NVIDIA/Model-Optimizer/pull/3506) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | docs(review): check CHANGELOG entry is in the newest section |
+|  | 2026-11-20 | [b735732e](https://github.com/NVIDIA/Model-Optimizer/commit/b735732ef59c632c1d788d32e1ac024f61850016) | [#2598](https://github.com/NVIDIA/Model-Optimizer/pull/2598) | [@namgyu-yun](https://github.com/namgyu-yun) | `infra` `quantization` `tests` `torch` | Default GPTQ to the fused NVFP4 update |
 | 🟠 | **2026-11-19** | **[5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9)** | **[#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476)** | **[@sychen52](https://github.com/sychen52)** | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | **\[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365** |
 |  | 2026-11-19 | [d2d92b00](https://github.com/NVIDIA/Model-Optimizer/commit/d2d92b00ed34662d835b3854bc951599a55eb760) | [#3491](https://github.com/NVIDIA/Model-Optimizer/pull/3491) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Use a placeholder cluster host in the MCP README example |
 |  | 2026-11-19 | [8a261140](https://github.com/NVIDIA/Model-Optimizer/commit/8a261140bcf6eb945636364cbe75ca28be8b6e26) | [#3454](https://github.com/NVIDIA/Model-Optimizer/pull/3454) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/16\] Add native IQ scale fields and differentiable field state |
@@ -107,4 +110,4 @@
 |  | 2026-11-01 | [d48a5450](https://github.com/NVIDIA/Model-Optimizer/commit/d48a5450d70e7ec4d9ea22bc6ce4d403fef37a12) | [#1986](https://github.com/NVIDIA/Model-Optimizer/pull/1986) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | Track launcher jobs in MLflow and prepare required assets |
 
 ---
-**Total: 97 PRs** | **Highlighted: 15**
+**Total: 100 PRs** | **Highlighted: 15**

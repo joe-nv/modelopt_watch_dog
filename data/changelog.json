@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-21",
+    "commit": "3497c11ea16ff44109e8a2d581026cb1d5a7e828",
+    "pr_number": 3363,
+    "author": "juhi10071998",
+    "title": "Add Kimi-K3.1-Pro NVFP4 recipe: recipe-driven per-module formats in the K3 converter",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-11-20",
     "commit": "37da734816b7704e9dea5b81938f9ce21dd62bf6",
     "pr_number": 3494,
@@ -51,6 +62,29 @@
       "infra",
       "onnx",
       "tests"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "commit": "de3aa48ca716ff4b22d2236e1ee23dde072e32f1",
+    "pr_number": 3506,
+    "author": "kevalmorabia97",
+    "title": "docs(review): check CHANGELOG entry is in the newest section",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "commit": "b735732ef59c632c1d788d32e1ac024f61850016",
+    "pr_number": 2598,
+    "author": "namgyu-yun",
+    "title": "Default GPTQ to the fused NVFP4 update",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {
