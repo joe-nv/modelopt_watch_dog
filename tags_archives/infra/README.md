@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-24 | [1e6408b8](https://github.com/NVIDIA/Model-Optimizer/commit/1e6408b830716ec738d07a4398deaba4448f9d36) | [#3368](https://github.com/NVIDIA/Model-Optimizer/pull/3368) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] \[2/2\] Move the vLLM quantization plugins' named-model code into modelopt/torch/models |
+| 2026-11-24 | [7db3ef5e](https://github.com/NVIDIA/Model-Optimizer/commit/7db3ef5e4571c2e94938e1e330f87da2ab965ccd) | [#3510](https://github.com/NVIDIA/Model-Optimizer/pull/3510) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] Find the models' PTQ modules through the import system instead of listing model types |
+| 2026-11-24 | [3ebeef8c](https://github.com/NVIDIA/Model-Optimizer/commit/3ebeef8c0a7c6a755bb7b885f0445832c2a7512a) | [#3551](https://github.com/NVIDIA/Model-Optimizer/pull/3551) | [@joe-nv](https://github.com/joe-nv) | `infra` `onnx` `quantization` `tests` | fix(onnx): infer blocked DQ axis from weight layout |
+| 2026-11-24 | [c6345c54](https://github.com/NVIDIA/Model-Optimizer/commit/c6345c549af0358156f726bce7c0679969d7f17c) | [#3535](https://github.com/NVIDIA/Model-Optimizer/pull/3535) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6624\] Fix KV-cache growth during layerwise GPTQ calibration |
 | 2026-11-21 | [3497c11e](https://github.com/NVIDIA/Model-Optimizer/commit/3497c11ea16ff44109e8a2d581026cb1d5a7e828) | [#3363](https://github.com/NVIDIA/Model-Optimizer/pull/3363) | [@juhi10071998](https://github.com/juhi10071998) | `infra` `tests` | Add Kimi-K3.1-Pro NVFP4 recipe: recipe-driven per-module formats in the K3 converter |
 | 2026-11-20 | [37da7348](https://github.com/NVIDIA/Model-Optimizer/commit/37da734816b7704e9dea5b81938f9ce21dd62bf6) | [#3494](https://github.com/NVIDIA/Model-Optimizer/pull/3494) | [@mxinO](https://github.com/mxinO) | `export` `infra` `tests` `torch` | Fix quantized export state capture for FSDP2 weights |
 | 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
@@ -850,4 +854,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 844 PRs**
+**Total: 848 PRs**

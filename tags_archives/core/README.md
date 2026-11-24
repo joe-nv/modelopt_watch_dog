@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-24 | [c6345c54](https://github.com/NVIDIA/Model-Optimizer/commit/c6345c549af0358156f726bce7c0679969d7f17c) | [#3535](https://github.com/NVIDIA/Model-Optimizer/pull/3535) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6624\] Fix KV-cache growth during layerwise GPTQ calibration |
 | 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
 | 2026-11-19 | [abc3228e](https://github.com/NVIDIA/Model-Optimizer/commit/abc3228e1c01944fce1d0a34cbbad33401a75390) | [#3389](https://github.com/NVIDIA/Model-Optimizer/pull/3389) | [@yueshen2016](https://github.com/yueshen2016) | `core` `infra` `tests` `torch` | fix: preserve custom hybrid stacks during expert layout selection |
 | 2026-11-19 | [28ec4215](https://github.com/NVIDIA/Model-Optimizer/commit/28ec42150ae18b08a85a374ea0e9c97f789c3165) | [#2652](https://github.com/NVIDIA/Model-Optimizer/pull/2652) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `core` `example` `infra` `quantization` `tests` `torch` | testing doctest |
@@ -262,4 +263,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 256 PRs**
+**Total: 257 PRs**

@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-24 | [1e6408b8](https://github.com/NVIDIA/Model-Optimizer/commit/1e6408b830716ec738d07a4398deaba4448f9d36) | [#3368](https://github.com/NVIDIA/Model-Optimizer/pull/3368) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] \[2/2\] Move the vLLM quantization plugins' named-model code into modelopt/torch/models |
+| 2026-11-24 | [7db3ef5e](https://github.com/NVIDIA/Model-Optimizer/commit/7db3ef5e4571c2e94938e1e330f87da2ab965ccd) | [#3510](https://github.com/NVIDIA/Model-Optimizer/pull/3510) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] Find the models' PTQ modules through the import system instead of listing model types |
+| 2026-11-24 | [3ebeef8c](https://github.com/NVIDIA/Model-Optimizer/commit/3ebeef8c0a7c6a755bb7b885f0445832c2a7512a) | [#3551](https://github.com/NVIDIA/Model-Optimizer/pull/3551) | [@joe-nv](https://github.com/joe-nv) | `infra` `onnx` `quantization` `tests` | fix(onnx): infer blocked DQ axis from weight layout |
+| 2026-11-24 | [c6345c54](https://github.com/NVIDIA/Model-Optimizer/commit/c6345c549af0358156f726bce7c0679969d7f17c) | [#3535](https://github.com/NVIDIA/Model-Optimizer/pull/3535) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6624\] Fix KV-cache growth during layerwise GPTQ calibration |
 | 2026-11-20 | [9373b181](https://github.com/NVIDIA/Model-Optimizer/commit/9373b181766696ab5b90884c375f40b95e64911b) | [#3501](https://github.com/NVIDIA/Model-Optimizer/pull/3501) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `infra` `quantization` `torch` `windows` | \[NVBug 7126379\] Fix typos and missing words |
 | 2026-11-20 | [b735732e](https://github.com/NVIDIA/Model-Optimizer/commit/b735732ef59c632c1d788d32e1ac024f61850016) | [#2598](https://github.com/NVIDIA/Model-Optimizer/pull/2598) | [@namgyu-yun](https://github.com/namgyu-yun) | `infra` `quantization` `tests` `torch` | Default GPTQ to the fused NVFP4 update |
 | 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
@@ -430,4 +434,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 424 PRs**
+**Total: 428 PRs**
