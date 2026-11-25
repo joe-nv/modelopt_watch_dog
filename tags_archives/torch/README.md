@@ -4,9 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-25 | [a6d3d73e](https://github.com/NVIDIA/Model-Optimizer/commit/a6d3d73ef357676138010bd1f2913e23f4680d48) | [#3543](https://github.com/NVIDIA/Model-Optimizer/pull/3543) | [@sychen52](https://github.com/sychen52) | `core` `infra` `quantization` `tests` `torch` | Fix save_pretrained for Hugging Face MoE models with quantized fused experts |
+| 2026-11-25 | [27a50447](https://github.com/NVIDIA/Model-Optimizer/commit/27a504479bc0a615fadade6e8a9759041d778f0b) | [#2989](https://github.com/NVIDIA/Model-Optimizer/pull/2989) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | \[1/2\] refactor(speculative): hand the DFlash-family loss one context per training step |
 | 2026-11-24 | [1e6408b8](https://github.com/NVIDIA/Model-Optimizer/commit/1e6408b830716ec738d07a4398deaba4448f9d36) | [#3368](https://github.com/NVIDIA/Model-Optimizer/pull/3368) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] \[2/2\] Move the vLLM quantization plugins' named-model code into modelopt/torch/models |
 | 2026-11-24 | [7db3ef5e](https://github.com/NVIDIA/Model-Optimizer/commit/7db3ef5e4571c2e94938e1e330f87da2ab965ccd) | [#3510](https://github.com/NVIDIA/Model-Optimizer/pull/3510) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] Find the models' PTQ modules through the import system instead of listing model types |
 | 2026-11-24 | [c6345c54](https://github.com/NVIDIA/Model-Optimizer/commit/c6345c549af0358156f726bce7c0679969d7f17c) | [#3535](https://github.com/NVIDIA/Model-Optimizer/pull/3535) | [@meenchen](https://github.com/meenchen) | `core` `infra` `quantization` `tests` `torch` | \[OMNIML-6624\] Fix KV-cache growth during layerwise GPTQ calibration |
+| 2026-11-24 | [16af4b9c](https://github.com/NVIDIA/Model-Optimizer/commit/16af4b9c54214e58fe6fac95a66c58c43c4bcea3) | [#3256](https://github.com/NVIDIA/Model-Optimizer/pull/3256) | [@shengliangxu](https://github.com/shengliangxu) | `core` `tests` `torch` | \[OMNIML-6062\] Dequantize block-FP8 weights that load in the model dtype |
+| 2026-11-24 | [8a79310a](https://github.com/NVIDIA/Model-Optimizer/commit/8a79310a9630bfd245c7ea032f786948e4a51f6b) | [#3558](https://github.com/NVIDIA/Model-Optimizer/pull/3558) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `tests` `torch` | Keep the source checkpoint's layer_types in the exported config |
 | 2026-11-20 | [37da7348](https://github.com/NVIDIA/Model-Optimizer/commit/37da734816b7704e9dea5b81938f9ce21dd62bf6) | [#3494](https://github.com/NVIDIA/Model-Optimizer/pull/3494) | [@mxinO](https://github.com/mxinO) | `export` `infra` `tests` `torch` | Fix quantized export state capture for FSDP2 weights |
 | 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
 | 2026-11-20 | [9373b181](https://github.com/NVIDIA/Model-Optimizer/commit/9373b181766696ab5b90884c375f40b95e64911b) | [#3501](https://github.com/NVIDIA/Model-Optimizer/pull/3501) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `infra` `quantization` `torch` `windows` | \[NVBug 7126379\] Fix typos and missing words |
@@ -741,4 +745,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 735 PRs**
+**Total: 739 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-24 | [8a79310a](https://github.com/NVIDIA/Model-Optimizer/commit/8a79310a9630bfd245c7ea032f786948e4a51f6b) | [#3558](https://github.com/NVIDIA/Model-Optimizer/pull/3558) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `tests` `torch` | Keep the source checkpoint's layer_types in the exported config |
 | 2026-11-20 | [37da7348](https://github.com/NVIDIA/Model-Optimizer/commit/37da734816b7704e9dea5b81938f9ce21dd62bf6) | [#3494](https://github.com/NVIDIA/Model-Optimizer/pull/3494) | [@mxinO](https://github.com/mxinO) | `export` `infra` `tests` `torch` | Fix quantized export state capture for FSDP2 weights |
 | 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
 | 2026-11-19 | [f10394a5](https://github.com/NVIDIA/Model-Optimizer/commit/f10394a5596b5dc82bc5929cc57f8b1bb6d46d4b) | [#3176](https://github.com/NVIDIA/Model-Optimizer/pull/3176) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `tests` `torch` | Write GGML exports that mix formats as ModelOpt INT8_PB_WO checkpoints |
@@ -247,4 +248,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 241 PRs**
+**Total: 242 PRs**

@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-25",
+    "commit": "a6d3d73ef357676138010bd1f2913e23f4680d48",
+    "pr_number": 3543,
+    "author": "sychen52",
+    "title": "Fix save_pretrained for Hugging Face MoE models with quantized fused experts",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "commit": "27a504479bc0a615fadade6e8a9759041d778f0b",
+    "pr_number": 2989,
+    "author": "h-guo18",
+    "title": "[1/2] refactor(speculative): hand the DFlash-family loss one context per training step",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-11-24",
     "commit": "1e6408b830716ec738d07a4398deaba4448f9d36",
     "pr_number": 3368,
@@ -60,6 +87,40 @@
       "quantization",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "commit": "16af4b9c54214e58fe6fac95a66c58c43c4bcea3",
+    "pr_number": 3256,
+    "author": "shengliangxu",
+    "title": "[OMNIML-6062] Dequantize block-FP8 weights that load in the model dtype",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "commit": "8a79310a9630bfd245c7ea032f786948e4a51f6b",
+    "pr_number": 3558,
+    "author": "Fridah-nv",
+    "title": "Keep the source checkpoint's layer_types in the exported config",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "commit": "d69d66eb989869402b1a605f9d6879c75f462cef",
+    "pr_number": 3500,
+    "author": "Zhehao-Hu",
+    "title": "skills: move the generic launcher guide to the common skill",
+    "tags": [
+      "infra"
     ]
   },
   {

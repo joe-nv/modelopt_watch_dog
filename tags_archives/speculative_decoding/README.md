@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-25 | [27a50447](https://github.com/NVIDIA/Model-Optimizer/commit/27a504479bc0a615fadade6e8a9759041d778f0b) | [#2989](https://github.com/NVIDIA/Model-Optimizer/pull/2989) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | \[1/2\] refactor(speculative): hand the DFlash-family loss one context per training step |
 | 2026-11-20 | [e9e80a4e](https://github.com/NVIDIA/Model-Optimizer/commit/e9e80a4ef5d33dee6edd814e79ca140dbe333fdd) | [#3277](https://github.com/NVIDIA/Model-Optimizer/pull/3277) | [@talorabr](https://github.com/talorabr) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | MTP Boosting foundation |
 | 2026-11-17 | [185d1309](https://github.com/NVIDIA/Model-Optimizer/commit/185d1309373ce26d55517575c7f80b959610177f) | [#3403](https://github.com/NVIDIA/Model-Optimizer/pull/3403) | [@phicksy](https://github.com/phicksy) | `example` `speculative_decoding` `torch` | docs: refresh the external draft guide |
 | 2026-11-15 | [d9ff11fb](https://github.com/NVIDIA/Model-Optimizer/commit/d9ff11fb8d000eaa8b5bfad4c51c49f8dfc6031d) | [#3275](https://github.com/NVIDIA/Model-Optimizer/pull/3275) | [@sragrawal](https://github.com/sragrawal) | `speculative_decoding` `tests` `torch` | Load nested Nemotron final norms during draft training |
@@ -132,4 +133,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 126 PRs**
+**Total: 127 PRs**
