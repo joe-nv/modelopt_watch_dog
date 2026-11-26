@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-26",
+    "commit": "c7cc60801bbbb62f3a7f00b5be8ce6b6596b2d95",
+    "pr_number": 2760,
+    "author": "v0ropaev",
+    "title": "Do not leave 'trt' in the autocast providers default after one conversion",
+    "tags": [
+      "onnx",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-11-25",
     "commit": "a6d3d73ef357676138010bd1f2913e23f4680d48",
     "pr_number": 3543,

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-26 | [c7cc6080](https://github.com/NVIDIA/Model-Optimizer/commit/c7cc60801bbbb62f3a7f00b5be8ce6b6596b2d95) | [#2760](https://github.com/NVIDIA/Model-Optimizer/pull/2760) | [@v0ropaev](https://github.com/v0ropaev) | `onnx` `tests` | Do not leave 'trt' in the autocast providers default after one conversion |
 | 2026-11-25 | [a6d3d73e](https://github.com/NVIDIA/Model-Optimizer/commit/a6d3d73ef357676138010bd1f2913e23f4680d48) | [#3543](https://github.com/NVIDIA/Model-Optimizer/pull/3543) | [@sychen52](https://github.com/sychen52) | `core` `infra` `quantization` `tests` `torch` | Fix save_pretrained for Hugging Face MoE models with quantized fused experts |
 | 2026-11-25 | [27a50447](https://github.com/NVIDIA/Model-Optimizer/commit/27a504479bc0a615fadade6e8a9759041d778f0b) | [#2989](https://github.com/NVIDIA/Model-Optimizer/pull/2989) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | \[1/2\] refactor(speculative): hand the DFlash-family loss one context per training step |
 | 2026-11-24 | [1e6408b8](https://github.com/NVIDIA/Model-Optimizer/commit/1e6408b830716ec738d07a4398deaba4448f9d36) | [#3368](https://github.com/NVIDIA/Model-Optimizer/pull/3368) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] \[2/2\] Move the vLLM quantization plugins' named-model code into modelopt/torch/models |
@@ -726,4 +727,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 720 PRs**
+**Total: 721 PRs**
