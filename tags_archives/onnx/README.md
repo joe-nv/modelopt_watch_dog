@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-27 | [d6b941ee](https://github.com/NVIDIA/Model-Optimizer/commit/d6b941ee97d3277fd957c0e092a0c55ecfd66ff0) | [#2734](https://github.com/NVIDIA/Model-Optimizer/pull/2734) | [@v0ropaev](https://github.com/v0ropaev) | `infra` `onnx` `tests` | Improve the TensorRT custom-layer introspection diagnostic |
 | 2026-11-26 | [c7cc6080](https://github.com/NVIDIA/Model-Optimizer/commit/c7cc60801bbbb62f3a7f00b5be8ce6b6596b2d95) | [#2760](https://github.com/NVIDIA/Model-Optimizer/pull/2760) | [@v0ropaev](https://github.com/v0ropaev) | `onnx` `tests` | Do not leave 'trt' in the autocast providers default after one conversion |
+| 2026-11-26 | [6838419c](https://github.com/NVIDIA/Model-Optimizer/commit/6838419c83471fad1a51ffe28f57df45d0af27d1) | [#2867](https://github.com/NVIDIA/Model-Optimizer/pull/2867) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | Fix ONNX AWQ-Lite get_weight_scale mixing rows from different blocks |
 | 2026-11-24 | [3ebeef8c](https://github.com/NVIDIA/Model-Optimizer/commit/3ebeef8c0a7c6a755bb7b885f0445832c2a7512a) | [#3551](https://github.com/NVIDIA/Model-Optimizer/pull/3551) | [@joe-nv](https://github.com/joe-nv) | `infra` `onnx` `quantization` `tests` | fix(onnx): infer blocked DQ axis from weight layout |
 | 2026-11-20 | [06d7e538](https://github.com/NVIDIA/Model-Optimizer/commit/06d7e538158ca064d13797b94806f21f8084c144) | [#2553](https://github.com/NVIDIA/Model-Optimizer/pull/2553) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `tests` | fix(autocast): stream calibration batches instead of materializing all of them |
 | 2026-11-19 | [5fb4a01d](https://github.com/NVIDIA/Model-Optimizer/commit/5fb4a01d97300e5409ba846abd16904af07169b9) | [#3476](https://github.com/NVIDIA/Model-Optimizer/pull/3476) | [@sychen52](https://github.com/sychen52) | `docs` `example` `export` `infra` `onnx` `quantization` `tests` `windows` | \[Cherry-pick\] PRs #3405 #3126 #3414 #2603 #3293 #3384 #2420 #3470 #3471 #3371 #3365 |
@@ -151,4 +153,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 145 PRs**
+**Total: 147 PRs**

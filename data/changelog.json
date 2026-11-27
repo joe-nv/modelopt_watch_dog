@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-27",
+    "commit": "d6b941ee97d3277fd957c0e092a0c55ecfd66ff0",
+    "pr_number": 2734,
+    "author": "v0ropaev",
+    "title": "Improve the TensorRT custom-layer introspection diagnostic",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-11-26",
     "commit": "c7cc60801bbbb62f3a7f00b5be8ce6b6596b2d95",
     "pr_number": 2760,
@@ -8,6 +20,31 @@
     "tags": [
       "onnx",
       "tests"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "commit": "6838419c83471fad1a51ffe28f57df45d0af27d1",
+    "pr_number": 2867,
+    "author": "SID-6921",
+    "title": "Fix ONNX AWQ-Lite get_weight_scale mixing rows from different blocks",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "commit": "ba1366ec59052cbf03d57fea58060ef4df4e0695",
+    "pr_number": 3455,
+    "author": "Separius",
+    "title": "[OMNIML-5967] [1/6] Preserve buffer persistence through Accelerate offload hooks",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {

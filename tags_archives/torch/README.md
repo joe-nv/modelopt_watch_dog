@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-26 | [ba1366ec](https://github.com/NVIDIA/Model-Optimizer/commit/ba1366ec59052cbf03d57fea58060ef4df4e0695) | [#3455](https://github.com/NVIDIA/Model-Optimizer/pull/3455) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/6\] Preserve buffer persistence through Accelerate offload hooks |
 | 2026-11-25 | [a6d3d73e](https://github.com/NVIDIA/Model-Optimizer/commit/a6d3d73ef357676138010bd1f2913e23f4680d48) | [#3543](https://github.com/NVIDIA/Model-Optimizer/pull/3543) | [@sychen52](https://github.com/sychen52) | `core` `infra` `quantization` `tests` `torch` | Fix save_pretrained for Hugging Face MoE models with quantized fused experts |
 | 2026-11-25 | [27a50447](https://github.com/NVIDIA/Model-Optimizer/commit/27a504479bc0a615fadade6e8a9759041d778f0b) | [#2989](https://github.com/NVIDIA/Model-Optimizer/pull/2989) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | \[1/2\] refactor(speculative): hand the DFlash-family loss one context per training step |
 | 2026-11-24 | [1e6408b8](https://github.com/NVIDIA/Model-Optimizer/commit/1e6408b830716ec738d07a4398deaba4448f9d36) | [#3368](https://github.com/NVIDIA/Model-Optimizer/pull/3368) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] \[2/2\] Move the vLLM quantization plugins' named-model code into modelopt/torch/models |
@@ -745,4 +746,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 739 PRs**
+**Total: 740 PRs**

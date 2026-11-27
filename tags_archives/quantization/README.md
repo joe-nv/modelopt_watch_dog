@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-11-26 | [6838419c](https://github.com/NVIDIA/Model-Optimizer/commit/6838419c83471fad1a51ffe28f57df45d0af27d1) | [#2867](https://github.com/NVIDIA/Model-Optimizer/pull/2867) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | Fix ONNX AWQ-Lite get_weight_scale mixing rows from different blocks |
+| 2026-11-26 | [ba1366ec](https://github.com/NVIDIA/Model-Optimizer/commit/ba1366ec59052cbf03d57fea58060ef4df4e0695) | [#3455](https://github.com/NVIDIA/Model-Optimizer/pull/3455) | [@Separius](https://github.com/Separius) | `quantization` `tests` `torch` | \[OMNIML-5967\] \[1/6\] Preserve buffer persistence through Accelerate offload hooks |
 | 2026-11-25 | [a6d3d73e](https://github.com/NVIDIA/Model-Optimizer/commit/a6d3d73ef357676138010bd1f2913e23f4680d48) | [#3543](https://github.com/NVIDIA/Model-Optimizer/pull/3543) | [@sychen52](https://github.com/sychen52) | `core` `infra` `quantization` `tests` `torch` | Fix save_pretrained for Hugging Face MoE models with quantized fused experts |
 | 2026-11-24 | [1e6408b8](https://github.com/NVIDIA/Model-Optimizer/commit/1e6408b830716ec738d07a4398deaba4448f9d36) | [#3368](https://github.com/NVIDIA/Model-Optimizer/pull/3368) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] \[2/2\] Move the vLLM quantization plugins' named-model code into modelopt/torch/models |
 | 2026-11-24 | [7db3ef5e](https://github.com/NVIDIA/Model-Optimizer/commit/7db3ef5e4571c2e94938e1e330f87da2ab965ccd) | [#3510](https://github.com/NVIDIA/Model-Optimizer/pull/3510) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-6533\] Find the models' PTQ modules through the import system instead of listing model types |
@@ -435,4 +437,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 429 PRs**
+**Total: 431 PRs**
